@@ -1,0 +1,494 @@
+[
+ {
+  "sparte": "GaLa-Bau & Tiefbau",
+  "hauptkategorie": "01 Messen & Anzeichnen",
+  "top": [
+   {
+    "id": 3168,
+    "rang": 1,
+    "grund": "PROBST Pflaster Marker, meistgenutztes Anreisswerkzeug beim Pflastern"
+   },
+   {
+    "id": 1442,
+    "rang": 2,
+    "grund": "Flexmarker-KIT für Radien und Kurven, ergänzt den Marker"
+   },
+   {
+    "id": 1068,
+    "rang": 3,
+    "grund": "Aluwinkel AW 200, gängigste Länge zum Ausrichten"
+   },
+   {
+    "id": 3167,
+    "rang": 4,
+    "grund": "String Along Schnurhalter, Standard beim Schnurziehen"
+   },
+   {
+    "id": 4318,
+    "rang": 5,
+    "grund": "Schnurboy als günstige Einstiegslösung"
+   }
+  ]
+ },
+ {
+  "sparte": "GaLa-Bau & Tiefbau",
+  "hauptkategorie": "02 Schneiden & Trennen",
+  "top": [
+   {
+    "id": 3568,
+    "rang": 1,
+    "grund": "BETCUT Universalscheibe, meistverkauftes Verbrauchsmaterial der Sparte"
+   },
+   {
+    "id": 4245,
+    "rang": 2,
+    "grund": "FERRIX DTS Granit Speed für Brückenfräsen, hoher Nachkauf"
+   },
+   {
+    "id": 3785,
+    "rang": 3,
+    "grund": "Husqvarna DS 350 S65+ VARI, Standardscheibe für Beton und Granit"
+   },
+   {
+    "id": 6368,
+    "rang": 4,
+    "grund": "FERRIX DTS JUMBO 400 Silent, lärmreduziert für Wohngebiete"
+   },
+   {
+    "id": 7432,
+    "rang": 5,
+    "grund": "ALMI Steinknacker AL15, staubfreies Pflasterspalten"
+   },
+   {
+    "id": 6689,
+    "rang": 6,
+    "grund": "Husqvarna K 540i, meistgefragter Akku-Trennschleifer"
+   }
+  ]
+ },
+ {
+  "sparte": "GaLa-Bau & Tiefbau",
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "top": [
+   {
+    "id": 4010,
+    "rang": 1,
+    "grund": "Diamantbohrkrone HQ, laufendes Verbrauchsmaterial"
+   },
+   {
+    "id": 6203,
+    "rang": 2,
+    "grund": "Husqvarna DM 230, Kernbohr-Standardmaschine"
+   },
+   {
+    "id": 3788,
+    "rang": 3,
+    "grund": "Husqvarna DMS 240 als komplettes Bohrsystem"
+   }
+  ]
+ },
+ {
+  "sparte": "GaLa-Bau & Tiefbau",
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "top": [
+   {
+    "id": 4239,
+    "rang": 1,
+    "grund": "FAST-CUT Diamantschleifteller, hoher Nachkaufanteil"
+   },
+   {
+    "id": 106,
+    "rang": 2,
+    "grund": "Kaindl Schleifscheibe SM D126, Verschleissteil der Sichtschleifmaschine"
+   },
+   {
+    "id": 105,
+    "rang": 3,
+    "grund": "Kaindl SM 180, Referenzmaschine für Sichtschliff"
+   },
+   {
+    "id": 3597,
+    "rang": 4,
+    "grund": "Stahlspitzeisen Marmor, meistgekauftes Hartmetall-Handwerkzeug"
+   },
+   {
+    "id": 1568,
+    "rang": 5,
+    "grund": "REXID Handritzhammer 35 mm, Klassiker im Pflasterbau"
+   }
+  ]
+ },
+ {
+  "sparte": "GaLa-Bau & Tiefbau",
+  "hauptkategorie": "05 Verlegen, Heben & Transportieren",
+  "top": [
+   {
+    "id": 3188,
+    "rang": 1,
+    "grund": "PROBST Speedy VS 140/200, meistverkauftes Vakuum-Verlegegerät"
+   },
+   {
+    "id": 3189,
+    "rang": 2,
+    "grund": "PROBST Vakuum Power-Handy VPH 150, Standard für Plattenverlegung"
+   },
+   {
+    "id": 6243,
+    "rang": 3,
+    "grund": "FLEX GRABO VLP 18 C, günstiger Akku-Vakuumheber"
+   },
+   {
+    "id": 3178,
+    "rang": 4,
+    "grund": "PROBST Gummihammer GH-ERGO, Dauerbrenner im Pflasterbau"
+   },
+   {
+    "id": 4227,
+    "rang": 5,
+    "grund": "PROBST TELEPLAN TP-60/100, gängigste Abziehlehre"
+   },
+   {
+    "id": 5275,
+    "rang": 6,
+    "grund": "FERROLOCK Plattenhebezange 30w, Einstieg ins Plattenheben"
+   }
+  ]
+ },
+ {
+  "sparte": "GaLa-Bau & Tiefbau",
+  "hauptkategorie": "07 Reinigen, Schützen & Reparieren",
+  "top": [
+   {
+    "id": 2485,
+    "rang": 1,
+    "grund": "AKEMI Stein-Imprägnierung, Standardschutz nach dem Verlegen"
+   },
+   {
+    "id": 2472,
+    "rang": 2,
+    "grund": "AKEMI Steinreiniger, laufendes Verbrauchsmaterial"
+   },
+   {
+    "id": 2487,
+    "rang": 3,
+    "grund": "AKEMI Anti-Fleck Nano Effect für hochwertige Beläge"
+   },
+   {
+    "id": 2504,
+    "rang": 4,
+    "grund": "AKEMI Aussenreiniger Power für Terrassen und Wege"
+   },
+   {
+    "id": 2296,
+    "rang": 5,
+    "grund": "AKEPOX 2015 Anti-Stain zur Rückseitenversiegelung"
+   }
+  ]
+ },
+ {
+  "sparte": "GaLa-Bau & Tiefbau",
+  "hauptkategorie": "08 Staub & Absaugung",
+  "top": [
+   {
+    "id": 6032,
+    "rang": 1,
+    "grund": "Husqvarna WDC 220, universeller Nass- und Trockensauger"
+   },
+   {
+    "id": 5968,
+    "rang": 2,
+    "grund": "Husqvarna W 250 P für Schlamm und Sägewasser"
+   },
+   {
+    "id": 6685,
+    "rang": 3,
+    "grund": "K1 Pace Vakuumeinheit, staubfreies Trennen"
+   },
+   {
+    "id": 6025,
+    "rang": 4,
+    "grund": "Husqvarna DE 110i, akkubetrieben für Baustellen ohne Strom"
+   }
+  ]
+ },
+ {
+  "sparte": "GaLa-Bau & Tiefbau",
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "top": [
+   {
+    "id": 6027,
+    "rang": 1,
+    "grund": "Husqvarna BLi 300, meistgefragter Wechselakku"
+   },
+   {
+    "id": 6487,
+    "rang": 2,
+    "grund": "Husqvarna B750X PACE für K1 Pace Trennschleifer"
+   },
+   {
+    "id": 6026,
+    "rang": 3,
+    "grund": "Husqvarna QC500 Schnellladegerät, Systemgrundlage"
+   },
+   {
+    "id": 6853,
+    "rang": 4,
+    "grund": "Husqvarna 525i B Akku-Laubbläser für Baustellenreinigung"
+   },
+   {
+    "id": 7939,
+    "rang": 5,
+    "grund": "FLEX Kettensäge GCS 35 im Aktionsset mit Akkus"
+   }
+  ]
+ },
+ {
+  "sparte": "GaLa-Bau & Tiefbau",
+  "hauptkategorie": "11 Baustellen- & Werkstattbedarf",
+  "top": [
+   {
+    "id": 8374,
+    "rang": 1,
+    "grund": "SIMPLEX Vorschlaghammer, universelles Baustellenwerkzeug"
+   },
+   {
+    "id": 7240,
+    "rang": 2,
+    "grund": "Pflastererhammer Berliner Form, Standard im Pflasterbau"
+   },
+   {
+    "id": 8304,
+    "rang": 3,
+    "grund": "SIMPLEX Schonhammer 80 mm, schont Beläge beim Setzen"
+   },
+   {
+    "id": 1063,
+    "rang": 4,
+    "grund": "PROBST ENZ-Protect Erdnagelzieher, spart Rückenarbeit"
+   },
+   {
+    "id": 7008,
+    "rang": 5,
+    "grund": "Big-Bag Stein/Garten, laufendes Verbrauchsmaterial"
+   }
+  ]
+ },
+ {
+  "sparte": "Autogewerbe",
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "top": [
+   {
+    "id": 7573,
+    "rang": 1,
+    "grund": "FLEX PC-M 250 Politur, meistgekauftes Verbrauchsmaterial im Polierprozess"
+   },
+   {
+    "id": 7575,
+    "rang": 2,
+    "grund": "FLEX Polierschwamm PP-M 150, regelmässiger Nachkauf"
+   },
+   {
+    "id": 7570,
+    "rang": 3,
+    "grund": "FLEX Mikrofaser-Polierpad 160 mm grob für Defektkorrektur"
+   },
+   {
+    "id": 3284,
+    "rang": 4,
+    "grund": "AKEMI 1S Super Fine Polish für den Feinschliff"
+   },
+   {
+    "id": 7887,
+    "rang": 5,
+    "grund": "FLEX PE 150 18-EC C Akku-Polierer, kabellos in der Werkstatt"
+   }
+  ]
+ },
+ {
+  "sparte": "Autogewerbe",
+  "hauptkategorie": "07 Reinigen, Schützen & Reparieren",
+  "top": [
+   {
+    "id": 3312,
+    "rang": 1,
+    "grund": "AKEMI Easy Filler Green, meistgenutzte Karosseriespachtel"
+   },
+   {
+    "id": 6914,
+    "rang": 2,
+    "grund": "AKEMI Poly-Faser Spachtel für tragende Reparaturen"
+   },
+   {
+    "id": 3337,
+    "rang": 3,
+    "grund": "AKEMI ACRYCLEAN, Standard-Entfetter vor dem Lackieren"
+   },
+   {
+    "id": 7577,
+    "rang": 4,
+    "grund": "BRUNOX Turbo-Spray, Dauerbrenner in jeder Werkstatt"
+   },
+   {
+    "id": 3318,
+    "rang": 5,
+    "grund": "AKEMI PR Speed 1 Min, schnelle Klebeverbindung"
+   }
+  ]
+ },
+ {
+  "sparte": "Autogewerbe",
+  "hauptkategorie": "13 Lackieren & Beschichten",
+  "top": [
+   {
+    "id": 3259,
+    "rang": 1,
+    "grund": "AKEMI Multitalent 2K-UHS, zentraler Füller im Lackaufbau"
+   },
+   {
+    "id": 3371,
+    "rang": 2,
+    "grund": "AKEMI 1K Epoxy Primer als Korrosionsschutz-Grundierung"
+   },
+   {
+    "id": 7040,
+    "rang": 3,
+    "grund": "tesa 4342 Hochtemperatur-Präzisionskrepp für randscharfe Kanten"
+   },
+   {
+    "id": 5534,
+    "rang": 4,
+    "grund": "AKEMI Showroom Car Glaze zur Endversiegelung"
+   },
+   {
+    "id": 7988,
+    "rang": 5,
+    "grund": "FERROSIL Maler-Krepp, laufender Verbrauch beim Abkleben"
+   }
+  ]
+ },
+ {
+  "sparte": "Gipser & Betonkosmetik",
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "top": [
+   {
+    "id": 5543,
+    "rang": 1,
+    "grund": "FERRIX Frässcheibe 6 mm, meistgenutzte Nutbreite"
+   },
+   {
+    "id": 5544,
+    "rang": 2,
+    "grund": "FERRIX V-Fräser 125 mm für Rissreparatur"
+   },
+   {
+    "id": 5546,
+    "rang": 3,
+    "grund": "FERRIX Frässcheibe 8 mm für Elektroinstallation"
+   },
+   {
+    "id": 7212,
+    "rang": 4,
+    "grund": "DUSS Kombibohrhammer PX48 A, robuste Standardmaschine"
+   },
+   {
+    "id": 7299,
+    "rang": 5,
+    "grund": "FLEX FHE 1-16 18-EC C, kabelloser SDS-plus-Bohrhammer"
+   }
+  ]
+ },
+ {
+  "sparte": "Gipser & Betonkosmetik",
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "top": [
+   {
+    "id": 6647,
+    "rang": 1,
+    "grund": "FLEX Diamant Schleifpad 225 mm, hoher Nachkauf bei der Giraffe"
+   },
+   {
+    "id": 6613,
+    "rang": 2,
+    "grund": "FLEX Klett-Schleifvlies 225 mm, laufendes Verbrauchsmaterial"
+   },
+   {
+    "id": 6692,
+    "rang": 3,
+    "grund": "FERRIX Schleifteller Beton universal 180 mm"
+   },
+   {
+    "id": 8400,
+    "rang": 4,
+    "grund": "FLEX Thermo-Jet Diamantschleiftopf 150 mm"
+   },
+   {
+    "id": 6638,
+    "rang": 5,
+    "grund": "FLEX GE 6 R-EC Wand- und Deckenschleifer, Referenzmaschine"
+   }
+  ]
+ },
+ {
+  "sparte": "Gipser & Betonkosmetik",
+  "hauptkategorie": "06 Kleben, Fugen & Gehrung",
+  "top": [
+   {
+    "id": 7237,
+    "rang": 1,
+    "grund": "WEISS Cosmo HD-100.400, universeller 1K-MS-Klebstoff"
+   },
+   {
+    "id": 7475,
+    "rang": 2,
+    "grund": "FLEX CG 310 18C Akku-Kartuschenpresse für saubere Fugen"
+   },
+   {
+    "id": 3460,
+    "rang": 3,
+    "grund": "Stukkateurspachtel 25 mm als Basis-Handwerkzeug"
+   }
+  ]
+ },
+ {
+  "sparte": "Gipser & Betonkosmetik",
+  "hauptkategorie": "07 Reinigen, Schützen & Reparieren",
+  "top": [
+   {
+    "id": 7975,
+    "rang": 1,
+    "grund": "FERROSIL Bautenschutzband 38 mm, laufender Verbrauch"
+   },
+   {
+    "id": 7526,
+    "rang": 2,
+    "grund": "FERROSIL UV 60 gold für randscharfe Kanten aussen"
+   },
+   {
+    "id": 7980,
+    "rang": 3,
+    "grund": "FERROSIL Speedymask Abdeckfolie, spart Abklebezeit"
+   }
+  ]
+ },
+ {
+  "sparte": "Gipser & Betonkosmetik",
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "top": [
+   {
+    "id": 5749,
+    "rang": 1,
+    "grund": "FLEX R 2602 Rührmaschine, Standard für Gips und Spachtel"
+   },
+   {
+    "id": 7244,
+    "rang": 2,
+    "grund": "FLEX MXE 1202 2-Gang-Rührer im Aktionsset"
+   },
+   {
+    "id": 5529,
+    "rang": 3,
+    "grund": "FLEX Winkelschleifer-Set LBE 17-11, Universalmaschine"
+   }
+  ]
+ }
+]

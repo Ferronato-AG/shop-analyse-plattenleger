@@ -1,0 +1,1754 @@
+[
+ {
+  "id": 69,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 106,
+  "unterkategorie": "Sichtschleifscheiben",
+  "top_score": 4,
+  "grund": "Schleifscheiben sind Verbrauchsmaterial, von der Maschine getrennt und auf 4"
+ },
+ {
+  "id": 124,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 2,
+  "grund": "Ersatzdichtungen sind Ersatzteile, Score von 4 auf 2 korrigiert, Zuordnung zum System"
+ },
+ {
+  "id": 1043,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 1045,
+  "unterkategorie": "Ausrichtwinkel",
+  "top_score": 3,
+  "grund": "Aluwinkel-Serie unter einem Namen, Score vereinheitlicht"
+ },
+ {
+  "id": 1049,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saughebegeräte und GRABO unter einem Systemnamen, Saugheber eingegliedert"
+ },
+ {
+  "id": 1053,
+  "unterkategorie": "Pflasterwerkzeuge",
+  "grund": "Gummihämmer, Richteisen und Pflasterboy in einer Unterkategorie, Score vereinheitlicht"
+ },
+ {
+  "id": 1054,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 1062,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saughebegeräte und GRABO unter einem Systemnamen, Saugheber eingegliedert"
+ },
+ {
+  "id": 1063,
+  "unterkategorie": "Äxte & Brechwerkzeuge",
+  "grund": "Äxte, Nageleisen und Erdnagelzieher zusammengefasst, Score von 1 auf 2 (Handwerkzeug, kein Ersatzteil)"
+ },
+ {
+  "id": 1065,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 1068,
+  "unterkategorie": "Ausrichtwinkel",
+  "top_score": 3,
+  "grund": "Aluwinkel-Serie unter einem Namen, Score vereinheitlicht"
+ },
+ {
+  "id": 1070,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 1129,
+  "unterkategorie": "Rohr- & Schachtgreifer",
+  "grund": "Rohrgreifer und Schacht-/Winkelelementzangen als eigene Unterkategorie, damit die Zangen-Gruppe navigierbar bleibt"
+ },
+ {
+  "id": 1205,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "top_score": 2,
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 1233,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saughebegeräte und GRABO unter einem Systemnamen, Saugheber eingegliedert"
+ },
+ {
+  "id": 1323,
+  "top_score": 4,
+  "grund": "Verbrauchsmaterial von 3 auf 4"
+ },
+ {
+  "id": 1376,
+  "unterkategorie": "Diamanttrennscheiben",
+  "top_score": 4,
+  "grund": "Alle handgeführten Diamanttrennscheiben in eine Unterkategorie, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 1399,
+  "unterkategorie": "Pflasterwerkzeuge",
+  "grund": "Gummihämmer, Richteisen und Pflasterboy in einer Unterkategorie, Score vereinheitlicht"
+ },
+ {
+  "id": 1406,
+  "unterkategorie": "Sichtschleifscheiben",
+  "top_score": 4,
+  "grund": "Schleifscheiben sind Verbrauchsmaterial, von der Maschine getrennt und auf 4"
+ },
+ {
+  "id": 1442,
+  "unterkategorie": "Anzeichnen & Markieren",
+  "grund": "Markier- und Anreisswerkzeuge zusammengefasst, Score auf Handwerkzeug-Niveau vereinheitlicht"
+ },
+ {
+  "id": 1443,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 1500,
+  "unterkategorie": "Transportgeräte",
+  "grund": "Stützrad ist Ersatzteil zur Transportkarre, zur Anwendung eingeordnet"
+ },
+ {
+  "id": 1568,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 1569,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 1570,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 1571,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 1572,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 1573,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 1772,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "top_score": 3,
+  "grund": "FERROLOCK Plattenhebezangen gehören zum Plattenheben, drei Namensvarianten vereinheitlicht"
+ },
+ {
+  "id": 1773,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "top_score": 3,
+  "grund": "FERROLOCK Plattenhebezangen gehören zum Plattenheben, drei Namensvarianten vereinheitlicht"
+ },
+ {
+  "id": 2029,
+  "unterkategorie": "Lackierzubehör",
+  "grund": "Pinsel als Lackierzubehör"
+ },
+ {
+  "id": 2085,
+  "unterkategorie": "Transportgeräte",
+  "grund": "Transportkarren, Palettenwagen und Transportroller zusammengefasst"
+ },
+ {
+  "id": 2086,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saughebegeräte und GRABO unter einem Systemnamen, Saugheber eingegliedert"
+ },
+ {
+  "id": 2135,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saughebegeräte und GRABO unter einem Systemnamen, Saugheber eingegliedert"
+ },
+ {
+  "id": 2215,
+  "unterkategorie": "Transportgeräte",
+  "grund": "Transportkarren, Palettenwagen und Transportroller zusammengefasst"
+ },
+ {
+  "id": 2268,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "grund": "Ersatzmesser zu SA/SAH gehören zum Steinausheber, nicht in den Werkstattbedarf"
+ },
+ {
+  "id": 2366,
+  "unterkategorie": "Hebezeuge & Anschlagmittel",
+  "grund": "Portalkrane, Dreibock und Flaschenzug in einer Unterkategorie"
+ },
+ {
+  "id": 2367,
+  "unterkategorie": "Hebezeuge & Anschlagmittel",
+  "grund": "Portalkrane, Dreibock und Flaschenzug in einer Unterkategorie"
+ },
+ {
+  "id": 2378,
+  "unterkategorie": "Stromversorgung & Antriebe",
+  "grund": "Halterung und Adapter sind Nischenteile, Score 1"
+ },
+ {
+  "id": 2416,
+  "unterkategorie": "Hebezeuge & Anschlagmittel",
+  "grund": "Portalkrane, Dreibock und Flaschenzug in einer Unterkategorie"
+ },
+ {
+  "id": 2472,
+  "unterkategorie": "Steinreiniger",
+  "top_score": 4,
+  "grund": "AKEMI-Reiniger unter einem Namen, regelmässig nachgekauftes Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 2474,
+  "unterkategorie": "Steinreiniger",
+  "top_score": 4,
+  "grund": "AKEMI-Reiniger unter einem Namen, regelmässig nachgekauftes Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 2479,
+  "unterkategorie": "Imprägnierungen",
+  "top_score": 4,
+  "grund": "Imprägnierung GaLa umbenannt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 2485,
+  "unterkategorie": "Imprägnierungen",
+  "top_score": 4,
+  "grund": "Imprägnierung GaLa umbenannt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 2487,
+  "unterkategorie": "Imprägnierungen",
+  "top_score": 4,
+  "grund": "Imprägnierung GaLa umbenannt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 2489,
+  "unterkategorie": "Imprägnierungen",
+  "top_score": 4,
+  "grund": "Imprägnierung GaLa umbenannt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 2504,
+  "unterkategorie": "Steinreiniger",
+  "top_score": 4,
+  "grund": "AKEMI-Reiniger unter einem Namen, regelmässig nachgekauftes Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 2519,
+  "unterkategorie": "Steinreiniger",
+  "top_score": 4,
+  "grund": "AKEMI-Reiniger unter einem Namen, regelmässig nachgekauftes Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3031,
+  "hauptkategorie": "05 Verlegen, Heben & Transportieren",
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "grund": "Ersatzmesser zu SA/SAH gehören zum Steinausheber, nicht in den Werkstattbedarf"
+ },
+ {
+  "id": 3032,
+  "hauptkategorie": "05 Verlegen, Heben & Transportieren",
+  "unterkategorie": "Pflasterwerkzeuge",
+  "grund": "Ersatzgummis und Ersatzmesser zum Gummihammer bzw. Richteisen wandern zur Anwendung"
+ },
+ {
+  "id": 3043,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 3046,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 2,
+  "grund": "Ersatzdichtungen sind Ersatzteile, Score von 4 auf 2 korrigiert, Zuordnung zum System"
+ },
+ {
+  "id": 3048,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 3049,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 2,
+  "grund": "Ersatzdichtungen sind Ersatzteile, Score von 4 auf 2 korrigiert, Zuordnung zum System"
+ },
+ {
+  "id": 3054,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 2,
+  "grund": "Ersatzdichtungen sind Ersatzteile, Score von 4 auf 2 korrigiert, Zuordnung zum System"
+ },
+ {
+  "id": 3058,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "Ersatzgummis, Backen und Auflagen wandern zur Anwendung statt in einen Ersatzteil-Topf"
+ },
+ {
+  "id": 3062,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "top_score": 3,
+  "grund": "Plattenheber, Plattenzieher, Steinzieher und Trageghilfen zusammengefasst, Score vereinheitlicht"
+ },
+ {
+  "id": 3146,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 3149,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 3152,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 3153,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 3154,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 3155,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 3156,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 3165,
+  "top_score": 3,
+  "grund": "Verfugungsgerät bleibt, Score auf Geräte-Niveau"
+ },
+ {
+  "id": 3166,
+  "top_score": 3,
+  "grund": "Markier- und Anreisswerkzeuge zusammengefasst, Score auf Handwerkzeug-Niveau vereinheitlicht"
+ },
+ {
+  "id": 3167,
+  "unterkategorie": "Schnurhalter & Richtschnüre",
+  "grund": "Schnurhilfen zusammengefasst statt drei Einzelnamen"
+ },
+ {
+  "id": 3168,
+  "top_score": 3,
+  "grund": "Markier- und Anreisswerkzeuge zusammengefasst, Score auf Handwerkzeug-Niveau vereinheitlicht"
+ },
+ {
+  "id": 3169,
+  "unterkategorie": "Pflasterwerkzeuge",
+  "top_score": 3,
+  "grund": "Gummihämmer, Richteisen und Pflasterboy in einer Unterkategorie, Score vereinheitlicht"
+ },
+ {
+  "id": 3170,
+  "unterkategorie": "Pflasterwerkzeuge",
+  "top_score": 3,
+  "grund": "Gummihämmer, Richteisen und Pflasterboy in einer Unterkategorie, Score vereinheitlicht"
+ },
+ {
+  "id": 3171,
+  "unterkategorie": "Anzeichnen & Markieren",
+  "top_score": 3,
+  "grund": "Markier- und Anreisswerkzeuge zusammengefasst, Score auf Handwerkzeug-Niveau vereinheitlicht"
+ },
+ {
+  "id": 3172,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "top_score": 3,
+  "grund": "Plattenheber, Plattenzieher, Steinzieher und Trageghilfen zusammengefasst, Score vereinheitlicht"
+ },
+ {
+  "id": 3174,
+  "unterkategorie": "Pflasterwerkzeuge",
+  "top_score": 3,
+  "grund": "Gummihämmer, Richteisen und Pflasterboy in einer Unterkategorie, Score vereinheitlicht"
+ },
+ {
+  "id": 3175,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "top_score": 3,
+  "grund": "Plattenheber, Plattenzieher, Steinzieher und Trageghilfen zusammengefasst, Score vereinheitlicht"
+ },
+ {
+  "id": 3177,
+  "unterkategorie": "Schnurhalter & Richtschnüre",
+  "top_score": 3,
+  "grund": "Schnurhilfen zusammengefasst statt drei Einzelnamen"
+ },
+ {
+  "id": 3178,
+  "unterkategorie": "Pflasterwerkzeuge",
+  "grund": "Gummihämmer, Richteisen und Pflasterboy in einer Unterkategorie, Score vereinheitlicht"
+ },
+ {
+  "id": 3179,
+  "unterkategorie": "Pflasterwerkzeuge",
+  "grund": "Gummihämmer, Richteisen und Pflasterboy in einer Unterkategorie, Score vereinheitlicht"
+ },
+ {
+  "id": 3183,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saughebegeräte und GRABO unter einem Systemnamen, Saugheber eingegliedert"
+ },
+ {
+  "id": 3188,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saughebegeräte und GRABO unter einem Systemnamen, Saugheber eingegliedert"
+ },
+ {
+  "id": 3189,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saughebegeräte und GRABO unter einem Systemnamen, Saugheber eingegliedert"
+ },
+ {
+  "id": 3195,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 3198,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 3199,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 3200,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 3201,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 3202,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 3204,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 3205,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 3206,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 3207,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 3208,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "top_score": 3,
+  "grund": "Plattenheber, Plattenzieher, Steinzieher und Trageghilfen zusammengefasst, Score vereinheitlicht"
+ },
+ {
+  "id": 3210,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "top_score": 3,
+  "grund": "Plattenheber, Plattenzieher, Steinzieher und Trageghilfen zusammengefasst, Score vereinheitlicht"
+ },
+ {
+  "id": 3211,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 3212,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "top_score": 3,
+  "grund": "Plattenheber, Plattenzieher, Steinzieher und Trageghilfen zusammengefasst, Score vereinheitlicht"
+ },
+ {
+  "id": 3213,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 3216,
+  "unterkategorie": "Rohr- & Schachtgreifer",
+  "grund": "Rohrgreifer und Schacht-/Winkelelementzangen als eigene Unterkategorie, damit die Zangen-Gruppe navigierbar bleibt"
+ },
+ {
+  "id": 3217,
+  "unterkategorie": "Rohr- & Schachtgreifer",
+  "grund": "Rohrgreifer und Schacht-/Winkelelementzangen als eigene Unterkategorie, damit die Zangen-Gruppe navigierbar bleibt"
+ },
+ {
+  "id": 3245,
+  "unterkategorie": "Sprühlacke & Unterbodenschutz",
+  "top_score": 4,
+  "grund": "Zwei Einzelkategorien zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3256,
+  "unterkategorie": "Kleb- & Dichtstoffe",
+  "top_score": 4,
+  "grund": "Kunststoffreparatur zu den Klebstoffen, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3284,
+  "unterkategorie": "Politur & Polierpads",
+  "top_score": 4,
+  "grund": "Politur von AKEMI zur gleichen Unterkategorie, Verbrauchsmaterial durchgehend 4"
+ },
+ {
+  "id": 3318,
+  "unterkategorie": "Kleb- & Dichtstoffe",
+  "top_score": 4,
+  "grund": "Kunststoffreparatur zu den Klebstoffen, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3322,
+  "top_score": 4,
+  "grund": "Verbrauchsmaterial durchgehend auf 4"
+ },
+ {
+  "id": 3330,
+  "unterkategorie": "Kleb- & Dichtstoffe",
+  "top_score": 4,
+  "grund": "Kunststoffreparatur zu den Klebstoffen, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3337,
+  "top_score": 4,
+  "grund": "Autopflege-Reiniger eingegliedert, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3338,
+  "top_score": 4,
+  "grund": "Autopflege-Reiniger eingegliedert, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3339,
+  "top_score": 4,
+  "grund": "Autopflege-Reiniger eingegliedert, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3345,
+  "top_score": 4,
+  "grund": "Autopflege-Reiniger eingegliedert, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3367,
+  "unterkategorie": "Rostlöser & Pflegesprays",
+  "top_score": 4,
+  "grund": "Schmier- und Wartungssprays zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3371,
+  "top_score": 4,
+  "grund": "Verbrauchsmaterial durchgehend auf 4"
+ },
+ {
+  "id": 3453,
+  "unterkategorie": "Steinreiniger",
+  "top_score": 4,
+  "grund": "AKEMI-Reiniger unter einem Namen, regelmässig nachgekauftes Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3597,
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 3598,
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 3599,
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 3600,
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 3601,
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 3615,
+  "unterkategorie": "Pflasterwerkzeuge",
+  "grund": "Gummihämmer, Richteisen und Pflasterboy in einer Unterkategorie, Score vereinheitlicht"
+ },
+ {
+  "id": 3785,
+  "unterkategorie": "Diamanttrennscheiben",
+  "grund": "Alle handgeführten Diamanttrennscheiben in eine Unterkategorie, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3786,
+  "unterkategorie": "Diamanttrennscheiben",
+  "grund": "Alle handgeführten Diamanttrennscheiben in eine Unterkategorie, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3787,
+  "unterkategorie": "Diamanttrennscheiben",
+  "grund": "Alle handgeführten Diamanttrennscheiben in eine Unterkategorie, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 3790,
+  "hauptkategorie": "02 Schneiden & Trennen",
+  "unterkategorie": "Trennschleifer & Steinsägen",
+  "grund": "Trennschleifer gehören zum Arbeitsschritt Schneiden, nicht nach 09; Maschinen-Score vereinheitlicht"
+ },
+ {
+  "id": 3856,
+  "hauptkategorie": "02 Schneiden & Trennen",
+  "unterkategorie": "Trennschleifer & Steinsägen",
+  "grund": "Trennschleifer gehören zum Arbeitsschritt Schneiden, nicht nach 09; Maschinen-Score vereinheitlicht"
+ },
+ {
+  "id": 3896,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 3959,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 3988,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Hartmetall-Handwerkzeuge",
+  "top_score": 2,
+  "grund": "Spitz-, Scharrier-, Zahneisen und REXID-Hämmer sind Oberflächenbearbeitung, alle in eine Unterkategorie"
+ },
+ {
+  "id": 4047,
+  "unterkategorie": "Trennscheiben Brücken-/Tischfräsen",
+  "top_score": 4,
+  "grund": "Doppelte Unterkategorien (Brücken-/Tischfräsen vs. Brückenfräsen) zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 4050,
+  "unterkategorie": "Trennscheiben Brücken-/Tischfräsen",
+  "top_score": 4,
+  "grund": "Doppelte Unterkategorien (Brücken-/Tischfräsen vs. Brückenfräsen) zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 4101,
+  "unterkategorie": "Hebezeuge & Anschlagmittel",
+  "top_score": 2,
+  "grund": "Portalkrane, Dreibock und Flaschenzug in einer Unterkategorie"
+ },
+ {
+  "id": 4227,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 4230,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 4231,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 4233,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "grund": "Handgriffe, Rollensätze und Halter als Zubehör zur Anwendung, Score auf Zubehör-Niveau"
+ },
+ {
+  "id": 4234,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "grund": "Handgriffe, Rollensätze und Halter als Zubehör zur Anwendung, Score auf Zubehör-Niveau"
+ },
+ {
+  "id": 4240,
+  "unterkategorie": "Diamanttrennscheiben",
+  "grund": "Alle handgeführten Diamanttrennscheiben in eine Unterkategorie, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 4245,
+  "unterkategorie": "Trennscheiben Brücken-/Tischfräsen",
+  "top_score": 4,
+  "grund": "Doppelte Unterkategorien (Brücken-/Tischfräsen vs. Brückenfräsen) zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 4250,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 4252,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 4254,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "top_score": 2,
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 4255,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "Ersatzgummis, Backen und Auflagen wandern zur Anwendung statt in einen Ersatzteil-Topf"
+ },
+ {
+  "id": 4257,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "top_score": 2,
+  "grund": "Betonschleifer und Bodenschleifmaschinen aus 09 zum Arbeitsschritt Schleifen"
+ },
+ {
+  "id": 4262,
+  "unterkategorie": "Schneidhilfen",
+  "grund": "Klemmvorrichtung und Radienschnitt-Adapter als Zubehör zum Schneiden zusammengefasst"
+ },
+ {
+  "id": 4298,
+  "unterkategorie": "Sprühlacke & Unterbodenschutz",
+  "top_score": 4,
+  "grund": "Zwei Einzelkategorien zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 4317,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saughebegeräte und GRABO unter einem Systemnamen, Saugheber eingegliedert"
+ },
+ {
+  "id": 4318,
+  "unterkategorie": "Schnurhalter & Richtschnüre",
+  "grund": "Schnurhilfen zusammengefasst statt drei Einzelnamen"
+ },
+ {
+  "id": 4351,
+  "unterkategorie": "Diamanttrennscheiben",
+  "grund": "Alle handgeführten Diamanttrennscheiben in eine Unterkategorie, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 4427,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 4446,
+  "hauptkategorie": "02 Schneiden & Trennen",
+  "unterkategorie": "Trennschleifer & Steinsägen",
+  "grund": "Trennschleifer gehören zum Arbeitsschritt Schneiden, nicht nach 09; Maschinen-Score vereinheitlicht"
+ },
+ {
+  "id": 4453,
+  "unterkategorie": "Diamanttrennscheiben",
+  "grund": "Alle handgeführten Diamanttrennscheiben in eine Unterkategorie, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 4467,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Ersatzdichtungen sind Ersatzteile, Score von 4 auf 2 korrigiert, Zuordnung zum System"
+ },
+ {
+  "id": 4471,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 4486,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "grund": "Plattenheber, Plattenzieher, Steinzieher und Trageghilfen zusammengefasst, Score vereinheitlicht"
+ },
+ {
+  "id": 4540,
+  "top_score": 4,
+  "grund": "Karosserie-Spachtel und Spachtelmassen zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 4697,
+  "top_score": 4,
+  "grund": "Pigment ist Verbrauchsmaterial, auf 4"
+ },
+ {
+  "id": 4708,
+  "top_score": 4,
+  "grund": "Karosserie-Spachtel und Spachtelmassen zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 5215,
+  "unterkategorie": "Diamanttrennscheiben",
+  "top_score": 4,
+  "grund": "Alle handgeführten Diamanttrennscheiben in eine Unterkategorie, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 5275,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "grund": "FERROLOCK Plattenhebezangen gehören zum Plattenheben, drei Namensvarianten vereinheitlicht"
+ },
+ {
+  "id": 5276,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "grund": "FERROLOCK Plattenhebezangen gehören zum Plattenheben, drei Namensvarianten vereinheitlicht"
+ },
+ {
+  "id": 5277,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "grund": "FERROLOCK Plattenhebezangen gehören zum Plattenheben, drei Namensvarianten vereinheitlicht"
+ },
+ {
+  "id": 5303,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 5440,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 5529,
+  "unterkategorie": "Winkelschleifer & Polierer",
+  "grund": "Winkelschleifer aus 02 und Polierer zusammengelegt (Universalmaschinen)"
+ },
+ {
+  "id": 5543,
+  "unterkategorie": "Mauernut- & V-Fräsen",
+  "top_score": 4,
+  "grund": "Frässcheiben und V-Fräser zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 5544,
+  "unterkategorie": "Mauernut- & V-Fräsen",
+  "top_score": 4,
+  "grund": "Frässcheiben und V-Fräser zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 5545,
+  "unterkategorie": "Mauernut- & V-Fräsen",
+  "top_score": 4,
+  "grund": "Frässcheiben und V-Fräser zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 5546,
+  "unterkategorie": "Mauernut- & V-Fräsen",
+  "top_score": 4,
+  "grund": "Frässcheiben und V-Fräser zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 5567,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "Ersatzgummis, Backen und Auflagen wandern zur Anwendung statt in einen Ersatzteil-Topf"
+ },
+ {
+  "id": 5568,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "Ersatzgummis, Backen und Auflagen wandern zur Anwendung statt in einen Ersatzteil-Topf"
+ },
+ {
+  "id": 5618,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Betonschleifer",
+  "grund": "Betonschleifer und Bodenschleifmaschinen aus 09 zum Arbeitsschritt Schleifen"
+ },
+ {
+  "id": 5624,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "grund": "Plattenheber, Plattenzieher, Steinzieher und Trageghilfen zusammengefasst, Score vereinheitlicht"
+ },
+ {
+  "id": 5688,
+  "hauptkategorie": "05 Verlegen, Heben & Transportieren",
+  "unterkategorie": "Pflasterwerkzeuge",
+  "grund": "Ersatzgummis und Ersatzmesser zum Gummihammer bzw. Richteisen wandern zur Anwendung"
+ },
+ {
+  "id": 5689,
+  "hauptkategorie": "05 Verlegen, Heben & Transportieren",
+  "unterkategorie": "Pflasterwerkzeuge",
+  "grund": "Ersatzgummis und Ersatzmesser zum Gummihammer bzw. Richteisen wandern zur Anwendung"
+ },
+ {
+  "id": 5750,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Betonschleifer",
+  "grund": "Betonschleifer und Bodenschleifmaschinen aus 09 zum Arbeitsschritt Schleifen"
+ },
+ {
+  "id": 5953,
+  "unterkategorie": "Absaugzubehör",
+  "top_score": 3,
+  "grund": "Vakuumeinheiten und Wassertank als Zubehör zusammengefasst, Score 3"
+ },
+ {
+  "id": 5968,
+  "unterkategorie": "Bau- & Nasssauger",
+  "grund": "Drei Sauger-Unterkategorien zusammengelegt, Maschinen-Score 2"
+ },
+ {
+  "id": 5975,
+  "unterkategorie": "Rostlöser & Pflegesprays",
+  "top_score": 4,
+  "grund": "Schmier- und Wartungssprays zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 5986,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 6007,
+  "unterkategorie": "Winkelschleifer & Polierer",
+  "grund": "Winkelschleifer aus 02 und Polierer zusammengelegt (Universalmaschinen)"
+ },
+ {
+  "id": 6019,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 6023,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "unterkategorie": "Kernbohrsysteme",
+  "grund": "Kernbohrmaschine, Ständer und Bohrmotor bilden ein System, Bohrmotor aus 09 hierher"
+ },
+ {
+  "id": 6024,
+  "hauptkategorie": "02 Schneiden & Trennen",
+  "unterkategorie": "Trennschleifer & Steinsägen",
+  "top_score": 2,
+  "grund": "Trennschleifer gehören zum Arbeitsschritt Schneiden, nicht nach 09; Maschinen-Score vereinheitlicht"
+ },
+ {
+  "id": 6025,
+  "unterkategorie": "Bau- & Nasssauger",
+  "top_score": 2,
+  "grund": "Drei Sauger-Unterkategorien zusammengelegt, Maschinen-Score 2"
+ },
+ {
+  "id": 6026,
+  "unterkategorie": "Akkus & Ladegeräte",
+  "top_score": 3,
+  "grund": "Vier Akku-Unterkategorien (Husqvarna PACE, Akkus 36V, CAS) zusammengelegt"
+ },
+ {
+  "id": 6027,
+  "unterkategorie": "Akkus & Ladegeräte",
+  "grund": "Vier Akku-Unterkategorien (Husqvarna PACE, Akkus 36V, CAS) zusammengelegt"
+ },
+ {
+  "id": 6028,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Poliermaschinen",
+  "grund": "Vier Namensvarianten für Polierer zusammengelegt, Poliermaschinen aus 09 zum Arbeitsschritt Polieren"
+ },
+ {
+  "id": 6030,
+  "unterkategorie": "Absaugzubehör",
+  "grund": "Vakuumeinheiten und Wassertank als Zubehör zusammengefasst, Score 3"
+ },
+ {
+  "id": 6032,
+  "unterkategorie": "Bau- & Nasssauger",
+  "top_score": 2,
+  "grund": "Drei Sauger-Unterkategorien zusammengelegt, Maschinen-Score 2"
+ },
+ {
+  "id": 6053,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 6068,
+  "sparte": "Autogewerbe",
+  "unterkategorie": "Batterieladegeräte",
+  "grund": "12-V-Batterieladegerät gehört zum Autogewerbe, nicht zum Vakuum-Verlegesystem"
+ },
+ {
+  "id": 6070,
+  "unterkategorie": "Hebezeuge & Anschlagmittel",
+  "grund": "Rundschlingen zu den Hebezeugen, Verschleissmaterial auf 3"
+ },
+ {
+  "id": 6072,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 6086,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 2,
+  "grund": "Ersatzdichtungen sind Ersatzteile, Score von 4 auf 2 korrigiert, Zuordnung zum System"
+ },
+ {
+  "id": 6090,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 6091,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 6107,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Poliermaschinen",
+  "grund": "Vier Namensvarianten für Polierer zusammengelegt, Poliermaschinen aus 09 zum Arbeitsschritt Polieren"
+ },
+ {
+  "id": 6203,
+  "unterkategorie": "Kernbohrsysteme",
+  "grund": "Kernbohrmaschine, Ständer und Bohrmotor bilden ein System, Bohrmotor aus 09 hierher"
+ },
+ {
+  "id": 6204,
+  "unterkategorie": "Kernbohrsysteme",
+  "grund": "Kernbohrmaschine, Ständer und Bohrmotor bilden ein System, Bohrmotor aus 09 hierher"
+ },
+ {
+  "id": 6227,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "grund": "Handgriffe, Rollensätze und Halter als Zubehör zur Anwendung, Score auf Zubehör-Niveau"
+ },
+ {
+  "id": 6243,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saughebegeräte und GRABO unter einem Systemnamen, Saugheber eingegliedert"
+ },
+ {
+  "id": 6307,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 2,
+  "grund": "Ersatzdichtung zur Saugplatte wandert zum System"
+ },
+ {
+  "id": 6346,
+  "unterkategorie": "Reiniger & Entfetter",
+  "top_score": 4,
+  "grund": "Autopflege-Reiniger eingegliedert, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 6368,
+  "unterkategorie": "Trennscheiben Brücken-/Tischfräsen",
+  "top_score": 4,
+  "grund": "Doppelte Unterkategorien (Brücken-/Tischfräsen vs. Brückenfräsen) zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 6369,
+  "unterkategorie": "Trennscheiben Brücken-/Tischfräsen",
+  "top_score": 4,
+  "grund": "Doppelte Unterkategorien (Brücken-/Tischfräsen vs. Brückenfräsen) zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 6401,
+  "unterkategorie": "Schneidhilfen",
+  "top_score": 3,
+  "grund": "Klemmvorrichtung und Radienschnitt-Adapter als Zubehör zum Schneiden zusammengefasst"
+ },
+ {
+  "id": 6402,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 6403,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 2,
+  "grund": "Höhenversteller gehört zum Mini Plan, nicht in einen Ersatzteil-Topf"
+ },
+ {
+  "id": 6441,
+  "unterkategorie": "Pflasterwerkzeuge",
+  "grund": "Stiele, Schutzscheibe und Gummischiene zur Anwendung statt in PROBST-Ersatzteile, Ersatzteil-Score 1"
+ },
+ {
+  "id": 6442,
+  "unterkategorie": "Pflasterwerkzeuge",
+  "grund": "Stiele, Schutzscheibe und Gummischiene zur Anwendung statt in PROBST-Ersatzteile, Ersatzteil-Score 1"
+ },
+ {
+  "id": 6444,
+  "unterkategorie": "Stromversorgung & Antriebe",
+  "grund": "Halterung und Adapter sind Nischenteile, Score 1"
+ },
+ {
+  "id": 6451,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 2,
+  "grund": "Handgriffe, Rollensätze und Halter als Zubehör zur Anwendung, Score auf Zubehör-Niveau"
+ },
+ {
+  "id": 6452,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 6456,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "top_score": 3,
+  "grund": "Plattenheber, Plattenzieher, Steinzieher und Trageghilfen zusammengefasst, Score vereinheitlicht"
+ },
+ {
+  "id": 6457,
+  "unterkategorie": "Pflasterwerkzeuge",
+  "grund": "Stiele, Schutzscheibe und Gummischiene zur Anwendung statt in PROBST-Ersatzteile, Ersatzteil-Score 1"
+ },
+ {
+  "id": 6458,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 6462,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 6463,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "grund": "Handgriffe, Rollensätze und Halter als Zubehör zur Anwendung, Score auf Zubehör-Niveau"
+ },
+ {
+  "id": 6487,
+  "unterkategorie": "Akkus & Ladegeräte",
+  "grund": "Vier Akku-Unterkategorien (Husqvarna PACE, Akkus 36V, CAS) zusammengelegt"
+ },
+ {
+  "id": 6490,
+  "unterkategorie": "Trennschleifer & Steinsägen",
+  "grund": "Trennschleifer gehören zum Arbeitsschritt Schneiden, nicht nach 09; Maschinen-Score vereinheitlicht"
+ },
+ {
+  "id": 6515,
+  "unterkategorie": "Stromversorgung & Antriebe",
+  "grund": "Powerpack zur Stromversorgung statt eigene Unterkategorie"
+ },
+ {
+  "id": 6536,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "top_score": 3,
+  "grund": "Plattenheber, Plattenzieher, Steinzieher und Trageghilfen zusammengefasst, Score vereinheitlicht"
+ },
+ {
+  "id": 6541,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "top_score": 3,
+  "grund": "FERROLOCK Plattenhebezangen gehören zum Plattenheben, drei Namensvarianten vereinheitlicht"
+ },
+ {
+  "id": 6559,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 6569,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 6575,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 6577,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 6583,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 6584,
+  "unterkategorie": "Rohr- & Schachtgreifer",
+  "grund": "Rohrgreifer und Schacht-/Winkelelementzangen als eigene Unterkategorie, damit die Zangen-Gruppe navigierbar bleibt"
+ },
+ {
+  "id": 6585,
+  "unterkategorie": "Rohr- & Schachtgreifer",
+  "grund": "Rohrgreifer und Schacht-/Winkelelementzangen als eigene Unterkategorie, damit die Zangen-Gruppe navigierbar bleibt"
+ },
+ {
+  "id": 6586,
+  "unterkategorie": "Rohr- & Schachtgreifer",
+  "grund": "Rohrgreifer und Schacht-/Winkelelementzangen als eigene Unterkategorie, damit die Zangen-Gruppe navigierbar bleibt"
+ },
+ {
+  "id": 6587,
+  "unterkategorie": "Rohr- & Schachtgreifer",
+  "grund": "Rohrgreifer und Schacht-/Winkelelementzangen als eigene Unterkategorie, damit die Zangen-Gruppe navigierbar bleibt"
+ },
+ {
+  "id": 6589,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 6637,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 6638,
+  "unterkategorie": "Wand- & Deckenschleifer (Giraffe)",
+  "grund": "Vier Namensvarianten der Giraffe zusammengelegt"
+ },
+ {
+  "id": 6639,
+  "unterkategorie": "Wand- & Deckenschleifer (Giraffe)",
+  "grund": "Vier Namensvarianten der Giraffe zusammengelegt"
+ },
+ {
+  "id": 6654,
+  "unterkategorie": "Trennschleifer & Steinsägen",
+  "grund": "Trennschleifer gehören zum Arbeitsschritt Schneiden, nicht nach 09; Maschinen-Score vereinheitlicht"
+ },
+ {
+  "id": 6664,
+  "unterkategorie": "Akkus & Ladegeräte",
+  "grund": "Vier Akku-Unterkategorien (Husqvarna PACE, Akkus 36V, CAS) zusammengelegt"
+ },
+ {
+  "id": 6666,
+  "unterkategorie": "Akkus & Ladegeräte",
+  "grund": "Vier Akku-Unterkategorien (Husqvarna PACE, Akkus 36V, CAS) zusammengelegt"
+ },
+ {
+  "id": 6685,
+  "top_score": 3,
+  "grund": "Vakuumeinheiten und Wassertank als Zubehör zusammengefasst, Score 3"
+ },
+ {
+  "id": 6689,
+  "unterkategorie": "Trennschleifer & Steinsägen",
+  "grund": "Trennschleifer gehören zum Arbeitsschritt Schneiden, nicht nach 09; Maschinen-Score vereinheitlicht"
+ },
+ {
+  "id": 6692,
+  "unterkategorie": "Diamant-Schleifteller",
+  "grund": "Schleifteller und Schleiftöpfe zusammengelegt, Verbrauchsmaterial"
+ },
+ {
+  "id": 6693,
+  "unterkategorie": "Diamant-Schleifteller",
+  "grund": "Schleifteller und Schleiftöpfe zusammengelegt, Verbrauchsmaterial"
+ },
+ {
+  "id": 6709,
+  "unterkategorie": "Trennschleifer & Steinsägen",
+  "top_score": 2,
+  "grund": "Trennschleifer gehören zum Arbeitsschritt Schneiden, nicht nach 09; Maschinen-Score vereinheitlicht"
+ },
+ {
+  "id": 6735,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 6836,
+  "unterkategorie": "Poliermaschinen",
+  "grund": "Vier Namensvarianten für Polierer zusammengelegt, Poliermaschinen aus 09 zum Arbeitsschritt Polieren"
+ },
+ {
+  "id": 6853,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Akku-Gartengeräte",
+  "grund": "Kettensäge, Laubbläser, Ast- und Heckenschere als Gartenmaschinen zusammengefasst"
+ },
+ {
+  "id": 6881,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 6882,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 6908,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saughebegeräte und GRABO unter einem Systemnamen, Saugheber eingegliedert"
+ },
+ {
+  "id": 6914,
+  "unterkategorie": "Spachtelmassen",
+  "top_score": 4,
+  "grund": "Karosserie-Spachtel und Spachtelmassen zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 6915,
+  "unterkategorie": "Spachtelmassen",
+  "top_score": 4,
+  "grund": "Karosserie-Spachtel und Spachtelmassen zusammengelegt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 6923,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 6933,
+  "unterkategorie": "Giraffen-Schleifmittel",
+  "top_score": 4,
+  "grund": "Interface-Pad zum Schleifmittel, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 6954,
+  "unterkategorie": "Fahrzeugtrocknung & Detailing",
+  "grund": "Gebläse und Detailing-Set unter einem Namen"
+ },
+ {
+  "id": 6972,
+  "unterkategorie": "Hebezeuge & Anschlagmittel",
+  "top_score": 3,
+  "grund": "Rundschlingen zu den Hebezeugen, Verschleissmaterial auf 3"
+ },
+ {
+  "id": 7040,
+  "top_score": 4,
+  "grund": "Abklebeband ist klassisches Nachkauf-Verbrauchsmaterial, auf 4"
+ },
+ {
+  "id": 7090,
+  "unterkategorie": "Pflasterwerkzeuge",
+  "grund": "Stiele, Schutzscheibe und Gummischiene zur Anwendung statt in PROBST-Ersatzteile, Ersatzteil-Score 1"
+ },
+ {
+  "id": 7149,
+  "unterkategorie": "Plattenheber & Steinzieher",
+  "top_score": 3,
+  "grund": "FERROLOCK Plattenhebezangen gehören zum Plattenheben, drei Namensvarianten vereinheitlicht"
+ },
+ {
+  "id": 7161,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 7167,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "top_score": 3,
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 7212,
+  "unterkategorie": "Bohrhämmer & Meissel",
+  "grund": "Bohrhammer-, Kombibohrhammer- und Schlagbohr-Unterkategorien zusammengelegt"
+ },
+ {
+  "id": 7213,
+  "unterkategorie": "Bohrhämmer & Meissel",
+  "grund": "Bohrhammer-, Kombibohrhammer- und Schlagbohr-Unterkategorien zusammengelegt"
+ },
+ {
+  "id": 7237,
+  "unterkategorie": "Kleb- & Dichtstoffe",
+  "top_score": 4,
+  "grund": "1K-MS-Klebstoff umbenannt, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 7239,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "unterkategorie": "Bohrschrauber",
+  "grund": "Schraubmagazinvorsatz zum Trockenbauschrauber statt in 09"
+ },
+ {
+  "id": 7240,
+  "unterkategorie": "Hämmer & Schlagwerkzeuge",
+  "grund": "Alle SIMPLEX-Schonhämmer und der Pflastererhammer in eine Unterkategorie, auch die zuvor unter 05 gelisteten"
+ },
+ {
+  "id": 7260,
+  "unterkategorie": "Bohrhämmer & Meissel",
+  "grund": "Bohrhammer-, Kombibohrhammer- und Schlagbohr-Unterkategorien zusammengelegt"
+ },
+ {
+  "id": 7262,
+  "unterkategorie": "Fahrzeugtrocknung & Detailing",
+  "grund": "Gebläse und Detailing-Set unter einem Namen"
+ },
+ {
+  "id": 7282,
+  "unterkategorie": "Bohrschrauber",
+  "grund": "Bohrschrauber und Trockenbauschrauber zusammengefasst"
+ },
+ {
+  "id": 7299,
+  "unterkategorie": "Bohrhämmer & Meissel",
+  "grund": "Bohrhammer-, Kombibohrhammer- und Schlagbohr-Unterkategorien zusammengelegt"
+ },
+ {
+  "id": 7301,
+  "unterkategorie": "Poliermaschinen",
+  "grund": "Vier Namensvarianten für Polierer zusammengelegt, Poliermaschinen aus 09 zum Arbeitsschritt Polieren"
+ },
+ {
+  "id": 7305,
+  "unterkategorie": "Kartuschenpressen & Klebepistolen",
+  "grund": "Heissklebepistole zu den Kartuschenpressen"
+ },
+ {
+  "id": 7309,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Winkelschleifer & Polierer",
+  "grund": "Winkelschleifer aus 02 und Polierer zusammengelegt (Universalmaschinen)"
+ },
+ {
+  "id": 7314,
+  "unterkategorie": "Wand- & Deckenschleifer (Giraffe)",
+  "grund": "Vier Namensvarianten der Giraffe zusammengelegt"
+ },
+ {
+  "id": 7331,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Akku-Gartengeräte",
+  "grund": "Kettensäge, Laubbläser, Ast- und Heckenschere als Gartenmaschinen zusammengefasst"
+ },
+ {
+  "id": 7337,
+  "unterkategorie": "Polierzubehör",
+  "grund": "Flexible Welle als Zubehör zum Polieren"
+ },
+ {
+  "id": 7348,
+  "unterkategorie": "Bohrschrauber",
+  "grund": "Bohrschrauber und Trockenbauschrauber zusammengefasst"
+ },
+ {
+  "id": 7353,
+  "unterkategorie": "Betongeräte",
+  "top_score": 2,
+  "grund": "Glättbohle ist Maschine, Score von 1 auf 2"
+ },
+ {
+  "id": 7378,
+  "hauptkategorie": "11 Baustellen- & Werkstattbedarf",
+  "unterkategorie": "Hämmer & Schlagwerkzeuge",
+  "grund": "Alle SIMPLEX-Schonhämmer und der Pflastererhammer in eine Unterkategorie, auch die zuvor unter 05 gelisteten"
+ },
+ {
+  "id": 7398,
+  "unterkategorie": "Bohrhämmer & Meissel",
+  "grund": "Meisselsatz als Verschleisszubehör zum Bohrhammer"
+ },
+ {
+  "id": 7400,
+  "hauptkategorie": "11 Baustellen- & Werkstattbedarf",
+  "grund": "Monierzangen sind Armierungsarbeit, nicht Trennen"
+ },
+ {
+  "id": 7401,
+  "hauptkategorie": "11 Baustellen- & Werkstattbedarf",
+  "grund": "Monierzangen sind Armierungsarbeit, nicht Trennen"
+ },
+ {
+  "id": 7431,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Akku-Gartengeräte",
+  "grund": "Kettensäge, Laubbläser, Ast- und Heckenschere als Gartenmaschinen zusammengefasst"
+ },
+ {
+  "id": 7432,
+  "unterkategorie": "Steinspalter",
+  "grund": "Drei Namensvarianten für ALMI Steinknacker vereinheitlicht, Maschinen-Score 2"
+ },
+ {
+  "id": 7433,
+  "unterkategorie": "Steinspalter",
+  "grund": "Drei Namensvarianten für ALMI Steinknacker vereinheitlicht, Maschinen-Score 2"
+ },
+ {
+  "id": 7434,
+  "unterkategorie": "Steinspalter",
+  "grund": "Drei Namensvarianten für ALMI Steinknacker vereinheitlicht, Maschinen-Score 2"
+ },
+ {
+  "id": 7435,
+  "top_score": 2,
+  "grund": "Drei Namensvarianten für ALMI Steinknacker vereinheitlicht, Maschinen-Score 2"
+ },
+ {
+  "id": 7475,
+  "unterkategorie": "Kartuschenpressen & Klebepistolen",
+  "top_score": 2,
+  "grund": "Heissklebepistole zu den Kartuschenpressen"
+ },
+ {
+  "id": 7476,
+  "unterkategorie": "Kartuschenpressen & Klebepistolen",
+  "top_score": 2,
+  "grund": "Heissklebepistole zu den Kartuschenpressen"
+ },
+ {
+  "id": 7526,
+  "hauptkategorie": "07 Reinigen, Schützen & Reparieren",
+  "unterkategorie": "Schutz- & Klebebänder",
+  "top_score": 4,
+  "grund": "Maskierband aus 06 hierher, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 7550,
+  "top_score": 2,
+  "grund": "Betonschleifer und Bodenschleifmaschinen aus 09 zum Arbeitsschritt Schleifen"
+ },
+ {
+  "id": 7564,
+  "unterkategorie": "Betonschleifer",
+  "top_score": 2,
+  "grund": "Betonschleifer und Bodenschleifmaschinen aus 09 zum Arbeitsschritt Schleifen"
+ },
+ {
+  "id": 7565,
+  "top_score": 2,
+  "grund": "Zubehör zur Bodenschleifmaschine, Maschinen-Score"
+ },
+ {
+  "id": 7571,
+  "unterkategorie": "Fahrzeugtrocknung & Detailing",
+  "grund": "Reinigungsbürsten zum Detailing, Zubehör-Score 3"
+ },
+ {
+  "id": 7675,
+  "hauptkategorie": "11 Baustellen- & Werkstattbedarf",
+  "unterkategorie": "Hämmer & Schlagwerkzeuge",
+  "top_score": 2,
+  "grund": "Alle SIMPLEX-Schonhämmer und der Pflastererhammer in eine Unterkategorie, auch die zuvor unter 05 gelisteten"
+ },
+ {
+  "id": 7685,
+  "top_score": 2,
+  "grund": "Vier Namensvarianten für Polierer zusammengelegt, Poliermaschinen aus 09 zum Arbeitsschritt Polieren"
+ },
+ {
+  "id": 7692,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 7693,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 7835,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saughebegeräte und GRABO unter einem Systemnamen, Saugheber eingegliedert"
+ },
+ {
+  "id": 7836,
+  "unterkategorie": "Rohr- & Schachtgreifer",
+  "top_score": 2,
+  "grund": "Rohrgreifer und Schacht-/Winkelelementzangen als eigene Unterkategorie, damit die Zangen-Gruppe navigierbar bleibt"
+ },
+ {
+  "id": 7837,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 7839,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "top_score": 2,
+  "grund": "14 Namensvarianten (PROBST Versetzzangen, Hebezangen, Fertigteilzangen, Rohrgreifer, Plattenzangen) auf eine Unterkategorie zusammengelegt"
+ },
+ {
+  "id": 7879,
+  "unterkategorie": "Vakuum-Verlegesysteme",
+  "grund": "Saugplatten und Systemzubehör zur Anwendung statt in eigene Zubehör-Töpfe"
+ },
+ {
+  "id": 7887,
+  "top_score": 2,
+  "grund": "Vier Namensvarianten für Polierer zusammengelegt, Poliermaschinen aus 09 zum Arbeitsschritt Polieren"
+ },
+ {
+  "id": 7900,
+  "unterkategorie": "Wand- & Deckenschleifer (Giraffe)",
+  "top_score": 2,
+  "grund": "Vier Namensvarianten der Giraffe zusammengelegt"
+ },
+ {
+  "id": 7917,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 7918,
+  "unterkategorie": "Planum & Abziehsysteme",
+  "top_score": 3,
+  "grund": "Fünf Namensvarianten (Abziehlehren, Planum-Abziehsysteme, Planumserstellung, PROBST-Abziehsysteme) vereinheitlicht"
+ },
+ {
+  "id": 7939,
+  "unterkategorie": "Akku-Gartengeräte",
+  "grund": "Kettensäge, Laubbläser, Ast- und Heckenschere als Gartenmaschinen zusammengefasst"
+ },
+ {
+  "id": 7975,
+  "top_score": 4,
+  "grund": "Maskierband aus 06 hierher, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 7979,
+  "top_score": 4,
+  "grund": "Maskierband aus 06 hierher, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 7980,
+  "top_score": 4,
+  "grund": "Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 7987,
+  "top_score": 4,
+  "grund": "Maskierband aus 06 hierher, Verbrauchsmaterial auf 4"
+ },
+ {
+  "id": 7988,
+  "top_score": 4,
+  "grund": "Abklebeband ist klassisches Nachkauf-Verbrauchsmaterial, auf 4"
+ },
+ {
+  "id": 7989,
+  "top_score": 4,
+  "grund": "Abklebeband ist klassisches Nachkauf-Verbrauchsmaterial, auf 4"
+ },
+ {
+  "id": 8200,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "Ersatzgummis, Backen und Auflagen wandern zur Anwendung statt in einen Ersatzteil-Topf"
+ },
+ {
+  "id": 8202,
+  "unterkategorie": "Versetz- & Hebezangen",
+  "grund": "Ersatzgummis, Backen und Auflagen wandern zur Anwendung statt in einen Ersatzteil-Topf"
+ },
+ {
+  "id": 8304,
+  "unterkategorie": "Hämmer & Schlagwerkzeuge",
+  "grund": "Alle SIMPLEX-Schonhämmer und der Pflastererhammer in eine Unterkategorie, auch die zuvor unter 05 gelisteten"
+ },
+ {
+  "id": 8326,
+  "unterkategorie": "Steinspalter",
+  "grund": "Drei Namensvarianten für ALMI Steinknacker vereinheitlicht, Maschinen-Score 2"
+ },
+ {
+  "id": 8338,
+  "unterkategorie": "Hämmer & Schlagwerkzeuge",
+  "grund": "Alle SIMPLEX-Schonhämmer und der Pflastererhammer in eine Unterkategorie, auch die zuvor unter 05 gelisteten"
+ },
+ {
+  "id": 8374,
+  "unterkategorie": "Hämmer & Schlagwerkzeuge",
+  "top_score": 2,
+  "grund": "Alle SIMPLEX-Schonhämmer und der Pflastererhammer in eine Unterkategorie, auch die zuvor unter 05 gelisteten"
+ },
+ {
+  "id": 8399,
+  "unterkategorie": "Äxte & Brechwerkzeuge",
+  "top_score": 2,
+  "grund": "Äxte, Nageleisen und Erdnagelzieher zusammengefasst, Score von 1 auf 2 (Handwerkzeug, kein Ersatzteil)"
+ },
+ {
+  "id": 8400,
+  "unterkategorie": "Diamant-Schleifteller",
+  "grund": "Schleifteller und Schleiftöpfe zusammengelegt, Verbrauchsmaterial"
+ },
+ {
+  "id": 8402,
+  "unterkategorie": "Äxte & Brechwerkzeuge",
+  "top_score": 2,
+  "grund": "Äxte, Nageleisen und Erdnagelzieher zusammengefasst, Score von 1 auf 2 (Handwerkzeug, kein Ersatzteil)"
+ },
+ {
+  "id": 8417,
+  "unterkategorie": "Äxte & Brechwerkzeuge",
+  "grund": "Äxte, Nageleisen und Erdnagelzieher zusammengefasst, Score von 1 auf 2 (Handwerkzeug, kein Ersatzteil)"
+ }
+]

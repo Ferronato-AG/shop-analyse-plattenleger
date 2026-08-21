@@ -1,0 +1,332 @@
+[
+ {
+  "sparte": "Steinmetz & Bildhauer",
+  "hauptkategorie": "01 Messen & Anzeichnen",
+  "top": [
+   {
+    "id": 3965,
+    "rang": 1,
+    "grund": "Meistgekaufter Anzeichenstift, täglicher Verbrauch auf jeder Werkbank"
+   },
+   {
+    "id": 1191,
+    "rang": 2,
+    "grund": "Schablonenfolie für Schriftübertragung, laufender Nachkauf"
+   },
+   {
+    "id": 1219,
+    "rang": 3,
+    "grund": "Standardwinkel zum Anreissen rechter Winkel"
+   },
+   {
+    "id": 3957,
+    "rang": 4,
+    "grund": "Widia-Anreissnadel, Grundausrüstung für Naturstein"
+   },
+   {
+    "id": 7877,
+    "rang": 5,
+    "grund": "Zeichenpapier für Schablonenbau, Verbrauchsmaterial"
+   }
+  ]
+ },
+ {
+  "sparte": "Steinmetz & Bildhauer",
+  "hauptkategorie": "02 Schneiden & Trennen",
+  "top": [
+   {
+    "id": 6361,
+    "rang": 1,
+    "grund": "Trennscheibe für Keramik und Feinsteinzeug, Kern des Gehrungs-Workflows"
+   },
+   {
+    "id": 6362,
+    "rang": 2,
+    "grund": "Ceramics-Trennscheibe für Brückensäge, hoher Nachkaufanteil"
+   },
+   {
+    "id": 4241,
+    "rang": 3,
+    "grund": "Universelle Trockentrennscheibe für den Winkelschleifer"
+   },
+   {
+    "id": 3455,
+    "rang": 4,
+    "grund": "Sägeblatt Marmor/Granit/Beton für Tisch- und Brücksäge"
+   },
+   {
+    "id": 3844,
+    "rang": 5,
+    "grund": "Brückensägeblatt Ø400, Standard in der Werkstatt"
+   },
+   {
+    "id": 5902,
+    "rang": 6,
+    "grund": "Trockentrennscheibe für Baustelleneinsätze"
+   }
+  ]
+ },
+ {
+  "sparte": "Steinmetz & Bildhauer",
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "top": [
+   {
+    "id": 4031,
+    "rang": 1,
+    "grund": "Kunden-Bestseller: Trockenbohrkronen, ständiger Nachkauf"
+   },
+   {
+    "id": 5666,
+    "rang": 2,
+    "grund": "Hohlbohrer-Programm für CNC, Verbrauchswerkzeug"
+   },
+   {
+    "id": 6427,
+    "rang": 3,
+    "grund": "Fingerfräser für Ausschnitte in Arbeitsplatten"
+   },
+   {
+    "id": 1838,
+    "rang": 4,
+    "grund": "Profilfräser für Kantenbearbeitung, häufiger Nachkauf"
+   },
+   {
+    "id": 1847,
+    "rang": 5,
+    "grund": "Gravurstift-Set, Einstieg ins Verbrauchssystem"
+   },
+   {
+    "id": 3904,
+    "rang": 6,
+    "grund": "Bohrkrone für Keramik, wachsendes Segment"
+   }
+  ]
+ },
+ {
+  "sparte": "Steinmetz & Bildhauer",
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "top": [
+   {
+    "id": 7069,
+    "rang": 1,
+    "grund": "Trockenschleifteller Ø100, Standard für Kantenbearbeitung"
+   },
+   {
+    "id": 4064,
+    "rang": 2,
+    "grund": "Trocken-Schleifpads Ø100, laufendes Verbrauchsmaterial"
+   },
+   {
+    "id": 4560,
+    "rang": 3,
+    "grund": "Poliersatz Pos.1-5 für Trockenpolitur in einem Durchgang"
+   },
+   {
+    "id": 7291,
+    "rang": 4,
+    "grund": "Diamant-Schleiftopf für schnellen Materialabtrag"
+   },
+   {
+    "id": 4361,
+    "rang": 5,
+    "grund": "Kunstharz-Schleifring, Klassiker an der Nassschleifmaschine"
+   },
+   {
+    "id": 2682,
+    "rang": 6,
+    "grund": "Diamant-Schleifband für Ausschnitte und Radien"
+   }
+  ]
+ },
+ {
+  "sparte": "Steinmetz & Bildhauer",
+  "hauptkategorie": "06 Kleben, Fugen & Gehrung",
+  "top": [
+   {
+    "id": 3887,
+    "rang": 1,
+    "grund": "Kunden-Bestseller: Gehrungsverklebung Colour Bond"
+   },
+   {
+    "id": 2102,
+    "rang": 2,
+    "grund": "Mischdüse zum Colour-Bond-System, ständiger Nachkauf"
+   },
+   {
+    "id": 2155,
+    "rang": 3,
+    "grund": "Gehrungs- und Sichtfugenkleber für Feinsteinzeug"
+   },
+   {
+    "id": 2129,
+    "rang": 4,
+    "grund": "Konstruktionskleber für tragende Verklebungen"
+   },
+   {
+    "id": 1310,
+    "rang": 5,
+    "grund": "Marmorkitt-Klassiker, Grundbedarf jeder Werkstatt"
+   },
+   {
+    "id": 2123,
+    "rang": 6,
+    "grund": "Skelettpistole zum Colour-Bond-System, Bestseller-Zubehör"
+   }
+  ]
+ },
+ {
+  "sparte": "Steinmetz & Bildhauer",
+  "hauptkategorie": "07 Reinigen, Schützen & Reparieren",
+  "top": [
+   {
+    "id": 5720,
+    "rang": 1,
+    "grund": "Einstiegs-Set ins StoneLux-Reparatursystem"
+   },
+   {
+    "id": 5718,
+    "rang": 2,
+    "grund": "Kompaktes Reparaturset für Montageeinsätze"
+   },
+   {
+    "id": 7367,
+    "rang": 3,
+    "grund": "Imprägnierung gegen Flecken, laufender Verbrauch"
+   },
+   {
+    "id": 3544,
+    "rang": 4,
+    "grund": "Schutzversiegelung für Küchenabdeckungen"
+   },
+   {
+    "id": 1497,
+    "rang": 5,
+    "grund": "Grundreiniger Naturstein, Standard nach Montage"
+   },
+   {
+    "id": 1402,
+    "rang": 6,
+    "grund": "Politur für Nachbehandlung und Unterhalt"
+   }
+  ]
+ },
+ {
+  "sparte": "Steinmetz & Bildhauer",
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "top": [
+   {
+    "id": 5899,
+    "rang": 1,
+    "grund": "Nassschleifer für Kanten und Politur, Werkstatt-Standard"
+   },
+   {
+    "id": 282,
+    "rang": 2,
+    "grund": "Pressluft-Hammer, Standard für Schrift und Bildhauerei"
+   },
+   {
+    "id": 6323,
+    "rang": 3,
+    "grund": "Stockmaschine mit vier Stationen für Oberflächen"
+   },
+   {
+    "id": 5699,
+    "rang": 4,
+    "grund": "Schriftenhammer für Grabschrift, Kernmaschine Steinmetz"
+   },
+   {
+    "id": 3116,
+    "rang": 5,
+    "grund": "Nasssteinschleifer mit Fi für den Baustelleneinsatz"
+   },
+   {
+    "id": 7321,
+    "rang": 6,
+    "grund": "Akku-Poliermaschine Supraflex für Kantenpolitur"
+   }
+  ]
+ },
+ {
+  "sparte": "Steinmetz & Bildhauer",
+  "hauptkategorie": "11 Baustellen- & Werkstattbedarf",
+  "top": [
+   {
+    "id": 8283,
+    "rang": 1,
+    "grund": "Plattenlager für geordnete Werkstattlagerung"
+   },
+   {
+    "id": 7007,
+    "rang": 2,
+    "grund": "Werkzeugrolle für Steinwerkzeuge"
+   },
+   {
+    "id": 1176,
+    "rang": 3,
+    "grund": "Abroller für GFK-Gewebe in der Werkstatt"
+   }
+  ]
+ },
+ {
+  "sparte": "Steinmetz & Bildhauer",
+  "hauptkategorie": "13 Lackieren & Beschichten",
+  "top": [
+   {
+    "id": 6375,
+    "rang": 1,
+    "grund": "Schriftfarbe im Spray, Standard für Grabmalbeschriftung"
+   },
+   {
+    "id": 657,
+    "rang": 2,
+    "grund": "Antik-Gold, meistgefragter Farbton bei Grabschrift"
+   },
+   {
+    "id": 6712,
+    "rang": 3,
+    "grund": "Glanzlack für Schriftnachbehandlung"
+   },
+   {
+    "id": 1085,
+    "rang": 4,
+    "grund": "Haftgrund vor dem Beschriften"
+   }
+  ]
+ },
+ {
+  "sparte": "Steinmetz & Bildhauer",
+  "hauptkategorie": "14 Modellieren & Formen (Ton, Keramik, StoneLux-Art)",
+  "top": [
+   {
+    "id": 1638,
+    "rang": 1,
+    "grund": "Bildhauerset als Einstieg ins Meisselsortiment"
+   },
+   {
+    "id": 5150,
+    "rang": 2,
+    "grund": "Presslufteisen als Verschleissteil, regelmässiger Nachkauf"
+   },
+   {
+    "id": 3605,
+    "rang": 3,
+    "grund": "Schrifteisen für Grabschrift, Kernsortiment Steinmetz"
+   },
+   {
+    "id": 4286,
+    "rang": 4,
+    "grund": "Marmorraspel für Handbearbeitung, meistverkaufte Grösse"
+   },
+   {
+    "id": 5141,
+    "rang": 5,
+    "grund": "Fäustel als Grundausrüstung des Bildhauers"
+   },
+   {
+    "id": 8262,
+    "rang": 6,
+    "grund": "Stockhammer für Oberflächenbearbeitung von Hand"
+   }
+  ]
+ }
+]

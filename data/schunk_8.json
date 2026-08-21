@@ -1,0 +1,1742 @@
+[
+{
+"id": "4262",
+"name": "PROBST SAFEFLEX SF",
+"breadcrumb": [
+"GALA+Tiefbau+Renovation",
+"PROBST für den GaLa-Bau",
+"Pflaster- & Verlegesysteme"
+],
+"cat_names": [
+"GALA+Tiefbau+Renovation",
+"PROBST für den GaLa-Bau",
+"Pflaster- & Verlegesysteme"
+],
+"price_chf": "280.00",
+"variants": [],
+"description": "PROBST SAFEFLEX SF, Schnittbreite 250 mm,\nSpannbereich 30-60 mm, Höhenverstellung Raster 10 mm\nund Gewicht 7.7 kg\nDie innovative Klemmvorrichtung zum sicheren Trennen von Steinen. Mit dem SAFEFLEX SF kann die Gefahr von Schnittverletzungen erheblich gemindert werden. Mit ihm können Baustoffe, wie z.B. Plastersteine und Natursteinplatten, schnell und sicher fixiert werden.Dadurch werden Schneidearbeiten mit dem Winkelschleifer einfach, sicher und präzise durchgeführt. Zur Fixierung des Baustoffes drückt der Anwender seinen Fuß auf das obere Spannelement. Entfernt der Anwender seinen Fuß von der rutschsicheren Trittfläche, drücken die Federn die Spannelemente wieder auseinander und der bearbeitete Baustoff kann entnommen werden.\nErhöhte Position des Schnittgutes, Trennscheibe dringt nicht in den Boden ein.\nKein seitliches Verrutschen der Steine durch Antirutschmatte.\nSchnelles und einfaches Einstellen der Steindicke über 2 seitlich angebrachte Federriegel.\nHöhe des SAFEFLEX individuell einstellbar durch 4 eindrehbare Schrauben an der Unterseite.\nGeeignet für Rechts- und Linkshänder.\nSchnelles Fixieren ohne weiteren Werkzeugeinsatz.\nMaterialersparnis, da kleinere „Reststücke“ selbst bei geringer Auflagefläche noch sicher fixiert werden können.\nKeine Transportschwierigkeiten, da das SAFEFLEX deutlich kleiner und handlicher ist, als beispielsweise ein Nassschneidetisch.\nDurch galvanische Verzinsung dauerhafter Oberflächenschutz."
+},
+{
+"id": "4264",
+"name": "BETCUT FLOWER PAD  ø 100 mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Schleifscheiben KH",
+"Trocken- + Nassanwendung"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "42.00",
+"variants": [],
+"description": "BETCUT FLOWER PAD  ø 100 mm x 15 mm.Klettaufnahme, Körnung\n50-800\nDiamantschleifscheiben für    Trocken- + Nassanwendung.\nAufnahme\nKlettaufnahme QRS\nArtikelnummer\nPreis\nWarenkorb\n031-232 1\nab Lager\nexkl. MwSt\n031-232 2\nab Lager\nexkl. MwSt\n031-232 3\nab Lager\nexkl. MwSt\n031-232 4\nab Lager\nexkl. MwSt\n031-232 5\nab Lager\nexkl. MwSt\n031-232 6\nab Lager\nexkl. MwSt\nvar submitUrl = '/de/minicart/ajaxaddtocartmultiple';\nvar currentUrl = '';\n//return;"
+},
+{
+"id": "4273",
+"name": "Baohartwachs in diverse Farben",
+"breadcrumb": [
+"Steinbearbeitung",
+"Zubehör und Hilfsmittel",
+"Diverses Hilsfmaterial"
+],
+"cat_names": [
+"Diverses Hilsfmaterial",
+"Steinbearbeitung",
+"Zubehör und Hilfsmittel"
+],
+"price_chf": "10.10",
+"variants": [],
+"description": "Bao Hartwachs 120\nzu 15 Gramm.\nDas gebrauchsfertige Wachsprodukt zum Ausbessern von kleinen Schäden, schnellhärtend und schleiffähig.\nBaowachs ist lichtbeständig und fällt nicht ein.\nArtikelnummer\nFarbe\nPreis\nWarenkorb\n021-134\nNicht an Lager\nexkl. MwSt\n021-126\nschwarz\nNicht an Lager\nexkl. MwSt\n021-128\nweiss\nNicht an Lager\nexkl. MwSt\n021-130\nteak\nNicht an Lager\nexkl. MwSt\n021-132\nmahagoni M\nNicht an Lager\nexkl. MwSt\nbPartialReloadOnly = true;\n//var fromLeft = ($activeImage.width() - $activeWrapper.width()) * localX / 100;\n//var fromTop = ($activeImage.height() - $activeWrapper.height()) * localY / 100;\nvar fromLeft = ~~((($activeWrapper.width()*2) - $activeWrapper.width()) * localX / 100);\nvar fromTop = ~~((($activeWrapper.height()*2) - $activeWrapper.height()) * localY / 100);\n//console.log('mousemove', [$activeWrapper.offset().left, $activeWrapper.offset().top, $activeWrapper.width(), $activeWrapper.height(), e.target, e.pageX, e.pageY, localX, localY,$activeImage.width(),$activeImage.height(), fromLeft, fromTop]);\n//console.log('mousemove', [e.pageX, e.pageY, localX, localY,$activeImage.width(),$activeImage.height(), fromLeft, fromTop]);\n//console.log( fromLeft,' :: ', fromTop);\n$activeImage.css('left', -fromLeft + 'px').css('top', -fromTop + 'px');"
+},
+{
+"id": "4276",
+"name": "KGS Speedline RT 20x20mm M12",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "93.90",
+"variants": [],
+"description": "KGS Speedline RT 20x20mm M12  für Granit, Krone zu\nFingerfräser Diarex 1 Segment, gesintert.\nTop-Diamantfräser für         CNC-Maschinen und\nRavelli-Syrma Fräsen\nArtikel\nFingerfräser"
+},
+{
+"id": "4277",
+"name": "Fingerfräskrone M Ø20x20mm M12",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "88.00",
+"variants": [],
+"description": "Diamantfräskrone für Marmor   Ø20x20mm M12\nTop-Diamantfräser für         CNC-Maschinen und\nRavelli-Syrma Fräsen\nArtikel\nFingerfräser"
+},
+{
+"id": "4278",
+"name": "FF ø20/14x15 SYRMA M12",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "82.00",
+"variants": [],
+"description": "Diamantfingerfräser RAVELLI   Krone Ø20/14x15mm M12 AG\nTop-Diamantfräser für         CNC-Maschinen und\nRavelli-Syrma Fräsen\nArtikel\nFingerfräser"
+},
+{
+"id": "4281",
+"name": "KGS Speedline RTF 20x20mm M12",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "132.00",
+"variants": [],
+"description": "KGS Speedline RTR 20x20mm M12 Granit\nOhne Wasserschlitze\nTop-Diamantfräser für         CNC-Maschinen und\nRavelli-Syrma Fräsen\nArtikel\nFingerfräser"
+},
+{
+"id": "4282",
+"name": "KGS Speedline RTES M12",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "55.60",
+"variants": [],
+"description": "KGS Speedline RTES 20x20mm M12\nfür Quarzkomposite\nTop-Diamantfräser für         CNC-Maschinen und\nRavelli-Syrma Fräsen\nArtikel\nFingerfräser"
+},
+{
+"id": "4286",
+"name": "Marmorraspel Milani 25cm B660",
+"breadcrumb": [
+"Bildhauer"
+],
+"cat_names": [
+"Bildhauer",
+"Bildhauerwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "38.20",
+"variants": [],
+"description": "Marmorraspel Milani 25cm Form B660\nMulti Metallfeilen"
+},
+{
+"id": "4296",
+"name": "BETCUT COMP WEISS Ø100 Step1-6",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Schleifscheiben flexibel",
+"Nassanwendung"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "34.00",
+"variants": [],
+"description": "BETCUT COMPOSIT WEISS Ø100mm  mit Velcro, STEP 1-6\nfür Quarzcomposit, nass\n.\nDurchmesser\n100 mm\nAufnahme\nKlett\nArtikelnummer\nfür\nPreis\nWarenkorb\n031-738\nStep 1\nab Lager\nexkl. MwSt\n031-740\nStep 2\nab Lager\nexkl. MwSt\n031-742\nStep 3\nab Lager\nexkl. MwSt\n031-744\nStep 4\nab Lager\nexkl. MwSt\n031-746\nStep 5\nab Lager\nexkl. MwSt\n031-748\nStep 6\nab Lager\nexkl. MwSt\nvar submitUrl = '/de/minicart/ajaxaddtocartmultiple';\nvar currentUrl = '';\n//return;"
+},
+{
+"id": "4297",
+"name": "Diamantschleischeibe BETCUT SUPER WEISS Ø100 Flower-Muster",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Schleifscheiben flexibel",
+"Trockenanwendung"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "39.90",
+"variants": [],
+"description": "Schleifscheibe Diamant BETCUT SUPER WEISS Ø100mm mit Velcro, STEP 1-6 für alle Steine,\nNass & Trockenanwendung\n(durchnummeriert von 1-6)\nAufnahme\nKlett\nArtikelnummer\nBez.\nPreis\nWarenkorb\n031-726\nStep 1\nab Lager\nexkl. MwSt\n031-728\nStep 2\nab Lager\nexkl. MwSt\n031-730\nStep 3\nab Lager\nexkl. MwSt\n031-732\nStep 4\nab Lager\nexkl. MwSt\n031-734\nStep 5\nab Lager\nexkl. MwSt\n031-736\nStep 6\nab Lager\nexkl. MwSt\nvar submitUrl = '/de/minicart/ajaxaddtocartmultiple';\nvar currentUrl = '';"
+},
+{
+"id": "4298",
+"name": "AKEMI Rallye-Farbspray schwarz glänzend",
+"breadcrumb": [
+"Auto Produkte",
+"Lackierung",
+"Lacke"
+],
+"cat_names": [
+"Auto Produkte",
+"Lacke",
+"Lackierung"
+],
+"price_chf": "11.00",
+"variants": [],
+"description": "AKEMI Rallye-Farbsprays 0,4 Liter schwarz glänzend.\nHochwertiger Speziallack mit hoher Deckkraft, schnell trocknend und vergilbungsfrei.\nAKEMI Rallyesprays sind hochwertige, lösungsmittelhaltige Einkomponentenlacke. Die Produkte zeichnen sich durch folgende Eigenschaften aus:\nschnelltrocknend\nsehr gute Deckfähigkeit\nsehr gute Haftung auf Metallen (Eisen, Stahl, Leichtmetall), Papier und Holz witterungsbeständig und vergilbungsfrei\nhohe Oberflächenhärte bei gleichzeitig guter Elastizität polierfähig\nBenzin- und streusalzbeständig, Waschanlagenfest"
+},
+{
+"id": "4300",
+"name": "AKEPOX PANEL ADHESIVE 7030 2K-Kleber",
+"breadcrumb": [
+"Steinbearbeitung",
+"Chemische Produkte",
+"Steinkitte FERROLIT"
+],
+"cat_names": [
+"AKEMI Akepox",
+"AKEMI Klebstoffe und mehr",
+"AKEMI Produkte",
+"Chemische Produkte",
+"Plattenleger",
+"Steinbearbeitung"
+],
+"price_chf": "94.50",
+"variants": [],
+"description": "AKEPOX PANEL ADHESIVE 7030\n2-Komponentenkleber\ncremig - standfest Grau 3kg Gebinde\nComp.A 2,25Kg / Comp.B 0,75Kg\nZur flächigen Verklebung von Dünnkeramik. Innen-und Aussenbereich sehr schnelle Aushärtung\ncremig-standfester 2K-Kleber, leicht verarbeitbar, sehr schnelle Aushärtung (ca. 2 - 4 h), Mischungsverhältnis 3:1 Zur flächigen Verklebung von Dünnkeramik sowie Natur- und Kunststein auf zementbeschichteten Hartschaumplatten. Auch hervorragend geeignet für Sandwich-Verklebungen (GFK-beschichtete Aluwaben) mit Stein oder Keramik. Des Weiteren für Verklebungen anderer Materialien wie Holz, Papier und Styropor.\nMaterial: Naturstein, Granit, Marmor und Kalkstein, Quarzkomposit, Keramik, Betonwerkstein, Terrazzo, Glas-/Kohlefaser, Holz\nEinsatzort: Küche, Bad & Sanitär, Tisch & Fensterbank, Wand\nInnen / Aussen: Innenbereich, Aussenbereich\nKlebstoffanwendung: Kleben\nKonsistenz: Pastoes\nUV-Stabilität: Gering\nFarbe: Vorgefärbt\nVerarbeitungszeit: Lang\nKlebstoff-Basis: Epoxidharz\nVerklebung: Starr\nDiese(s) Produkt(e), Produktegruppe ist/sind nur für gewerbliche Fachanwender im Verkauf und Anwendung.\nBitte lesen sie die technischen Merkblätter und Sicherheitsdatenblätter. Treffen sie auch Vorkehrungen zum Schutz ihrer Gesundheit und der Umwelt. Leergebinde bitte fachgerecht entsorgen."
+},
+{
+"id": "4301",
+"name": "CUTURI PL-Hammer TYP P Ø 5 mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Druckluftwerkzeuge & Zubehör",
+"Pressluftwerkzeuge"
+],
+"cat_names": [
+"Druckluftwerkzeuge & Zubehör",
+"Pressluftwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "460.00",
+"variants": [],
+"description": "CUTURI-Presslufthammer Typ P\nWerkzeugaufnahme / Schaft ø 5mm\nLuftverbrauch 40 lt/min.\nKolben Ø 7 mm\nSchlagzahl: 8`500 U/min\nKleiner Presslufthammer für feine Schriften und Feinstarbeiten an Relief und Skulpturen.\nArtikelnummer\nBez.\nPreis\nWarenkorb\n060-002\nPL-Hammer\nab Lager\nexkl. MwSt\n060-036\nSpitzeisen\nNicht an Lager\nexkl. MwSt\n060-034\nSchrifteisen\nab Lager\nexkl. MwSt\n060-034 LANG\nSchrifteisen lang\nNicht an Lager\nexkl. MwSt\n060-032\nZahneisen\nab Lager\nexkl. MwSt\n060-033\nSpannschlüssel zu Typ P\nab Lager\nexkl. MwSt\nvar submitUrl = '/de/minicart/ajaxaddtocartmultiple';\nvar currentUrl = '';"
+},
+{
+"id": "4310",
+"name": "Punktiermaschine Standard 600",
+"breadcrumb": [
+"Steinbearbeitung",
+"Bildhauerwerkzeuge",
+"Bildhauer Zubehör"
+],
+"cat_names": [
+"Bildhauerwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "1",
+"variants": [],
+"description": "Großes Punktiergerät mit drei Kugelgelenken, Schwenkarmen in 40 und 50 cm Länge und Verlängerungsrohr in 50 cm Länge.\nStandard-Modell mit Holzkreuz 600 x 400 mm, Zentrierhaken und verschieb- bzw. verstellbaren Schraubbolzen + Muttern | 3 Kugelgelenke zur Aufnahme der Schwenkarme aus Messingrohr ø 14 x 500 mm und ø 10 x 400 mm mit Nadelhalter\nGröße des Holzkreuz 40 x 60 cm.\n1 Punktiernadeln ist im Lieferumfang enthalten."
+},
+{
+"id": "4317",
+"name": "PROBST Vakuum-Handy VH 1/ VH 2",
+"breadcrumb": [
+"GALA+Tiefbau+Renovation",
+"PROBST für den GaLa-Bau",
+"Vakuum-Verlegesysteme",
+"Vakuum-Verlegung manuell"
+],
+"cat_names": [
+"GALA+Tiefbau+Renovation",
+"Hebegeräte",
+"PROBST für den GaLa-Bau",
+"Vakuum-Verlegesysteme"
+],
+"price_chf": "370.00",
+"variants": [],
+"description": "Probst Vakuum-Handy VH 1/25 (Kilogramm) / VH 2/50 (Kilogramm).\nDas VH ist eine Alternative für Verlegarbeitenvon saugdichten Steinplatten.\nTragfähigkeit 25 kg\nEigengewicht: 5 kg und mit 2-Manngriff 8 kg\nGrösse rund 280 X 280mm\nDie Geräte aus der Baureihe der Vakuum-Handverlegesysteme stellen eine preisgünstige Alternative für Verlegearbeiten von saugdichten Steinplatten dar. Durch eine leichte Fingerbewegung wird ein Vakuumventil betätigt, um die Steinplatten anzuheben oder abzulegen. Die Vakuum-Haftkraft wird durch einfaches Niederdrücken und anschließendes Anheben von Hand erzeugt. Achtung: VH darf nur bei saugdichtem (nicht porösem Material) eingesetzt werden.\nExakte Verlegung dicht an dicht.\nErgonomisch günstige Arbeitsposition beim Verlegevorgang.\nAuch die Aufnahme von bereits verlegten Steinplatten ist möglich.\nRobuste, ohne Kleben schnell austauschbare Dichtung für die Saugplatte.\nDurch Kauf eines zusätzlichen Zwei-Mann-Tragegriffes VH-2-HG kann das VH-1/25 auch als Zwei-Mann-Gerät benutzt werden. Die Tragfähigkeit beträgt dann 50 kg.\nDurch galvanische Verzinkung dauerhafter Oberflächenschutz.\nArtikelnummer\nBez.\nArtikel\nPreis\nWarenkorb\n081-178\nVH 1/25\n1-Mann\nab Lager\nexkl. MwSt\n081-184\nTragegriff 2-Mann\nVH-2-HG\nNicht an Lager\nexkl. MwSt\n081-190\nErsatzdichtung\nED\nab Lager\nexkl. MwSt\nSupport\nPDF Produkteblatt\nBedienungsanleitung\nVideos"
+},
+{
+"id": "4318",
+"name": "Schnurboy SB",
+"breadcrumb": [
+"GALA+Tiefbau+Renovation",
+"PROBST für den GaLa-Bau",
+"Verbundsteinverlegung",
+"Manuelle Verlegung"
+],
+"cat_names": [
+"GALA+Tiefbau+Renovation",
+"PROBST für den GaLa-Bau"
+],
+"price_chf": "55.00",
+"variants": [],
+"description": "Schnurboy SB Schnürhilfe für Garten-,\nLandschafts- und Hochbau 2 Metallwinkel, einer Rolle\nSchnur: Stärke 1.4mm mit 100m Länge\nGrösse: 120x120mm\nMit dem Schnurboy SB sitzt die Schnur ca. 4-5 mm über den Steinen somit gehören krumme Wege und Wände künftig der Vergangenheit an! Aus unverwüstlichem Stahl gefertigt und pulverbeschichtet. Einstellbarer Schnurabstand seitlich und nach oben. Mit Schnuraufwicklung und praktischer Aussparung für Wasserwaage.\nDie praktische Hilfe für Pflaster- und Maurerarbeiten.\nAus unverwüstlichem Stahl gefertigt und pulverbeschichtet.\nEinstellbarer Schnurabstand seitlich und nach oben.\nMit Schnuraufwicklung und praktischer Aussparung für Wasserwaage.\nSet bestehend aus 2 Metallwinkeln, einer Rolle Schnur: Stärke 1,4 mm mit 100 m Länge.\nArtikelnummer\nBez.\nPreis\nWarenkorb\n081-320\nSchnurboy\nab Lager\nexkl. MwSt\n081-322\nErsatzschnur\nab Lager\nexkl. MwSt\nRückgaberecht\nVersandinformationen\nAGBs\n© 2026 Ferronato AG -\nImpressum/Datenschutzerklärung\nJavascript deactivated\nJavascript is deactivated, some functions won't work.\nFor full expierience activate Javascript\nAktualisierung...\nWunschliste ansehen\nWarenkorb:\n0\nArtikel\nIhr Warenkorb ist noch leer\nVOC:\nTotal:\nWeiter einkaufen\nZur Kasse\nWarenkorb anzeigen\n<h4 class=\"minicar"
+},
+{
+"id": "4332",
+"name": "Polierpaste für Granit + Marmor",
+"breadcrumb": [
+"Steinbearbeitung",
+"Chemische Produkte",
+"Poliermittel",
+"Polierwachse"
+],
+"cat_names": [
+"Chemische Produkte",
+"Poliermittel",
+"Steinbearbeitung"
+],
+"price_chf": "24.20",
+"variants": [],
+"description": "Polierpaste Superpast für Granit und Marmor,  700 Gramm\nFestpaste zum Abglänzen mit mittlerer Abrasivität\nHohes Vorbereitungsergebnis\nAuf dunklen Oberflächen erzielt sie einen guten Glanzeffekt\nErhältlich in schwarz und grau und weiss\nEnthält keine Kieselsäure\nBez.\nPolierpaste\nArtikelnummer\nAnwendung für\nPreis\nWarenkorb\n020-140\nGranit schwarz\nab Lager\nexkl. MwSt\n020-124\nGranit universal\nab Lager\nexkl. MwSt\n020-056\nMarmor hell\nab Lager\nexkl. MwSt\nRückgaberecht\nVersandinformationen\nAGBs\n© 2026 Ferronato AG -\nImpressum/Datenschutzerklärung\nJavascript deactivated\nJavascript is deactivated, some functions won't work.\nFor full expierience activate Javascript\nAktualisierung...\nWunschliste ansehen\nWarenkorb:\n0\nArtikel"
+},
+{
+"id": "4337",
+"name": "Schleifring FERLOX TERZAGO ø100",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Kunstharz"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "7.60",
+"variants": [],
+"description": "FERLOX kunstharzgebundene Segmente nass. Schleifringe für Satellitenschleifköpfe in FERLOX Bindung.\nø 100 mm\nHöhe 40 mm\nAufnahme TERZAGO\nNassanwendung\nkunstharzgebunden\nArtikelnummer\nKörnung\nBez.\nPreis\nWarenkorb\n010-140 0G\n24\n0\nab Lager\nexkl. MwSt\n010-140 1G\n60\n1\nab Lager\nexkl. MwSt\n010-140 2G\n120\n2\nab Lager\nexkl. MwSt\n010-140 3G\n220\n3\nab Lager\nexkl. MwSt\n010-140 4G\n360\n4\nab Lager\nexkl. MwSt\n010-140 5G\n500\n5G\nab Lager\nexkl. MwSt\n010-140 6G\n600\n6G\nab Lager\nexkl. MwSt\n<input class=\"js-is-co"
+},
+{
+"id": "435",
+"name": "Diamantfrässtift Zylinder  Ø 4 / 35mm lang, galvanisiert",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge Divers",
+"Diamantfräser"
+],
+"cat_names": [
+"DIAMANT Werkzeuge divers",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "26.00",
+"variants": [],
+"description": "Diamantschleifstift Zylinder galvanisiert Ø 4/35mm Korn 50/60\nSchaft Ø 6mm\nDiamantschleifstifte galvanisiert, für die professionelle Marmor.-und Granitbearbeitung. Alle Werkzeuge sind mit sehr guter Diamantqualität belegt, damit garantieren wir lange Lebensdauer und gute Schleifleistung.\nAufnahme\n6 mm"
+},
+{
+"id": "4351",
+"name": "TS Beton univ. sdw Ø300/350",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamant Trennscheiben",
+"Trennscheiben nass"
+],
+"cat_names": [
+"Diamant Trennscheiben",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "200.00",
+"variants": [],
+"description": "Trennscheibe BETON Universal  Ø300/350 mm Bohrung Ø30mm SDW\n36 Seg.20x2.8x10.0mm hellblau\nBETON BETCUT für Tischfräsen\nMit dieser Trennscheibe geht  das Schneiden von Beton und\nBaumaterial sehr leicht. Kein Problem bei Schnitten in allen\nmöglichen Dicken mit oder     ohne Armierungen und der\nLeisekern mit                 Sandwichkonstruktion macht dem\nLärm ein Ende.\nAufnahme\n30 mm\nArtikelnummer\nø\nPreis\nWarenkorb\n031-225 300\n300 mm\nab Lager\nexkl. MwSt\n031-225 500\nab Lager\nexkl. MwSt\n031-225 350\n350 mm\nab Lager\nexkl. MwSt\nRückgaberecht\nVersandinformationen\nAGBs\n© 2026 Ferronato AG -\nImpressum/Datenschutzerklärung\nJavascript deactivated\nJavascript is deactivated, some functions won't work.\nFor full expierience activate Javascript\nAktualisierung...\nWunschliste ansehen\nWarenkorb:\n0\nArtikel"
+},
+{
+"id": "4356",
+"name": "UNICO SR ø150 SF mineralisch",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Mineralisc"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "8.60",
+"variants": [],
+"description": "UNICO Schleifringe Ø150mm SF  für Nassanwendung.\nMineralisch- und              Kunstharzgebundene\nSchleifringe für              Kantenschleifautomaten\nAufnahme\nSF\nArtikelnummer\nPreis\nWarenkorb\n010-228 320\nNicht an Lager\nexkl. MwSt\n010-228 220\nNicht an Lager\nexkl. MwSt\n010-228 400\nNicht an Lager\nexkl. MwSt\n010-228 600\nab Lager\nexkl. MwSt\n010-228 800\nNicht an Lager\nexkl. MwSt\n<script src=\"//cdn.dat"
+},
+{
+"id": "4357",
+"name": "FERLOX Cassani-Segmente",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Kunstharz"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "4.90",
+"variants": [],
+"description": "FERLOX Cassani-Segmente\nNr.0S-8M\nKörnung 24-800\nfür Marmor\nNassanwendung\nHöhe: 50 mm\nBesonders geeignet für herkömmliche Bodenschleifmaschinen\nOXAL\nPolitur\nAufnahme\nCassani\nArtikelnummer\nKörnung\nBez.\nPreis\nWarenkorb\n010-036 0S\n24\n0S\nNicht an Lager\nexkl. MwSt\n010-036 1M\n60\n1M\nNicht an Lager\nexkl. MwSt\n010-036 2M\n120\n2M\nab Lager\nexkl. MwSt\n010-036 3M\n220\n3M\nab Lager\nexkl. MwSt\n010-036 4M\n360\n4M\nab Lager\nexkl. MwSt\n010-036 6M\n500\n6M\nNicht an Lager\nexkl. MwSt\n010-036 8M\n800\n8M\nNicht an Lager\nexkl. MwSt\n<input id=\"upsell-product-ids-31189\" nam"
+},
+{
+"id": "4359",
+"name": "FERLOX Frankfurt-Segmente",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Kunstharz"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "4.00",
+"variants": [],
+"description": "FERLOX Frankfurt-Segmente\n, Körnung 24-800 und Oxal Politur für Marmor.\nFür Nassanwendung\nKunstharzgebunden\nHöhe 55 mm\nPreis pro Stück\nOrginalverpackung 36 Stück\nBild 2: Ferlox Frankfurt OXAL\nAufnahme\nFrankfurt\nArtikelnummer\nBez.\nKorn\nPreis\nWarenkorb\n010-038 0M\n0\n24\nab Lager\nexkl. MwSt\n010-038 1M\n1\n60\nab Lager\nexkl. MwSt\n010-038 1G\n1G\n60\nab Lager\nexkl. MwSt\n010-034 1U\n1 U\n60\nab Lager\nexkl. MwSt\n010-038 2G\n2\n120\nab Lager\nexkl. MwSt\n010-038 2M\n2M\n120\nab Lager\nexkl. MwSt\n010-034 2U\n2 U\n120\nab Lager\nexkl. MwSt\n<input data-v"
+},
+{
+"id": "4360",
+"name": "FERLOX Muenchen-Segmente",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Kunstharz"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "5.30",
+"variants": [],
+"description": "FERLOX Muenchen-Segmente      Korn 24-800 Nassanwendung\nKunstharzgebundene Segmente\nAufnahme\nMünchen\nArtikelnummer\nBez.\nKorn\nPreis\nWarenkorb\n010-180 6M\n6\n600\nab Lager\nexkl. MwSt\n010-180 OXAL\nOxal\nPolitur Marmor\nab Lager\nexkl. MwSt\n010-180 PORÖS\nPoroso\n600/800\nab Lager\nexkl. MwSt\n010-040 BRILLO\nBrillo\nPolitur Granit\nab Lager\nexkl. MwSt\n010-040 0S\n0\n24\nab Lager\nexkl. MwSt\n010-040 1M\n1\n60\nab Lager\nexkl. MwSt\n010-040 2M\n2\n120\nab Lager\nexkl. MwSt\n<input class=\"js-is-wishlist\" data-val=\"true\" data-val-required=\"The IsWishlist field is required.\" id=\"is-wishlist-28767\" name=\"IsWishlist\" type=\"hidden\" v"
+},
+{
+"id": "4361",
+"name": "FERLOX SR ø100/130x46 SF",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Kunstharz"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "8.65",
+"variants": [],
+"description": "FERLOX Schleifringe           ø100/130x46mm\nmit SF-Verschluss\nKörnung 24-800 un Politur     Brillo GN\nAufnahme\nSF\nArtikelnummer\nBez.\nKorn\nPreis\nWarenkorb\n010-146 0S\nOS\n24\nab Lager\nexkl. MwSt\n010-146 1P\n1P\n60\nab Lager\nexkl. MwSt\n010-146 2P\n2P\n120\nab Lager\nexkl. MwSt\n010-146 3P\n3P\n220\nab Lager\nexkl. MwSt\n010-146 4P\n4P\n400\nab Lager\nexkl. MwSt\n010-146 8P\n8P\n800\nab Lager\nexkl. MwSt\n010-146 BRILLO\nBrillo GN\nPolitur\nab Lager\nexkl. MwSt\n<input class=\"js-is-wishlist\" data-val=\"true\" data-val-required=\"The IsWishlist field is required.\" id=\"is-wishlist-25180\" name=\"IsWishlist\" type=\"hidde"
+},
+{
+"id": "4362",
+"name": "PL Hammer Pistole GS 45F EE10.2mm x 36mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Druckluftwerkzeuge & Zubehör",
+"Pressluftwerkzeuge"
+],
+"cat_names": [
+"Druckluftwerkzeuge & Zubehör",
+"Pressluftwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "578.00",
+"variants": [],
+"description": "Klassischer, feinanlaufender Schriftenhammer.\nDieses Modell ist der klassische feinanlaufende Schriftenhammer für sämtliche Arten von vertieften Schriften. Als Werkzeuge eignen sich alle alle Schrifteisen, Spitzeisen bis 12 x 12 mm, Zahneisen bis 18 mm, Stocker bis 12 x 12 mm und Riffler bis 15 x 12 mm.\nTECHNISCHE ANGABEN:\nKolben Ø: 12 mm\nKolbenhub: 34 mm\nSchläge/min: 6200\nLuftverbrauch: 195 l/min\nLänge: 140 mm (Schaft 10,2 x 36 mm),\nGewicht: 850 g\nArbeitsdruck: 3,0 - 4,0 bar\nEinsteckende: 10,2 x 36 mm\nLuftanschluss: ca. 50 cm Schlauch mit Stecknippel für Standard-Schnellverschlusskupplungen"
+},
+{
+"id": "4364",
+"name": "DIAHARD XT Ø100mm 1-6 SF",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantschleifscheiben",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "75.90",
+"variants": [],
+"description": "Diamantschleifring für Einkopfkantenpolierautomat\nDIAHARD XT Ø100\nSF Aufnahme, H20, DX\nHärtegrad von Nr. 1-6\nfür Nassanwendung\nDie Diamantscheiben Diahard XT mit Kunstharzbindung für flache Kanten garantieren auch auf empfindlichsten Materialien perfekte Ergebnisse.\nAufnahme\nSF\nArtikelnummer\nBez.\nPreis\nWarenkorb\n031-372\nGrün Nr. 1\nab Lager\nexkl. MwSt\n031-374\nBlack Nr. 2\nNicht an Lager\nexkl. MwSt\n031-376\nRot Nr. 3\nNicht an Lager\nexkl. MwSt\n031-378\nGelb Nr. 4\nNicht an Lager\nexkl. MwSt\n031-380\nWeiss Nr. 5\nNicht an Lager\nexkl. MwSt\n031-382\nBlau Nr. 6\nNicht an Lager\nexkl. MwSt\nvar submitUrl = '/de/minicart/ajaxaddtocartmultiple';\nvar currentUrl = '';\n//return;\n//console.log('call url', submitUrl);\n$.a"
+},
+{
+"id": "4365",
+"name": "FERLOX SR ø95/120 M14 konisch",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Kunstharz"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "10.45",
+"variants": [],
+"description": "FERLOX Schleifringe ø95/120x35 mm M14\nSchleifring TORNADO nass.\nAufnahme\nM14 IG\nArtikelnummer\nBez.\nKorn\nPreis\nWarenkorb\n010-050 4P\n4P\n360\nab Lager\nexkl. MwSt\n010-050 6P\n6P\n600\nab Lager\nexkl. MwSt\n010-050 8P\n8P\n800\nab Lager\nexkl. MwSt\n010-050 BRILLO\nBrillo GN\nPolitur\nab Lager\nexkl. MwSt\n<a href=\"https://www.in"
+},
+{
+"id": "437",
+"name": "Diamantschleifstift galvanisiert A ø6x11mm Rundkegel spitz",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge Divers",
+"Diamantfräser"
+],
+"cat_names": [
+"DIAMANT Werkzeuge divers",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "19.90",
+"variants": [],
+"description": "Diamantschleifstift galvanisiert A ø 6x11mm Rundkegel Spitz\nD427. Schaft:6x60mm\nDiamantschleifstifte galvanisiert, für die professionelle Marmor.-und Granitbearbeitung. Alle Werkzeuge sind mit sehr guter Diamantqualität belegt, damit garantieren wir lange Lebensdauer und gute Schleifleistung.\nAufnahme\n6mm"
+},
+{
+"id": "4376",
+"name": "TORNADO SR Magn.ø100/110",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Mineralisc"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "13.60",
+"variants": [],
+"description": "TORNADO Schleifringe ø100/110 Magnetsystem\nMaximin Mineralischgebundene  Schleifringe. Für Nassanwendung\nAufnahme\nTornado-Magnet-Ansatz\nArtikelnummer\nKorn\nPreis\nWarenkorb\n010-144 K120\n120\nab Lager\nexkl. MwSt\n010-144 K320\n320\nab Lager\nexkl. MwSt\n010-144 K600\n600\nab Lager\nexkl. MwSt\n010-144 K800\n800\nab Lager\nexkl. MwSt\n010-144 POL G\nPolitur\nab Lager\nexkl. MwSt\nbPartialReloadOnly = true;\n//var fromLeft = ($activeImage.width() - $activeWrapper.width()) * localX / 100;\n//var fromTop = ($activeImage.height() - $activeWrapper.height()) * localY / 100;\nvar fromLeft = ~~((($activeWrapper.width()*2) - $activeWrapper.width()) * localX / 100);\nvar fromTop = ~~((($activeWrapper.height()*2) - $activeWrapper.height()) * localY / 100);\n//console.log('mousemove', [$activeWrapper.offset().left, $activeWrapper.offset().top, $activeWrapper.width(), $activeWrapper.height(), e.target, e.pageX, e.pageY, localX, localY,$activeImage.width(),$activeImage.height(), fromLeft, fromTop]);\n//console.log('mousemove', [e.pageX, e.pageY, localX, localY,$activeImage.width(),$activeImage.height(), fromLeft, fromTop]);\n//console.log( fromLeft,' :: ', fromTop);\n$activeImage.css('left', -fromLeft + 'px').css('top', -fromTop + 'px');"
+},
+{
+"id": "4377",
+"name": "MAXI SR 100x30x20 KL SF",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Mineralisc"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "5.90",
+"variants": [],
+"description": "MAXIMIN  Mineralisch gebundene Schleifringe 100x30 mm Höhe, Bohrung 20mm, zylindrisch. Körnung 120-800\nAufnahme SF. Für Nassanwendung.\nAufnahme\nSF-Aufnahme\nArtikelnummer\nKörnung\nPreis\nWarenkorb\n010-812\n120\nNicht an Lager\nexkl. MwSt\n010-814\n400\nNicht an Lager\nexkl. MwSt\nRückgaberecht\nVersandinformationen\nAGBs\n© 2026 Ferronato AG -\nImpressum/Datenschutzerklärung\nJavascript deactivated\nJavascript is deactivated, some functions won't work.\nFor full expierience activate Javascript\nAktualisierung...\nWunschliste ansehen\nWarenkorb:\n0\nArtikel\nIhr Warenkorb ist noch leer\nVOC:\nTotal:\nWeiter einkaufen\nZur Kasse\nWarenkorb anzeigen\nIhre Wunschliste:\n0\nArtikel\nIhre Merkliste ist noch leer\nTotal:"
+},
+{
+"id": "4378",
+"name": "FERLOX SR ø100/30 mm PSH SF-Aufnahme",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Kunstharz"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "10.60",
+"variants": [],
+"description": "FERLOX Schleifringe, kunstharzgebunden: ø100/30mm, Loch 20mm, zylindrisch, PSH, für Nassanwendung.\nAufnahme\nSF\nArtikelnummer\nBez.\nKorn\nPreis\nWarenkorb\n010-043 4G\n4G\n360\nab Lager\nexkl. MwSt\n010-043 BRILLO\nBillo GN\nPolitur Granit\nab Lager\nexkl. MwSt\nRückgaberecht\nVersandinformationen\nAGBs\n© 2026 Ferronato AG -\nImpressum/Datenschutzerklärung\nJavascript deactivated\nJavascript is deactivated, some functions won't work.\nFor full expierience activate Javascript\nAktualisierung...\nWunschliste ansehen\nWarenkorb:\n0\nArtikel\nIhr Warenkorb ist noch leer\nVOC:\nTotal:\nWeiter einkaufen\nZur Kasse\nWarenkorb anzeigen\nIhre Wunschliste:\n0\nArtikel"
+},
+{
+"id": "4379",
+"name": "FERLOX SR ø150 mm x 35 mm SF",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Kunstharz"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "10.70",
+"variants": [],
+"description": "Kunstharzgebundene Schleifringe ø150 mm x35mm\nzylindrisch\nHöhe: 35 mm Kunstharz, 40 mm mit Aufnahme\nSternform\nAufnahme SF\nFür Nassanwendung\nAufnahme\nSF-Aufnahme\nArtikelnummer\nBez.\nKorn\nPreis\nWarenkorb\n010-150 0S\n0S\n24\nab Lager\nexkl. MwSt\n010-150 1S\n1S\n60\nab Lager\nexkl. MwSt\n010-150 1P\n1P\n60\nNicht an Lager\nexkl. MwSt\n010-150 2P\n2P\n120\nab Lager\nexkl. MwSt\n010-150 3P\n3P\n220\nab Lager\nexkl. MwSt\n010-150 4P\n4P\n360\nab Lager\nexkl. MwSt\n010-150 6P\n6P\n600\nab Lager\nexkl. MwSt\n<input cl"
+},
+{
+"id": "438",
+"name": "Diamant Schleifstift galvanisiert D ø15mm",
+"breadcrumb": [
+"Bildhauer"
+],
+"cat_names": [
+"Bildhauer",
+"DIAMANT Werkzeuge divers",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "70.00",
+"variants": [],
+"description": "Diamantschleifstift galvan. D ø15x40mm Zylinder flach\nD427. Schaft:6x60 mm 5515\nDiamantschleifstifte galvanisiert, für die professionelle Marmor.-und Granitbearbeitung. Alle Werkzeuge sind mit sehr guter Diamantqualität belegt, damit garantieren wir lange Lebensdauer und gute Schleifleistung.\nAufnahme\n6mm"
+},
+{
+"id": "4380",
+"name": "FERLOX SR ø150/40 mm LSH Ringform",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Kunstharz"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "23.60",
+"variants": [],
+"description": "Schleifringe SF kunstharzgebunden, ø150/40 mm LSH Ringform, für Nassanwendung.\nFERLOX Kunstharzgebundene Schleifringe.\nAufnahme\nSF-Aufnahme\nArtikelnummer\nBez.\nKorn\nPreis\nWarenkorb\n010-148 GN\nBrillo GN\nPolitur\nab Lager\nexkl. MwSt\n010-148 1G\n1G\n60\nNicht an Lager\nexkl. MwSt\nRückgaberecht\nVersandinformationen\nAGBs\n© 2026 Ferronato AG -\nImpressum/Datenschutzerklärung\nJavascript deactivated\nJavascript is deactivated, some functions won't work.\nFor full expierience activate Javascript\nAktualisierung...\nWunschliste ansehen\nWarenkorb:\n0\nArtikel\nIhr Warenkorb ist noch leer\nVOC:\nTotal:\nWeiter einkaufen\nZur Kasse\nWarenkorb anzeigen\nIhre Wunschliste:\n0\nArtikel\nIhre Merkliste ist noch leer"
+},
+{
+"id": "4381",
+"name": "TRIS SR ø150 SF  Min.",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Mineralisc"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "6.90",
+"variants": [],
+"description": "TRIS SR ø150 SF BS Min.       Mit SF-Aufnahme\nDrei Schleifringsegmente, für Nassanwendung.\nAufnahme\nSF-Aufnahme\nArtikelnummer\nKörnung\nPreis\nWarenkorb\n010-220 220\n220\nNicht an Lager\nexkl. MwSt\n010-220 320\n320\nNicht an Lager\nexkl. MwSt\n010-220 400\n400\nab Lager\nexkl. MwSt\n010-220 600\n600\nab Lager\nexkl. MwSt\n010-220 800\n800\nab Lager\nexkl. MwSt\n010-220 LUX\nLUX BSR\nab Lager\nexkl. MwSt\n<"
+},
+{
+"id": "4385",
+"name": "KGS FLEXIS® Ø430/17\"",
+"breadcrumb": [
+"Aufbearbeitung von Böden + mehr"
+],
+"cat_names": [
+"Aufbearbeitung von Böden + mehr",
+"DIAMANT Werkzeuge divers",
+"Diamantwerkzeuge",
+"Gipser / Betonkosmetik",
+"Steinbearbeitung"
+],
+"price_chf": "63.00",
+"variants": [],
+"description": "KGS FLEXIS FM System Ø430/17\" Korn 100 - Korn 8000. Die Bohrung in der Mitte ist 150 mm.\nBodenpads zum Reinigen und Polieren mit der neuen FERRZON®+ Technologie. Damit erreicht die tägliche Boden-Reinigung eine neue Dimension der Oberflächenbehandlung.\nProfessionelle Reinigungsfachkräfte, die die bestmöglichen Produkte zur Fußbodenwartung und -reinigung suchen, vertrauen auf FLEXIS® Bodenpads mit unschlagbaren Reinigungs- und Polierfähigkeiten.\nAufnahme\nQRS-Loop\nArtikelnummer\nKörnung\nPreis\nWarenkorb\n030-324\n100\nab Lager\nexkl. MwSt\n030-326\n200\nab Lager\nexkl. MwSt\n030-330\n350\nab Lager\nexkl. MwSt\n030-332\n400\nab Lager\nexkl. MwSt\n030-334\n800\nab Lager\nexkl. MwSt\n030-336\n1500\nab Lager\nexkl. MwSt\n030-338\n3000\nab Lager\nexkl. MwSt\n<input id=\"remove-from-comparelist-29544\" name=\"RemoveFromComp"
+},
+{
+"id": "4388",
+"name": "KGS Flexis FM  Ø150mm/6\"",
+"breadcrumb": [
+"Plattenleger"
+],
+"cat_names": [
+"Aufbearbeitung von Böden + mehr",
+"DIAMANT Werkzeuge divers",
+"Diamantwerkzeuge",
+"Gipser / Betonkosmetik",
+"Plattenleger",
+"Steinbearbeitung"
+],
+"price_chf": "26.90",
+"variants": [],
+"description": "KGS Flexis FM System Ø 150 mm 6\" Korn 100 - Korn 3000. Bodenpads zum Reinigen und Polieren mit der neuen FERRZON®+ Technologie. Damit erreicht die tägliche Boden-Reinigung eine neue Dimension der Oberflächenbehandlung.\nProfessionelle Reinigungsfachkräfte, die die bestmöglichen Produkte zur Fußbodenwartung und -reinigung suchen, vertrauen auf FLEXIS® Bodenpads mit unschlagbaren Reinigungs- und Polierfähigkeiten.\n030-329-KGS FLEXIS Ø150mm/6\" weiss Trägerpad für Polituren oder Reinigungsmittel\nAufnahme\nQRS-Loop\nArtikelnummer\nKörnung\nPreis\nWarenkorb\n030-318\n100\nab Lager\nexkl. MwSt\n030-320\n200\nab Lager\nexkl. MwSt\n030-342\n350\nab Lager\nexkl. MwSt\n030-308\n400\nab Lager\nexkl. MwSt\n030-310\n800\nab Lager\nexkl. MwSt\n030-312\n1500\nab Lager\nexkl. MwSt\n030-314\n3000\nab Lager\nexkl. MwSt\n<input data-val=\"true\" data-val-number=\"Das Feld \"VariantId\" muss eine Zahl sein.\" data-val-required=\"The VariantId field is required.\""
+},
+{
+"id": "4389",
+"name": "MAXIMIN SK 250x55 mm zum schrauben",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Mineralisc"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "20.70",
+"variants": [],
+"description": "MAXI Schleifkronen 250x55 mineral Korn K16 -1000. Zum schrauben (3-Loch). Für Nassanwendung\nMAXIMIN Mineralischgebundene Schleifringe.\nDer Artikel 1.1620 Korn 16 ist nur 50 mm hoch. Die anderen Varianten sind 55 mm hoch.\nAufnahme\n3-Loch verschraubt\nArtikelnummer\nKörnung\nPreis\nWarenkorb\n010-252 K36\n36\nab Lager\nexkl. MwSt\n010-252 K60\n60\nab Lager\nexkl. MwSt\n010-252 K120\n120\nab Lager\nexkl. MwSt\n010-252 K220\n220\nNicht an Lager\nexkl. MwSt\n010-252 K320\n320\nNicht an Lager\nexkl. MwSt\n010-252 K400\n400\nNicht an Lager\nexkl. MwSt\n010-252 K600\n600\nNicht an Lager\nexkl. MwSt\n<div class=\"form-group add-to-car"
+},
+{
+"id": "4391",
+"name": "MAXI Glockenschleifring ø390/320 x 125 mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Bakelit"
+],
+"cat_names": [
+"Schleifkörper Bakelit",
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "282.00",
+"variants": [],
+"description": "MAXI Glockenschleifring ø390/320X125 mm, Bakalit TK 280. Körnung 20-220.\nGewinde M10 (zum schrauben). Bakelitgebundene Schleifringe\nGlockenschleifring, Trockenanwendung\nAufnahme\n8 x M10\nArtikelnummer\nKörnung\nPreis\nWarenkorb\n010-260 K20\n20\nab Lager\nexkl. MwSt\n010-262 K30\n30\nNicht an Lager\nexkl. MwSt\n010-268 K46 M\n46\nab Lager\nexkl. MwSt\n010-264 K120\n120\nab Lager\nexkl. MwSt\nRückgaberecht\n<a class=\"t"
+},
+{
+"id": "4394",
+"name": "MAXIMIN Schleifring ø100x40 mm SF",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Mineralisc"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "7.00",
+"variants": [],
+"description": "MAXI Schleifringe ø100x40 MIN Korn 16-1000 und Politur Granit. Aufnahme SF\nMAXIMIN Mineralischgebundene Schleifringe, für Nassanwendung\nAufnahme\nSF-Aufnahme\nArtikelnummer\nKörnung\nPreis\nWarenkorb\n010-244 K36 KL\n36\nNicht an Lager\nexkl. MwSt\n010-244 K60 KL\n60\nab Lager\nexkl. MwSt\n010-244 K120 KL\n120\nab Lager\nexkl. MwSt\n010-244 K220 KL\n220\nab Lager\nexkl. MwSt\n010-244 K320 KL\n320\nab Lager\nexkl. MwSt\n010-244 K400 KL\n400\nab Lager\nexkl. MwSt\n010-244 K600 KL\n600\nab Lager\nexkl. MwSt\n<button type=\"button\" class=\"btn btn-primary add-to-wishlist js-wishlist-bu"
+},
+{
+"id": "4424",
+"name": "BETCUT HONEYCOMB PAD Ø150 mm 1- 6",
+"breadcrumb": [
+"Plattenleger"
+],
+"cat_names": [
+"Aufbearbeitung von Böden + mehr",
+"Diamantwerkzeuge",
+"Plattenleger",
+"Steinbearbeitung"
+],
+"price_chf": "77.20",
+"variants": [],
+"description": "BETCUT HONEYCOMB PAD\nØ150mm\nK50-10000 mit Velcrobelag\nFür Hartgestein und Beton\nNass+Trockenanwendung\nwet and dry honeycomb\ndurchnummeriert von 1-6.\nAufnahme\nVelcrobelag\nArtikelnummer\nBez.\nKorn\nPreis\nWarenkorb\n031-882\nNr. 1\n50\nNicht an Lager\nexkl. MwSt\n031-884\nNr. 2\n100\nNicht an Lager\nexkl. MwSt\n031-886\nNr. 3\n400\nab Lager\nexkl. MwSt\n031-888\nNr. 4\n800\nab Lager\nexkl. MwSt\n031-890\nNr. 5\n3000\nab Lager\nexkl. MwSt\n031-892\nNr. 6\n10000\nab Lager\nexkl. MwSt\nvar submitUrl = '/de/minicart/ajaxaddtocartmultiple';\nvar currentUrl = '';\n//return;\n//console.log('call url', submi"
+},
+{
+"id": "4425",
+"name": "BETCUT DIA Schleifteller Turbo 125mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamant Schleifteller",
+"DIA Schleifteller starr"
+],
+"cat_names": [
+"Diamant Schleifteller",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "149.00",
+"variants": [],
+"description": "Diamant Schleifteller Turbo gesintert auf Aluminiumkörper.\nFür Hartgestein\nflach\nfür Trockenschliff\nin der Körnung sehr grob / grob / mittel\nDurchmesser\n125 mm\nAufnahme\nM 14 IG\nArtikelnummer\nKörnung\nPreis\nWarenkorb\n032-086\n40\nab Lager\nexkl. MwSt\n032-084\n60\nNicht an Lager\nexkl. MwSt\n032-088\n100\nNicht an Lager\nexkl. MwSt\nRückgaberecht\nVersandinformationen\nAGBs\n© 2026 Ferronato AG -\nImpressum/Datenschutzerklärung\nJavascript deactivated\nJavascript is deactivated, some functions won't work.\nFor full expierience activate Javascript\nAktualisierung...\nWunschliste ansehen\nWarenkorb:\n0\nArtikel\n<div class=\"minicart"
+},
+{
+"id": "4427",
+"name": "PROBST Saugplatten SPS 500-3500 kg zu SH",
+"breadcrumb": [
+"GALA+Tiefbau+Renovation",
+"PROBST für den GaLa-Bau",
+"Vakuum-Verlegesysteme",
+"Vakuum-Verlegung maschinell"
+],
+"cat_names": [
+"GALA+Tiefbau+Renovation",
+"PROBST für den GaLa-Bau",
+"Vakuum-Verlegesysteme"
+],
+"price_chf": "1",
+"variants": [],
+"description": "Probst Saugplatte SPS zu SH\nSchwammgummidichtung\nuniversell einsetzbar\ngalvanisch verzinkt\nTragfähigkeit: 500kg-3500kg\nSaugplatten SPS für Hebegeräte SH\nDie Probst-Spezial- Schwammgummidichtung hat Vorteile bei allen Werkstoffen: Passt sich Unebenheiten besonders gut an. Lange Lebensdauer, geringer Verschleiss. Austausch sekundenschnell möglich: abziehen-aufstecken-fertig.\nArtikelnummer\nPreis\nWarenkorb\n081-170 500\nab Lager\nexkl. MwSt\n081-170 1010\nNicht an Lager\nexkl. MwSt\n081-170 1200\nNicht an Lager\nexkl. MwSt\n081-170 2500\nab Lager\nexkl. MwSt\n081-170 3500\nNicht an Lager\nexkl. MwSt\nSupport\nPDF Produkteblatt\nErsatzteile\nbPartialReloadOnly = true;\njQu"
+},
+{
+"id": "4429",
+"name": "FERRAMICS Ø300/30+TK2x12",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamant Trennscheiben",
+"Trennscheiben nass"
+],
+"cat_names": [
+"Diamant Trennscheiben",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "218.00",
+"variants": [],
+"description": "FERRAMICS ZooZ Diamanttrennscheibe Keramik Ø300mm/30mm Sandwich Kern.\nNL: TK100mm 2x12mm Löcher, 28Segmente, 44x3.2x7mm engverzahnt. Umdrehungszahl: RPM +-2000 U/min.\nFür DEKTON, LAMINAM, NEOLITH usw.\nVorschub bei Plattendicke 8mm: 1,7-2,2 m/min 12mm: 1,7-2,2 m/min, 13mm-20mm: 1,5-2,0 m/min.\nFür vertikale Schnitte in DEKTON LAMINAM Dicke 20mm immer 1,6 m/min Vorschub 45°/12mm Schnitt 1,2 m/min 45°/20mm Schnitt 1,0 m/min. Beim Einfahren und Ausfahren nie die Geschwindikeit reduzieren\nSegmentierte Trennscheibe für Ultra Kompakte Materialien wie DEKTON, LAMINAM, NEOLITH Mit Stahlkern für sehr schnelle Schnitte in sehr harten Materialien."
+},
+{
+"id": "4443",
+"name": "PROBST Aluwinkel AW 120",
+"breadcrumb": [
+"GALA+Tiefbau+Renovation",
+"PROBST für den GaLa-Bau",
+"Pflaster- & Verlegesysteme"
+],
+"cat_names": [
+"GALA+Tiefbau+Renovation",
+"PROBST für den GaLa-Bau",
+"Pflaster- & Verlegesysteme"
+],
+"price_chf": "72.00",
+"variants": [],
+"description": "Alu-Winkel AW 120 Einstellbar auf 45°und 90°.\nZusammenklappbar Länge: 1.2 x 1.2 m\nZum genauen Ausrichten von Verbundpflastersteinen.\nEigengewicht: 1.7 kg"
+},
+{
+"id": "4446",
+"name": "Tischfräse ACHILLI ADR100CE",
+"breadcrumb": [
+"GALA+Tiefbau+Renovation",
+"Trennscheiben & Diamantbohrer",
+"Brückenfräsen Mobil"
+],
+"cat_names": [
+"Brückenfräsen Mobil",
+"GALA+Tiefbau+Renovation",
+"Trennscheiben & Diamantbohrer"
+],
+"price_chf": "3",
+"variants": [],
+"description": "Tischfräse ACHILLI ADR100CE   380V/50Hz/3,6Kw/3HP/1`400U/min\nEigengewicht: 175kg           Masse:1620mmx760x1000 mm\nTrennscheibe: 650mm           Betrieb: manuell\nSchnittlänge: 1000mm          Kippvorrichtung: 45°\nWasserumlaufpumpe"
+},
+{
+"id": "4448",
+"name": "AKEMI Jollynator",
+"breadcrumb": [
+"Plattenleger",
+"AKEMI Produkte"
+],
+"cat_names": [
+"AKEMI Klebstoffe und mehr",
+"AKEMI Produkte",
+"Chemische Produkte",
+"Plattenleger",
+"Steinbearbeitung"
+],
+"price_chf": "19.90",
+"variants": [],
+"description": "JOLLYNATOR Mischdüsenaufsatz für COLOUR BOND P+ Mischdüse 08-18 Aufsatz für AKEMI Mischdüse. Zum materialsparenden und genaueren Einbringen des Klebers COLOUR BOND P+ in die Fuge.\n12 Stück in der Tüte.\nMaterial\nNaturstein, Granit, Marmor und Kalkstein, Quarzkomposit, Keramik, Solid-Surface"
+},
+{
+"id": "4453",
+"name": "Husqvarna ELITE-CUT S35S",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamant Trennscheiben",
+"Trennscheiben nass"
+],
+"cat_names": [
+"Diamant Trennscheiben",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "287.00",
+"variants": [],
+"description": "Husqvarna Diamanttrennscheibe 350mm 14\" ELITE-CUT S35S\nBATTERY zu K1Pace 1.8mm breit. Optimal für Beton, Granit,\nMarmor, Naturstein,           Gehärteter Beton, gut für\nZiegel, Dachziegel. Gehärteter Beton\nSchneidet schneller, hält     länger. Bis zu 20 % schnelleres\nSchneiden und bis zu 10 %     längere Lebensdauer."
+},
+{
+"id": "4467",
+"name": "PROBST Ersatzdichtungen zu SPS SH",
+"breadcrumb": [
+"GALA+Tiefbau+Renovation",
+"PROBST Kleinmaterial + Ersatzteile"
+],
+"cat_names": [
+"GALA+Tiefbau+Renovation",
+"PROBST Kleinmaterial + Ersatzteile"
+],
+"price_chf": "228.00",
+"variants": [],
+"description": "Ersatzdichtungen zu Saugplatten SPS 200-3500 SH\nHochverschliessfest, einfach Aufsteckbar, zur Selbstmontage..\nDie Probst-Spezial- Schwammgummidichtung hat Vorteile bei allen Werkstoffen: Passt sich Unebenheiten besonders gut an. Lange Lebensdauer, geringer Verschleiss. Austausch sekundenschnell möglich: abziehen-aufstecken-fertig.\nArtikelnummer\nPreis\nWarenkorb\n081-202 200\nab Lager\nexkl. MwSt\n081-202 RING 1248\nab Lager\nexkl. MwSt\n081-170 400\nNicht an Lager\nexkl. MwSt\n081-202 500\nab Lager\nexkl. MwSt\n081-202 1010\nab Lager\nexkl. MwSt\n081-202 1500\nNicht an Lager\nexkl. MwSt\n081-202 2500\nab Lager\nexkl. MwSt"
+},
+{
+"id": "4471",
+"name": "Saugplatte QJ-ES P320-500kg",
+"breadcrumb": [
+"GALA+Tiefbau+Renovation",
+"PROBST für den GaLa-Bau",
+"Vakuum-Verlegesysteme",
+"Vakuum-Verlegung maschinell"
+],
+"cat_names": [
+"GALA+Tiefbau+Renovation",
+"PROBST für den GaLa-Bau",
+"Vakuum-Verlegesysteme"
+],
+"price_chf": "1",
+"variants": [],
+"description": "Saugplatte zu Quickjet-QJ-600 320-500kk Tragkraft.\nEigengewicht: 13-21kg\nDurch galvanische Verzinkung  dauerhafter Oberflächenschutz !\nArtikelnummer\nPreis\nWarenkorb\n081-244\nNicht an Lager\nexkl. MwSt\nRückgaberecht\nVersandinformationen\nAGBs\n© 2026 Ferronato AG -\nImpressum/Datenschutzerklärung\nJavascript deactivated\nJavascript is deactivated, some functions won't work.\nFor full expierience activate Javascript\nAktualisierung...\nWunschliste ansehen\nWarenkorb:\n0\nArtikel\nIhr Warenkorb ist noch leer\nVOC:\nTotal:\nWeiter einkaufen\nZur Kasse\nWarenkorb anzeigen\nIhre Wunschliste:\n0\nArtikel\nIhre Merkliste ist noch leer\nTotal:\nSchliessen\nAlle in den Warenkorb legen\nLaden...\nvar acmtWishlistContent = [];\nvar acmtComparelistContent = [];"
+},
+{
+"id": "4478",
+"name": "DL-Geradeschleifer DIEGRINDER",
+"breadcrumb": [
+"Steinbearbeitung",
+"Druckluftwerkzeuge & Zubehör",
+"Pressluftwerkzeuge"
+],
+"cat_names": [
+"Druckluftwerkzeuge & Zubehör",
+"Pressluftwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "178.00",
+"variants": [],
+"description": "Druckluft Geradeschleifer YOUSAILING DIEGRINDER\nSpannschaft Ø 6mm Drehzahl 24000 PRM\nIndustrial Mini Air Grinders High Precision\nMit Druckluftanschluss und 2 Spannschlüssel (ohne Diamantwerkzeug auf Bild 3)"
+},
+{
+"id": "4479",
+"name": "FERLOX SR ø100x30 SF SH 2M-8M",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Kunstharz"
+],
+"cat_names": [
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "12.30",
+"variants": [],
+"description": "FERLOX Schleifring ø100 mm x 30 mm\nmineralisch\nAufnahme: SF\nKörnung: 2M-8M\nFür Nassanwendung\nArtikelnummer\nKörnung\nPreis\nWarenkorb\n010-042 2M\n120\nab Lager\nexkl. MwSt\n010-042 3M\n220\nab Lager\nexkl. MwSt\n010-042 4M\n400\nab Lager\nexkl. MwSt\n010-043 6M\n600\nab Lager\nexkl. MwSt\n010-043-8M\n800\nab Lager\nexkl. MwSt\nbPartialReloadOnly = true;\n//var fromLeft = ($activeImage.width() - $activeWrapper.width()) * localX / 100;\n//var fromTop = ($activeImage.height() - $activeWrapper.height()) * localY / 100;\nvar fromLeft = ~~((($activeWrapper.width()*2) - $activeWrapper.width()) * localX / 100);\nvar fromTop = ~~((($activeWrapper.height()*2) - $activeWrapper.height()) * localY / 100);\n//console.log('mousemove', [$activeWrapper.offset().left, $activeWrapper.offset().top, $activeWrapper.width(), $activeWrapper.height(), e.target, e.pageX, e.pageY, localX, localY,$activeImage.width(),$activeImage.height(), fromLeft, fromTop]);\n//console.log('mousemove', [e.pageX, e.pageY, localX, localY,$activeImage.width(),$activeImage.height(), fromLeft, fromTop]);\n//console.log( fromLeft,' :: ', fromTop);\n$activeImage.css('left', -fromLeft + 'px').css('top', -fromTop + 'px');\n// zoom out\n// console.log('mouseout');\n$activeImage.removeClass('zoomed');//.width(wrapperWidth).height(wrapperHeight);"
+},
+{
+"id": "4483",
+"name": "FERRAMICS ZooZ Ø450/60",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamant Trennscheiben",
+"Trennscheiben nass"
+],
+"cat_names": [
+"Diamant Trennscheiben",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "380.00",
+"variants": [],
+"description": "FERRAMICS ZooZ Diamanttrennscheibe Keramik\nØ450mm/60mm sandwich Kern mit Detensoschlüssel\n28Seg.44x3.2x7mm engverzahnt RPM +-2000 U/min\nfür DEKTON LAMINAM NEOLITH Vorschub bei Plattendicke  8mm: 1,7-2,2 m/min 12mm: 1,7-2,2 m/min 13mm-20mm: 1,5-2,0 m/min Für vertikale Schnitte in DEKTON LAMINAM Dicke 20mm immer 1,6 m/min Vorschub 45°/12mm Schnitt 1,2 m/min 45°/20mm Schnitt 1,0 m/min\nBeim Einfahren und Ausfahren nie die Geschwindikeit reduzieren\nFERRAMICS Diamanttrennscheibe für Brückenfräsen\nSegmentierte Trennscheibe für Ultra Kompakte Materialien wie DEKTON, LAMINAM, NEOLITH Geeignet auch für Maschinen mit weniger als 20 PS Motorenstärke. Mit detensor Stahlkern für sehr schnelle Schnitte in sehr harten Materialien."
+},
+{
+"id": "4486",
+"name": "Gecko Plattenträger Paar 80kg",
+"breadcrumb": [
+"GALA+Tiefbau+Renovation",
+"PROBST für den GaLa-Bau",
+"Geräte"
+],
+"cat_names": [
+"GALA+Tiefbau+Renovation",
+"Geräte",
+"PROBST für den GaLa-Bau"
+],
+"price_chf": "272.00",
+"variants": [],
+"description": "Gecko Plattenträger Tragkraft 80kg\nSpannbereich 0-40mm Greiffläche 230x100mm\nHebewerkezeuge für den komfortablen Transport von Steinplatten. Rutschsichere Innenbeschichtung für sicheren und materialschonenden Einsatz. Eigengewicht der Werkstücke setzt sich in Klemmkraft um."
+},
+{
+"id": "4495",
+"name": "Diamanttrennscheibe ø105mm x 22.2 mm AEM",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamant Trennscheiben",
+"Trennscheiben trocken"
+],
+"cat_names": [
+"Diamant Trennscheiben",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "48.00",
+"variants": [],
+"description": "Diamanttrennscheibe AEM Ø105 mm\nAufnahme 22.2 mm\nmit geschliffenem Rand\nfür Granit / Beton\nTrockenanwendung\nø\n105 mm\nAufnahme\n22.2"
+},
+{
+"id": "4502",
+"name": "REXID PL-Zahneisen Schaft 10,2 mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Bildhauerwerkzeuge",
+"REXID - Hartmetallwerkzeuge: Druckluft"
+],
+"cat_names": [
+"Bildhauerwerkzeuge",
+"REXID - Hartmetallwerkzeuge: Druckluft",
+"Steinbearbeitung"
+],
+"price_chf": "72.50",
+"variants": [],
+"description": "REXID Pressluft PL-Zahneisen Widia 3-5 Zähne,, verschiedene Breiten.\nFür Sandstein\n8-kant Form\nLänge: 210mm\nBreite: 10-20 mm\nSchaft:10,2 mm\nmit WIDIA-Hartmetalleinlage\nDer Artikel 040-278 hat spitze Zähne.\nArtikelnummer\nBreite\nZähne\nPreis\nWarenkorb\n041-218\n13 mm\n3\nab Lager\nexkl. MwSt\n041-221\nab Lager\nexkl. MwSt\n041-220\n17 mm\n4\nab Lager\nexkl. MwSt\n040-278\n17 mm\n4\nab Lager\nexkl. MwSt\n041-222\n18 mm\n4\nab Lager\nexkl. MwSt\nbPartialReloadOnly = true;"
+},
+{
+"id": "4503",
+"name": "REXID PL-Zahneisen 3-5 Zähne 12,7mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Bildhauerwerkzeuge",
+"REXID - Hartmetallwerkzeuge: Druckluft"
+],
+"cat_names": [
+"Bildhauerwerkzeuge",
+"REXID - Hartmetallwerkzeuge: Druckluft",
+"Steinbearbeitung"
+],
+"price_chf": "77.00",
+"variants": [],
+"description": "REXID PL-Zahneisen Widia 3 Zähne-5 Zähne\nBreite 10-20mm\nø 16 mm\nUniversal 8-kant\nLänge: 210 mm\nSchaft 12.7 mm\nZahnspitzenabstand 5 mm\nZahnausführung spitz\nfür Kalkstein\nmit Hartmetalleinlage\nArtikelnummer\nBreite\nZähne\nPreis\nWarenkorb\n041-223\n10 mm\n3\nab Lager\nexkl. MwSt\n041-224\n15 mm\n4\nab Lager\nexkl. MwSt\n041-226\n20 mm\n5\nNicht an Lager\nexkl. MwSt\nRückgaberecht\nVersandinformationen\nAGBs\n© 2026 Ferronato AG -\nImpressum/Datenschutzerklärung\nJavascript deactivated\nJavascript is deactivated, some functions won't work.\nFor full expierience activate Javascript\nAktualisierung...\nWunschliste ansehen\n<h4 class="
+},
+{
+"id": "4515",
+"name": "Slx StoneLux® 2.0 Ceramic Kit Sortiment",
+"breadcrumb": [
+"Plattenleger"
+],
+"cat_names": [
+"Art StoneLux",
+"Koffer-Sets",
+"Plattenleger",
+"Steinbearbeitung"
+],
+"price_chf": "1",
+"variants": [],
+"description": "Das umfassende StoneLux 2.0 Ceramic Kit Reparatur Set für Quarzkomposit, Keramik und Fliesen mit 14 Reparaturfarben, 1 Mal Sanitary Weiss matt und folgenden Highlights:\nNeue Ideen für bessere Reparaturen!\n5 Reparaturtechniken machen den Einsatz eindrucksvoll möglich.\nTranspa Technik, für Kleinschäden an lebhaften Oberflächen\nRetusche Technik für voluminöse Schäden an farbvielfältigen Oberflächen\nKristall Technik für Schäden an monochromen, kristallinen Oberflächen\nStruktur Technik für Schäden an strukturierten Oberflächen\nMikrodefekt Technik für Haarrisse, Präparationsränder und sonstige Kleinstdefekte\nLieferumfang:\nAufbewahrungsbox\n14 x Reparaturfarben 2ml (aktuelle Trendfarben für Quartzkomposit und Keramikoberflächen)\n1 x Sanitary  Farbe 2ml (spezielles weiss matt Reperaturmaterial für Sanitärkeramik)\nOpaquer 3ml (zur farblichen Abdeckung der Scherbe)\nRetouche Black\nSeperator Pen 1ml (Antihaftmittel für Stempelherstellung)\nPrep Set Ceramic (Präparationsset mit diamantgesinterten Fräsern)\nKristalle X4 (3 Körnungen Granulat >1 mm 4 Gramm in Transpa, Weiss und schwarz)\nApplikationsinstrument\nFiller 2 x 3ml Pen\nPlastik Kanülen\nAir Barrier Gel 50ml (flüssiger Schutzfilm)"
+},
+{
+"id": "452",
+"name": "Aufnahmeteller KGS-SWIFLEX ø115 mm Back up pad M14",
+"breadcrumb": [
+"Steinbearbeitung",
+"Elektrowerkzeuge & Zubehör",
+"Aufnahmeteller"
+],
+"cat_names": [
+"Aufnahmeteller",
+"Elektrowerkzeuge & Zubehör",
+"Steinbearbeitung"
+],
+"price_chf": "27.20",
+"variants": [],
+"description": "Aufnahmeteller SWIFLEX R ø115 QRS schwarz M14 mit Zentriernoppen ø15mm\nKlettverschluss flach, KGS® Back-up pads QRS M14,\ndas aufegzogene Schleifmedium lässt sich wieder ablösen.\nAufnahme\nM14"
+},
+{
+"id": "4523",
+"name": "Hartmetall-Diamantschleifscheibe Keil ø150 mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantschleifscheiben"
+],
+"cat_names": [
+"Diamantschleifscheiben",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "1",
+"variants": [],
+"description": "HM-Diamantschleifscheibe Keil Ø150mm x 18mm x 3mm x 15mm,\nKörnung: D107 C75BBN2\nfür Hartmetallwerkzeuge (WIDIA)\nfür Ständer Schleifmaschinen\nTrockenschliff\nAufnahme 15mm\nSchweizer Qualität"
+},
+{
+"id": "4524",
+"name": "FLEX Stockteller Ø100/3 Stat.",
+"breadcrumb": [
+"Steinbearbeitung",
+"Elektrowerkzeuge & Zubehör",
+"Aufnahmeteller"
+],
+"cat_names": [
+"Aufnahmeteller",
+"Elektrowerkzeuge & Zubehör",
+"Steinbearbeitung",
+"Zubehörteile"
+],
+"price_chf": "540.00",
+"variants": [],
+"description": "FLEX Stockplatte Ø100mm/M14   mit 3 stk. Stockerstationen\nmontiert auf Aluplatte, ohne  Haube\nzu Flex ST 1503               (Stockvorsatz)."
+},
+{
+"id": "4540",
+"name": "AKEMI Feinspachtel hochweiss",
+"breadcrumb": [
+"Aufbearbeitung von Böden + mehr"
+],
+"cat_names": [
+"AKEMI Zubehör",
+"Aufbearbeitung von Böden + mehr",
+"Auto Produkte",
+"Chemische Produkte",
+"Gipser / Betonkosmetik",
+"Grundierungen",
+"Karosseriebau",
+"Steinbearbeitung",
+"Töpfern, Ton, Keramik und mehr"
+],
+"price_chf": "13.50",
+"variants": [],
+"description": "AKEMI Feinspachtel hochweiß, in Büchse, mit Härter.\nSehr feiner,cremiger Spachtel für porenfreie Oberflächen, hohe Farbeständigkeit. Zur Ausbesserung kleiner Unebenheiten an Karosserien, Caravans, Kunststoffbooten, Holz sowie zum Glätten von Schleifspuren.\nLackierung: Spachtelmassen\nKarosseriebau: Spachtelmassen & Harze & Gewebe\nDiese(s) Produkt(e), Produktegruppe ist/sind nur für gewerbliche Fachanwender im Verkauf und Anwendung.\nBitte lesen sie die technischen Merkblätter und Sicherheitsdatenblätter. Treffen sie auch Vorkehrungen zum Schutz ihrer Gesundheit und der Umwelt. Leergebinde bitte fachgerecht entsorgen.\nArtikelnummer\nGewicht\nPreis\nWarenkorb\n021-108\n0.25 Kilogramm\nab Lager\nexkl. MwSt\n021-109\n0.5 Kilogramm\nab Lager\nexkl. MwSt\n021-110\n1 Kilogramm\nab Lager\nexkl. MwSt\nSupport\nPDF Produkteblatt\nTechnisches Merkblatt\nSicherheitsdatenblatt\nRückgaberecht\nVersandinformationen\nAGBs\n© 2026 Ferronato AG -\nImpressum/Datenschutzerklärung\nJavascript deactivated\nJavascript is deactivated, some functions won't work.\nFor full expierience activate Javascript\n</d"
+},
+{
+"id": "4542",
+"name": "Adapter ø13 / M14 AG",
+"breadcrumb": [
+"Steinbearbeitung",
+"Elektrowerkzeuge & Zubehör",
+"Zubehörteile"
+],
+"cat_names": [
+"Elektrowerkzeuge & Zubehör",
+"Steinbearbeitung",
+"Zubehörteile"
+],
+"price_chf": "30.00",
+"variants": [],
+"description": "Adapter Schaft ø 13mm / M14 AG\nVon Bohrmaschine auf M14 Aussengewinde"
+},
+{
+"id": "4544",
+"name": "PL-Hammer CP7111 Einsteckende 13 (konisch)",
+"breadcrumb": [
+"Steinbearbeitung",
+"Druckluftwerkzeuge & Zubehör",
+"Pressluftwerkzeuge"
+],
+"cat_names": [
+"Druckluftwerkzeuge & Zubehör",
+"Pressluftwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "479.00",
+"variants": [],
+"description": "Original \"Chicago Pneumatic\" für leichte bis mittlere Spitz-, Schlag und Stockarbeiten. Durch das geringe Gewicht ist er z.B. für Fassandenrenovierung mit Stockern 25 x 25 mm bestens einsetzbar.Werkzeuge sind bis ca. 18 mm Stahlstärke verwendbar.\nTechnische Daten:\nKolben Ø: 19 mm\nKolbenhub 65 mm\nEinsteckende; 13 ( Ø 13 konisch)\nSchlagzahl /min: bis 3.300\nGewicht 1,5 kg\nLänge 170 mm\nLuftverbrauch: 230 l/min\nArbeitsdruck: bis 6,0 bar\nSchallabgabe:\nLuftanschluss: R 1/4 IG"
+},
+{
+"id": "4545",
+"name": "Stahlwolle 250 Gramm 3 Sorten",
+"breadcrumb": [
+"Aufbearbeitung von Böden + mehr"
+],
+"cat_names": [
+"Aufbearbeitung von Böden + mehr",
+"Bildhauer",
+"Steinbearbeitung",
+"Töpfern, Ton, Keramik und mehr",
+"Zubehör und Hilfsmittel"
+],
+"price_chf": "13.40",
+"variants": [],
+"description": "Stahlwolle diverse Feinheitsgrade, 175 Gramm netto / 250 Gramm brutto.\nStahlwolle Bänder sind in den Feinheitsgraden 2, 1, und 0000 erhältlich.\nEin Universalprodukt zum sanften Polieren, Schleifen und Reinigen.\nBehandelte Oberflächen glänzen wieder.\nBearbeitung von Aluminium, Silber, Nickel, Kupfer, Chrom, Holz, Lackflächen, Glas und Isolierglas, Marmor, Fliessen, Kunststoff, Parkett.\nZum Entfernen von alten Farbanstrichen und zum Glätten von Holzflächen.\nArtikelnummer\nBez.\nPreis\nWarenkorb\n040-812\nNo 0000\nNicht an Lager\nexkl. MwSt\n040-814\nNo 1\nab Lager\nexkl. MwSt\n040-816\nNo 2\nab Lager\nexkl. MwSt\nRückgaberecht\nVersandinformationen\nAGBs\n© 2026 Ferronato AG -\nImpressum/Datenschutzerklärung\nJavascript deactivated\nJavascript is deactivated, some functions won't work.\nFor full expierience activate Javascript\nAktualisierung...\nWunschliste ansehen\nWarenkorb:\n0\nArtikel\nIhr Warenkorb ist noch leer"
+},
+{
+"id": "4550",
+"name": "PL-Stocker 30x30mm 25 Zähne m.B. KSHK",
+"breadcrumb": [
+"Bildhauer"
+],
+"cat_names": [
+"Bildhauer",
+"Bildhauerwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "190.00",
+"variants": [],
+"description": "Widia PL-Stocker 30x30mm 25 Zähne Schaft 15,5mm (18) mit Bund\nfür Kreuzschlitzhaltekappe Stockerkopf 15mm hoch.\nGesamtlänge 120mm"
+},
+{
+"id": "4560",
+"name": "BETCUT DRY FLASH 5 ø100 mm Pos.1-5",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Schleifscheiben KH",
+"Trockenanwendung"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "34.00",
+"variants": [],
+"description": "BETCUT DRY FLASH  POSITION 1-5\nØ 100mm\nVelcrobelag\nFünf Stufen Trockenschleifsystem.\nDurchmesser\nØ 100 mm\nArtikelnummer\nBez.\nPreis\nWarenkorb\n031-848\nPos. 1\nab Lager\nexkl. MwSt\n031-850\nPos. 2\nab Lager\nexkl. MwSt\n031-852\nPos. 3\nab Lager\nexkl. MwSt\n031-854\nPos. 4\nab Lager\nexkl. MwSt\n031-856\nPos. 5\nab Lager\nexkl. MwSt\nbPartialReloadOnly = true;\n//var fromLeft = ($activeImage.width() - $activeWrapper.width()) * localX / 100;\n//var fromTop = ($activeImage.height() - $activeWrapper.height()) * localY / 100;\nvar fromLeft = ~~((($activeWrapper.width()*2) - $activeWrapper.width()) * localX / 100);\nvar fromTop = ~~((($activeWrapper.height()*2) - $activeWrapper.height()) * localY / 100);\n//console.log('mousemove', [$activeWrapper.offset().left, $activeWrapper.offset().top, $activeWrapper.width(), $activeWrapper.height(), e.target, e.pageX, e.pageY, localX, localY,$activeImage.width(),$activeImage.height(),"
+},
+{
+"id": "4561",
+"name": "SEPIA-Schalen pro Stück",
+"breadcrumb": [
+"Bildhauer"
+],
+"cat_names": [
+"Bildhauer",
+"Grabschmuck",
+"Grabschmuck und Zubehör",
+"Steinbearbeitung"
+],
+"price_chf": "12.95",
+"variants": [],
+"description": "SEPIA-Schalen pro Stück ca. 60 Gramm / Grösse: 210mm\nFarbüberstände auf dem Stein lassen sich nach dem vollständigen Trockenen der Farbe mit dem Sepia quasi wegradieren."
+},
+{
+"id": "4570",
+"name": "Messingdrahtbürste Zeintra 3 Reihen",
+"breadcrumb": [
+"Plattenleger"
+],
+"cat_names": [
+"Aufbearbeitung von Böden + mehr",
+"Bildhauer",
+"Eisenwaren + Werkzeuge",
+"Plattenleger",
+"Steinbearbeitung",
+"Zubehör und Hilfsmittel"
+],
+"price_chf": "18.20",
+"variants": [],
+"description": "Messingdrahtbürstemade in Switzerland.\nMessingdraht gewellt\n3 Reihen\nBreite: 30 mm\nBesatzlänge: 145 mm\nLänge: 290 mm\nDiese Bürste findet ihre Anwendung bei der Reinigung von noch nicht stark angerosteten Teilen."
+},
+{
+"id": "4585",
+"name": "Gummispritzdüse zu LONN",
+"breadcrumb": [
+"Steinbearbeitung",
+"Zubehör und Hilfsmittel",
+"Diverses Hilsfmaterial"
+],
+"cat_names": [
+"Diverses Hilsfmaterial",
+"Steinbearbeitung",
+"Zubehör und Hilfsmittel"
+],
+"price_chf": "55.60",
+"variants": [],
+"description": "Ersatzteil:                   Wasserspritzdüse aus Gummi zu\nLONN Water-Saver Model R05RE  1/4\" IG\n."
+},
+{
+"id": "4586",
+"name": "Wasserspritzdüse LONN",
+"breadcrumb": [
+"Steinbearbeitung",
+"Zubehör und Hilfsmittel",
+"Diverses Hilsfmaterial"
+],
+"cat_names": [
+"Diverses Hilsfmaterial",
+"Steinbearbeitung",
+"Zubehör und Hilfsmittel"
+],
+"price_chf": "71.50",
+"variants": [],
+"description": "Wasserspritzdüse              LONN Water-Saver Model R05RE\n3/4 \" IG\n."
+},
+{
+"id": "4608",
+"name": "FELDMÜHLE ø175x25x35mm Nr.46 rot",
+"breadcrumb": [
+"Steinbearbeitung",
+"Schleifmittel",
+"Schleifkörper Keramisch"
+],
+"cat_names": [
+"Schleifkörper Keramisch",
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "45.00",
+"variants": [],
+"description": "Schleifscheibe 175 mm x 25 mm x 32 mm 31A 46M VS\nfür gehärtete Stähle und Werkzeuge aus WS, HS, HSS, HSSE\nKörnung 46\nHärte M\n31 A (= Edelkorund, orangerot)\nBohrung 32 mm\nHöchstzulässige Umfangsgeschwindigkeit 40m/s\nTrockenanwendung\norange Schleifscheiben werden für gehärtete Stähle und Werkzeugstähle eingesetzt.\nDas Edelkorund Schleifkorn ist splittriger und somit besser nachschärfend als das Aluminiumoxid Schleifkorn.\nMit dieser Schleifscheibe können HSS-Werkzeuge, HSSE-Werkzeuge bzw. HSCO-Werkzeuge nachgeschliffen werden"
+},
+{
+"id": "4661",
+"name": "ZEC flach Silizium ø115mm Körnung 16-120",
+"breadcrumb": [
+"Bildhauer"
+],
+"cat_names": [
+"Bildhauer",
+"Fiberschleifmittel SIC",
+"Schleifmittel",
+"Steinbearbeitung"
+],
+"price_chf": "5.15",
+"variants": [],
+"description": "ZEC-Scheibe für Trockenschliff\nKörnung 16-120\nØ115mm Sternloch\nSchleifkorn Silizium-Carbid\nMaximal 10000 U/Min.\nim 5er Pack, Preis/Stück\nZum Schleifen von härterem Stein.\nFür den Einsatz mit dem Winkelschleifer.\nHervorragende Abtragung, gutes und schnelles Schleifergebnis, gute Standzeit.\nEmpfohlene Drehzahl 4.000 - 6.000 U/min.\nMax. Drehzahl 11.000 / 10.000 U/min, entspricht 85 m/s.\nDurchmesser\n115 mm\nArtikelnummer\nKörnung\nPreis\nWarenkorb\n010-310 K16\n16\nab Lager\nexkl. MwSt\n010-310 K24\n24\nab Lager\nexkl. MwSt\n010-310 K36\n36\nab Lager\nexkl. MwSt\n010-310 K60\n60\nab Lager\nexkl. MwSt\n010-310 K80\n80\nab Lager\nexkl. MwSt\n010-310 K120\n120\nNicht an Lager\nexkl. MwSt\nvar submitUrl = '/de/minicart/ajaxaddtocartmultiple';\nvar currentUrl = '';\n//return;\n//console.log('call url', submitUrl);"
+},
+{
+"id": "4692",
+"name": "Polierpulver weiss für Granit+Marmor",
+"breadcrumb": [
+"Bildhauer"
+],
+"cat_names": [
+"Bildhauer",
+"Chemische Produkte",
+"Poliermittel",
+"Steinbearbeitung"
+],
+"price_chf": "25.75",
+"variants": [],
+"description": "Polierpulver weiss LPLL100\nZum Polieren in Verbindung mit der Polierfilzscheibe\nFür Granit und Marmor und Kunststein\nin Blechbüchse\n960 Gramm\nDas Granitpulver empfiehlt sich besonders für helle Hartgesteine. Das Pulver gibt einem an Schönheit verlorenem Weichgestein seinen Spiegelglanz in einem Arbeitsgang zurück."
+},
+{
+"id": "4697",
+"name": "PULVERFARBE OXYD SCHWARZ 500 1 Kilogramm",
+"breadcrumb": [
+"Aufbearbeitung von Böden + mehr"
+],
+"cat_names": [
+"Aufbearbeitung von Böden + mehr",
+"Gipser / Betonkosmetik",
+"Plattenleger"
+],
+"price_chf": "7.75",
+"variants": [],
+"description": "Produktbeschreibung:\nPolierpulver als Beimischung zur Farboptimierung\nvor Verwendung Polierpulver mit Wasser aufschlämmen\nin 1 Kilogrammbüchse mit Sicherheitsdrehverschluss\nVielseitige Anwendbarkeit: Perfekt geeignet für Beton, Gips, Lacke, Farben, Beschichtungen, Kunststoffe und Silikone.\n(feine Schwarze Pulverfarbe) für Innen und Außen zum dekorativen Einfärben von Beton, Putz, Gips, …\nOxid schwarz ist anorganisch\nmit einen hohen Pigmentgehalt\nsehr stabil\nchemisch resistent\nlicht-wasser-wetterfest\nFe3O4 (Magneteisenstein) min. 95%\npH 5 -7\nMit den Farbpigmenten können Sie Estrichbeton oder selbstgemachten Beton sowie Putze, Harz, Gips, Silikon... einfärben.\nZum Einfärben wird beim Anmischen des Betons, ... das Farbpigment einfach zuvor im Wasser gelöst oder das Pulver direkt in das Gemisch eingebracht.\nVerbrauch: Je nach gewünschte Intensität des Farbtons 3 % - 7% Pigment auf die Zugabe Menge Zement bezogen.\nGenerell gilt, dass die genaue Färbung nur durch eine Probe ermittelt werden kann, da diese auch vom verwendeten Gemisch (Zement, Sand) beeinflusst wird."
+},
+{
+"id": "4698",
+"name": "StoneLux Tile Opaquer 3ml",
+"breadcrumb": [
+"Steinbearbeitung",
+"Art StoneLux",
+"Zubehör und Hilfsmittel"
+],
+"cat_names": [
+"Art StoneLux",
+"Steinbearbeitung",
+"Zubehör und Hilfsmittel"
+],
+"price_chf": "78.50",
+"variants": [],
+"description": "opaquer (aus dem Keramik Set)\nAbdeckmaterial\n1x Spritze, 3ml\nVerwendung: Opaquer Material wird zur farblichen Abdeckung der Scherbe verwendet.\n."
+},
+{
+"id": "4699",
+"name": "TRED Diamanttrennscheibe Ø22mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Art StoneLux",
+"Schleifmittel"
+],
+"cat_names": [
+"Art StoneLux",
+"Plattenleger",
+"Schleifmittel",
+"Steinbearbeitung",
+"Zubehör und Hilfsmittel"
+],
+"price_chf": "49.00",
+"variants": [],
+"description": "TRED Diamanttrennscheibe montiert HP Ø22mm\nSchaft/Mandrell Ø2,35mm\nDicke Trennscheibe  0.25 mm\nLänge 46 mm\nDental\ngalvanisiert"
+},
+{
+"id": "4705",
+"name": "EVERCLEAR 300",
+"breadcrumb": [
+"Steinbearbeitung",
+"Chemische Produkte",
+"AKEMI Klebstoffe und mehr",
+"AKEMI/AKEPOX Härter"
+],
+"cat_names": [
+"AKEMI Klebstoffe und mehr",
+"Chemische Produkte",
+"Steinbearbeitung"
+],
+"price_chf": "86.00",
+"variants": [],
+"description": "2K-PUR-Kleber in Kartuschen, nahezu vergilbungsfrei, VOC-frei, cremig-weiche Konsistenz ermöglicht den Einsatz bei vertikalen Verklebungen von Sichtfugen, unterschiedliche Farben (CC), breiter Klebespalt möglich, Mischungsverhältnis 2:1\nFür dauerhafte Verklebungen von großflächiger, heller Keramik (z.B. Dekton®, Lapitec®, Neolith®, Laminam®) oder Hartgestein im Außen- und Innenbereich. Farbzuordnungstabellen (Colour Charts) zu einzelnen Steinmaterialien namhafter Hersteller finden Sie unter:\nhttps://stein.akemi.de/service/colour-charts/\n.\nMaterial Naturstein, Granit, Quarzkomposit, Keramik\nEinsatzort Küche, Garten & Terrasse, Grabstein & Denkmal, Fassade, Wand\nInnen / Aussen Innenbereich, Aussenbereich\nKlebstoffanwendung Kleben\nKonsistenz Gelartig\nAushärtezeit Schnell\nUV-Stabilität Hervorragend\nFarbe Vorgefärbt\nVerarbeitungszeit Kurz\nKlebstoff-Basis Polyurethan\nVerklebung Starr\nPolierfähigkeit Ausgezeichnet\nArtikelnummer\nFarbe\nCC\nPreis\nWarenkorb\n021-012 CC 1720\nNicht an Lager\nexkl. MwSt\n021-012 CC 1620\nNicht an Lager\nexkl. MwSt\n021-012 CC 1830\nNicht an Lager\nexkl. MwSt\n021-012 CC 1840\ngrey\n1840\nab Lager\nexkl. MwSt\n021-012 CC 1850\nNicht an Lager\nexkl. MwSt\n021-012 CC 1920\nNicht an Lager\nexkl. MwSt\n021-012 CC 1020\nNicht an Lager\nexkl. MwSt\n<div name=\"add-to-cart-33250\" class=\"wish-form form add-to-cart-form js-add-to-cart-fo"
+},
+{
+"id": "4708",
+"name": "AKEMI Füll Ziehspachtel.Nr.4 250-2000 Gramm",
+"breadcrumb": [
+"Auto Produkte",
+"Karosseriebau",
+"Spachtelmassen"
+],
+"cat_names": [
+"Auto Produkte",
+"Karosseriebau",
+"Spachtelmassen"
+],
+"price_chf": "12.10",
+"variants": [],
+"description": "Füll- und Ziehspachtel Nr. 4, Basis-Spachtel für vielfältige Anwendung 0.25-2 kg.\nZur Reparatur grober Unebenheiten und tiefer Beulen in einem Arbeitsgang. Das Produkt ist Styrolfrei.\nLackierung: Spachtelmassen, Polituren\nKarosseriebau: Spachtelmassen & Harze & Gewebe\nArtikelnummer\nGramm\nPreis\nWarenkorb\n021-107\n250\nab Lager\nexkl. MwSt\n021-106\n1000\nab Lager\nexkl. MwSt\n021-078\n2000\nab Lager\nexkl. MwSt\nSupport\nPDF Produkteblatt\nTechnisches Merkblatt\nSicherheitsdatenblatt\nRückgaberecht\nVersandinformationen\nAGBs\n© 2026 Ferronato AG -\nImpressum/Datenschutzerklärung\nJavascript deactivated\nJavascript is deactivated, some functions won't work.\nFor full expierience activate Javascript\nAktualisierung..."
+},
+{
+"id": "4710",
+"name": "KGS PU 2x25ml Mischdüse",
+"breadcrumb": [
+"Steinbearbeitung",
+"Chemische Produkte",
+"AKEMI Klebstoffe und mehr",
+"AKEPOX Mischdüsen"
+],
+"cat_names": [
+"AKEMI Klebstoffe und mehr",
+"Chemische Produkte",
+"Steinbearbeitung"
+],
+"price_chf": "1.85",
+"variants": [],
+"description": "Die Qualität dieser KGS-Mischerspitze ist ausgezeichnet. Die Mischerspitze funktioniert zum Beispiel gut mit den KGS PU-Klebstoffen, die ein Fassungsvermögen von 2x25 ml haben."
+},
+{
+"id": "4754",
+"name": "FERROFLEXPAD natur 430mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge Divers",
+"Diverses KGS"
+],
+"cat_names": [
+"DIAMANT Werkzeuge divers",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "40.80",
+"variants": [],
+"description": "Naturborsten Pad ø 430 mm\nPolieren trocken oder Nass, auch im Verbund mit Liqui Polish\nLiqui Polish hell/dunkel"
+},
+{
+"id": "4799",
+"name": "Hartmetall-Diamantschleifscheibe Plan ø150 mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantschleifscheiben"
+],
+"cat_names": [
+"Diamantschleifscheiben",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "814.00",
+"variants": [],
+"description": "HM-Diamantschleifscheibe Plan Ø 150 mm x 20 mm x 15 mm\nKörnung: D107 C75BBN2\nSchleiffläche 15mm\nür Hartmetallwerkzeuge (WIDIA)\nfür Ständer Schleifmaschinen\nTrockenschliff\nAufnahme 15mm\nSchweizer Qualität"
+},
+{
+"id": "4800",
+"name": "Hartmetall-Diamantschleifscheibe Pfeil ø150 mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantschleifscheiben"
+],
+"cat_names": [
+"Diamantschleifscheiben",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "1",
+"variants": [],
+"description": "Hartmetall Diamantschleifscheibe Pfeil 150x20x5x25x15\nKörnung: D107 C75BBN2\nfür Hartmetallwerkzeuge (WIDIA)\nfür Ständer Schleifmaschinen\nfür Trockenschliff\nAufnahme 15mm\nSchweizer Qualität"
+},
+{
+"id": "4808",
+"name": "BETCUT zu CS60/G Ø170/22,2mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Elektrowerkzeuge & Zubehör",
+"Zubehörteile"
+],
+"cat_names": [
+"Elektrowerkzeuge & Zubehör",
+"Steinbearbeitung",
+"Zubehörteile"
+],
+"price_chf": "110.00",
+"variants": [],
+"description": "Trennscheibe zu CS60/G\nØ170/22,2mm\nfür FLEX Nasskreissäge CS 60\nmax. 100m/sec\nMit segmentiertem Schneidrand, schwingungsgedämpft, für Granit, Marmor, Sandstein, Beton."
+},
+{
+"id": "4810",
+"name": "Aufnahmeschaft R1/2 M14 IG",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "92.00",
+"variants": [],
+"description": "Aufnahmeschaft zu Fingerfräser für Krone M14 IG Nutzlänge 95mm / R½\" AG"
+},
+{
+"id": "4813",
+"name": "Falzfräser mit Vollbelag Ø 10mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "328.00",
+"variants": [],
+"description": "Vollbelag-Falzfräser CNC Ø10/5mmx10mm\nNutzlänge: 20 mm\nD251\nAufnahme:1/2\"GAS\nDrehzahl: 10`000-12`000 U/min.\nVorschub: 140-160mm/Min.\nfür Ceramics / Universal"
+},
+{
+"id": "4817",
+"name": "Adapter 20mm R1/2\" GAS M12",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamant Bohrkronen/Bohre"
+],
+"cat_names": [
+"Diamant Bohrkronen/Bohre",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "114.00",
+"variants": [],
+"description": "Adapter aus Stahl für Fingerfräser 20x15mm\nAdapter: R1/2\" auf M12\nNutzlänge: 20 mm\nLänge: 60 mm\nBreite Mitte. 30 mm\nNassanwendung\nSeitliches Loch (Wasserüberdruckbohrung) nicht verschliessen"
+},
+{
+"id": "4820",
+"name": "CNC Fingerfräser 22 mm x 25 mm für UCS CERAMICS",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "182.00",
+"variants": [],
+"description": "Fräser der speziell zum Schneiden von UCS-Materialien entwickelt wurde, z. Dekton, Neolith, Laminam.\nHohe Geschwindigkeit\nMinimale Abplatzer\nNassanwendung\nDurchmesser 22 mm\nHöhe 25mm\nAufnahme 1/2\" Aussengewinde\n."
+},
+{
+"id": "4821",
+"name": "Fräser 20x12 UCS CERAMICS",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "148.00",
+"variants": [],
+"description": "Absenkfräser mit Schlitzen Ø20x12mm\nUCS CERAMICS\nCERAMICS Falzfräser CNC\nNutzlänge 12mm\nAufnahme R1/2\"\nDrehzahl: 5000U/min\nVorschub: 200mm/min\nNassanwendung"
+},
+{
+"id": "4822",
+"name": "Fräser 10x10xNL15 UCS CERAMICS",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "135.00",
+"variants": [],
+"description": "CERAMICS Falzfräser CNC Ø10mm x 10mm\nNutzlänge 15mm\nAufnahme R1/2\"\nUCS CERAMICS\nempfohlene Drehzahl: 8000U/min\nVorschub: 200mm/min\nNassanwendung"
+},
+{
+"id": "4823",
+"name": "KGS DIABELT TELUM Spiral Ø 15 x 30 mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge Divers",
+"Schleifbänder"
+],
+"cat_names": [
+"DIAMANT Werkzeuge divers",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "32.80",
+"variants": [],
+"description": "DIABELT Schleifbänder Spiral 15x30mm Korn 60-3000\nNass-Trockenanwendung\nPassendes Zubehör: Expansionsgummirad ø 15 x 30 mm + Aufnahmeschaft 6 × 50 mm\nArt. Nr. 030-300\n.\nArtikelnummer\nKörnung\nPreis\nWarenkorb\n030-734\n60\nab Lager\nexkl. MwSt\n030-736\n120\nNicht an Lager\nexkl. MwSt\n030-738\n200\nab Lager\nexkl. MwSt\n030-740\n400\nab Lager\nexkl. MwSt\n030-742\n800\nab Lager\nexkl. MwSt\n030-744\n1500\nab Lager\nexkl. MwSt\n030-746\n3000\nab Lager\nexkl. MwSt\n<butto"
+},
+{
+"id": "4861",
+"name": "Diamantfräser DISC Ø 50 x 6 mm geschlitzt",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge Divers",
+"Diamantfräser"
+],
+"cat_names": [
+"DIAMANT Werkzeuge divers",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "98.00",
+"variants": [],
+"description": "Diamantfräser gesintert, für die professionelle Marmor und Granitbearbeitung.\nAlle Werkzeuge sind mit sehr guter Diamantqualität belegt, damit garantieren wir eine lange Lebensdauer und gute Schleifleistung.\nØ 50 x 6mm\ngesintert\nvakuumgelötete Diamanten\nTrockenanwendung"
+},
+{
+"id": "4862",
+"name": "Diamantschleifstift Zylinder  Ø10/40mm galvanisiert",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge Divers",
+"Diamantfräser"
+],
+"cat_names": [
+"DIAMANT Werkzeuge divers",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "36.00",
+"variants": [],
+"description": "Diamantfrässtift Zylinder . Ø10/40mm galvanisiert, Korn 40. Schaft:6x50mm.\nDiamantschleifstift galvanisiert, für die professionelle Marmor.-und Granitbearbeitung. Alle Werkzeuge sind mit sehr guter Diamantqualität belegt, damit garantieren wir lange Lebensdauer und gute Schleifleistung."
+},
+{
+"id": "4863",
+"name": "Diamantschleifstift Disc gesintert  Ø 25x1,5 mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge Divers",
+"Diamantfräser"
+],
+"cat_names": [
+"DIAMANT Werkzeuge divers",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "22.00",
+"variants": [],
+"description": "Bildhauerset Diamant Schleifstift Nr.4 Ø25x1.5mm Disc gesintert.  Schaft:Ø6x50 mm.\nDiamantschleifstifte gesintert, für die professionelle Marmor.-und Granitbearbeitung. Alle Werkzeuge sind mit sehr guter Diamantqualität belegt, damit garantieren wir lange Lebensdauer und gute Schleifleistung."
+},
+{
+"id": "488",
+"name": "Gedik Handsetzer ø 60mm Marmor + Granit",
+"breadcrumb": [
+"Steinbearbeitung",
+"Bildhauerwerkzeuge",
+"FERRIT - Hartmetallwerkzeuge: Hand"
+],
+"cat_names": [
+"Bildhauerwerkzeuge",
+"FERRIT - Hartmetallwerkzeuge: Hand",
+"GALA+Tiefbau+Renovation",
+"Hartmetallwerkzeuge für den GaLa-Bau",
+"Hartmetallwerkzeuge mit WIDIA Einsatz",
+"REXID - Hartmetallwerkzeuge: Hand",
+"Steinbearbeitung"
+],
+"price_chf": "141.00",
+"variants": [],
+"description": "GEDIK Handsetzer Breite 60 mm für Marmor und Granit.\nMit 8 mm seitlich eingelöteter Hartmetallplatte für schwere Absprengarbeiten, Länge ca. 190 mm\nBez.\nmit Schlägelkopf\nAnwendung für\nMarmor+Granit"
+},
+{
+"id": "4901",
+"name": "FERRAMICS Ø350/60 Blau",
+"breadcrumb": [
+"Plattenleger"
+],
+"cat_names": [
+"Diamant Trennscheiben",
+"Diamantwerkzeuge",
+"Plattenleger",
+"Steinbearbeitung"
+],
+"price_chf": "239.00",
+"variants": [],
+"description": "FERRAMICS ZooZ Diamanttrennscheibe Keramik Ø350mm/60mm Sandwich Kern. NL: TK100mm 2x12mm Löcher, 28 Segmente, 44x3.2x7mm engverzahnt. Umdrehungszahl: RPM +-2000 U/min.\nFür DEKTON, LAMINAM, NEOLITH usw.\nVorschub bei Plattendicke 8mm: 1,7-2,2 m/min 12mm: 1,7-2,2 m/min, 13mm-20mm: 1,5-2,0 m/min.\nFür vertikale Schnitte in DEKTON LAMINAM Dicke 20mm immer 1,6 m/min Vorschub 45°/12mm Schnitt 1,2 m/min 45°/20mm Schnitt 1,0 m/min. Beim Einfahren und Ausfahren nie die Geschwindikeit reduzieren FERRAMICS Diamanttrennscheibe für Brückenfräsen\nSegmentierte Trennscheibe für Ultra Kompakte Materialien wie DEKTON, LAMINAM, NEOLITH Geeignet auch für Maschinen mit weniger als 20PS Motorenstärke. Mit detensor Stahlkern für sehr schnelle Schnitte in sehr harten Materialien."
+},
+{
+"id": "4910",
+"name": "Fingerfräser ø20 mm / 14x12 mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "65.00",
+"variants": [],
+"description": "Diamantfingerfräser ADI Krone ø20mm /14 mm x 12mm\nNutzlänge  100mm\nAufnahme 1/2\"GAS\nfür Granit\nNassanwendung"
+},
+{
+"id": "4922",
+"name": "Bildhauerset Stift Diamantschleifstift ø 15mm / R=7,5mm",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge Divers",
+"Diamantfräser"
+],
+"cat_names": [
+"DIAMANT Werkzeuge divers",
+"Diamantwerkzeuge",
+"Steinbearbeitung"
+],
+"price_chf": "70.80",
+"variants": [],
+"description": "Bilhauerset Schleifstift Nr.1815 / Radius 7,5mm Pilzform galvanisiert. Korn 40. Schaft:6x50mm.\nDiamantschleifstift galvanisiert, für die professionelle Marmor.-und Granitbearbeitung. Alle Werkzeuge sind mit sehr guter Diamantqualität belegt, damit garantieren wir lange Lebensdauer und gute Schleifleistung."
+},
+{
+"id": "4926",
+"name": "BETCUT PROFILE B15 Aufnahme M14 Körnung 40",
+"breadcrumb": [
+"Steinbearbeitung",
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC"
+],
+"cat_names": [
+"Diamantwerkzeuge",
+"Diamantwerkzeuge CNC",
+"Steinbearbeitung"
+],
+"price_chf": "260.00",
+"variants": [],
+"description": "BETCUT PROFILE B15 M14 Körnung 40 Diamantprofilfräser für Trockenanwendung\nAufnahme M14 mit Innengewinde\nDiamantbelag galvanisiert Körnung 40\nB-Profil an 30mm an Natursteinen/Platten Ø75mm/80mm\nmit Anlaufring\nGewicht: 680 Gramm\nMit bewährter Ferronato Qualität."
+},
+{
+"id": "4928",
+"name": "PKD Schleiftopf blau 125mm",
+"breadcrumb": [
+"Plattenleger"
+],
+"cat_names": [
+"Diamant Schleifteller",
+"Diamantwerkzeuge",
+"Plattenleger",
+"Steinbearbeitung"
+],
+"price_chf": "180.00",
+"variants": [],
+"description": "Schleiftopf DT100-362:\nSchneller und effektiver Abtrag ohne zu verkleben\nBesonders leistungsstarker PKD-Spezialschleiftopf\nSchneller und effektiver Abtrag, aufgrund der PKD (poly-kristaline Diamanten) Segmente\nØ 125 mm\nHöhe 22 mm\nAufnahme 22.23 mm\n12200 RPM\nGeschwindigkeit: 80m/s\nSegmentzahl 6 Stück\nTrockenanwendung"
+}
+]

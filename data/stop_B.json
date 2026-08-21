@@ -1,0 +1,538 @@
+[
+ {
+  "sparte": "Plattenleger",
+  "hauptkategorie": "02 Schneiden & Trennen",
+  "top": [
+   {
+    "id": 7878,
+    "rang": 1,
+    "grund": "Kunden-Bestseller: Einstieg ins Proxxon/Distar-Verbrauchssystem."
+   },
+   {
+    "id": 7728,
+    "rang": 2,
+    "grund": "Kunden-Bestseller Butterfly Ø45 mm, meistverkaufte Keramikscheibe."
+   },
+   {
+    "id": 6359,
+    "rang": 3,
+    "grund": "Ferrix EPIC Ø230, meistgefragte Grösse für Feinsteinzeug."
+   },
+   {
+    "id": 7865,
+    "rang": 4,
+    "grund": "Distar MasterCUT Ø125, Standardgrösse Winkelschleifer trocken."
+   },
+   {
+    "id": 4243,
+    "rang": 5,
+    "grund": "BETCUT NSTTB Keramikscheibe, hoher Nachkauf."
+   },
+   {
+    "id": 7566,
+    "rang": 6,
+    "grund": "FERRAMICS Ø350 für Grossformat auf der Tischsäge."
+   }
+  ]
+ },
+ {
+  "sparte": "Plattenleger",
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "top": [
+   {
+    "id": 7841,
+    "rang": 1,
+    "grund": "Kernmaschine des Proxxon/Distar-Systems, Akku-Langhals."
+   },
+   {
+    "id": 7465,
+    "rang": 2,
+    "grund": "CoolGEL, Verbrauchsmittel bei jeder Bohrung in Keramik."
+   },
+   {
+    "id": 8043,
+    "rang": 3,
+    "grund": "Diamantfrässtifte als Verbrauchsmaterial im 10er-Pack."
+   },
+   {
+    "id": 7843,
+    "rang": 4,
+    "grund": "Zweite Proxxon-Langhalsvariante für enge Situationen."
+   },
+   {
+    "id": 4813,
+    "rang": 5,
+    "grund": "Falzfräser mit Vollbelag, Standard im UCS-Programm."
+   }
+  ]
+ },
+ {
+  "sparte": "Plattenleger",
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "top": [
+   {
+    "id": 7727,
+    "rang": 1,
+    "grund": "NECTAR DSK Ø45, Verbrauchsscheibe des Proxxon-Systems."
+   },
+   {
+    "id": 7984,
+    "rang": 2,
+    "grund": "Distar DGM Schleiftopf Soft Edge für die Jolly-Kante."
+   },
+   {
+    "id": 6242,
+    "rang": 3,
+    "grund": "KGS Handpad Diflex, Klassiker für Handnacharbeit."
+   },
+   {
+    "id": 7034,
+    "rang": 4,
+    "grund": "FLEXIS HD DRY Ø125, Trockenschliff im 5er-Pack."
+   },
+   {
+    "id": 4385,
+    "rang": 5,
+    "grund": "KGS FLEXIS Bodenpad Ø430 für die Bodenmaschine."
+   },
+   {
+    "id": 7799,
+    "rang": 6,
+    "grund": "Distar Click & Lock Aufnahmeteller, Systemschnittstelle."
+   }
+  ]
+ },
+ {
+  "sparte": "Plattenleger",
+  "hauptkategorie": "05 Verlegen, Heben & Transportieren",
+  "top": [
+   {
+    "id": 3279,
+    "rang": 1,
+    "grund": "NEMO GRABO PRO im Hard-Case, meistgefragter Vakuumheber."
+   },
+   {
+    "id": 8365,
+    "rang": 2,
+    "grund": "PICARD Plattenlegerhammer BlackTec, Standardwerkzeug."
+   },
+   {
+    "id": 7936,
+    "rang": 3,
+    "grund": "FLEX Akku-Fliesenrüttler für grossformatige Platten."
+   },
+   {
+    "id": 7141,
+    "rang": 4,
+    "grund": "Ferro Saugheber Porter Compo für Compact-Platten."
+   },
+   {
+    "id": 6158,
+    "rang": 5,
+    "grund": "GRABO SlenderSeal, Verschleissteil mit Nachkauf."
+   }
+  ]
+ },
+ {
+  "sparte": "Plattenleger",
+  "hauptkategorie": "06 Kleben, Fugen & Gehrung",
+  "top": [
+   {
+    "id": 2384,
+    "rang": 1,
+    "grund": "Kunden-Bestseller 020-812, Skelettpistole Colour Bond."
+   },
+   {
+    "id": 4448,
+    "rang": 2,
+    "grund": "Kunden-Bestseller Jollynator 90°."
+   },
+   {
+    "id": 5531,
+    "rang": 3,
+    "grund": "Kunden-Bestseller Jollynator Set 90° + 135°."
+   },
+   {
+    "id": 2052,
+    "rang": 4,
+    "grund": "Colour-Bond-Farbfächer, Pflichtzubehör für die Farbwahl."
+   },
+   {
+    "id": 2385,
+    "rang": 5,
+    "grund": "Colour Bond Metallpistole, Profivariante."
+   },
+   {
+    "id": 5449,
+    "rang": 6,
+    "grund": "Spectrum Pastes 51 Farben, Colour-Bond-Verbrauchsmaterial."
+   }
+  ]
+ },
+ {
+  "sparte": "Plattenleger",
+  "hauptkategorie": "07 Reinigen, Schützen & Reparieren",
+  "top": [
+   {
+    "id": 2241,
+    "rang": 1,
+    "grund": "StoneLux Transpa Flow, Kernverbrauch der Reparatur."
+   },
+   {
+    "id": 2259,
+    "rang": 2,
+    "grund": "StoneLux Polierpaste, in jeder Reparatur gebraucht."
+   },
+   {
+    "id": 7257,
+    "rang": 3,
+    "grund": "AKEMI Ceramic Smart Repair Set, Systemeinstieg."
+   },
+   {
+    "id": 2509,
+    "rang": 4,
+    "grund": "AKEMI Crystal Clean, Standard-Grundreiniger."
+   },
+   {
+    "id": 6677,
+    "rang": 5,
+    "grund": "AKEMI Pearl Impregnator, meistverkaufte Imprägnierung."
+   },
+   {
+    "id": 2339,
+    "rang": 6,
+    "grund": "AKEMI Techno Ceramic Daily Cleaner für den Unterhalt."
+   }
+  ]
+ },
+ {
+  "sparte": "Plattenleger",
+  "hauptkategorie": "12 Sanitär- & Montagesysteme",
+  "top": [
+   {
+    "id": 7850,
+    "rang": 1,
+    "grund": "EdPlit Handtuchhalter-Set 3 Stück, Einstiegsgrösse."
+   },
+   {
+    "id": 7851,
+    "rang": 2,
+    "grund": "EdPlit Handtuchhalter-Set 5 Stück für ganze Bäder."
+   },
+   {
+    "id": 7949,
+    "rang": 3,
+    "grund": "EdPlit verdeckte Betätigung M1 für Geberit."
+   }
+  ]
+ },
+ {
+  "sparte": "Übergreifend",
+  "hauptkategorie": "01 Messen & Anzeichnen",
+  "top": [
+   {
+    "id": 7404,
+    "rang": 1,
+    "grund": "LYRA Signierkreide, Verbrauchsmaterial mit hohem Umschlag."
+   },
+   {
+    "id": 7397,
+    "rang": 2,
+    "grund": "Lyra Schlagschnurpulver, regelmässiger Nachkauf."
+   },
+   {
+    "id": 7374,
+    "rang": 3,
+    "grund": "Lyra Zimmermannstifte, Standardanreissstift."
+   },
+   {
+    "id": 7376,
+    "rang": 4,
+    "grund": "Lyra Dry Ersatzminen, Verbrauchsmaterial."
+   },
+   {
+    "id": 6152,
+    "rang": 5,
+    "grund": "KRAFTWERK Profi-Rollmeter 5 m, Grundausstattung."
+   }
+  ]
+ },
+ {
+  "sparte": "Übergreifend",
+  "hauptkategorie": "02 Schneiden & Trennen",
+  "top": [
+   {
+    "id": 7641,
+    "rang": 1,
+    "grund": "FLEX Metallsägeband, Verschleissteil zur SBG 4910."
+   },
+   {
+    "id": 7763,
+    "rang": 2,
+    "grund": "NORTON Vulcan INOX Trennscheibe, hoher Nachkauf."
+   },
+   {
+    "id": 7673,
+    "rang": 3,
+    "grund": "FLEX Kreissägeblatt CSM Ø185 für Metallhandkreissäge."
+   },
+   {
+    "id": 7953,
+    "rang": 4,
+    "grund": "FLEX Stichsägeblätter Pro im 5er-Pack."
+   },
+   {
+    "id": 7310,
+    "rang": 5,
+    "grund": "FLEX CSM 4060 Metallhandkreissäge, meistgefragte Maschine."
+   }
+  ]
+ },
+ {
+  "sparte": "Übergreifend",
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "top": [
+   {
+    "id": 7341,
+    "rang": 1,
+    "grund": "FLEX Hammerbohrerset SDS-plus, Verbrauchsmaterial im Set."
+   },
+   {
+    "id": 7495,
+    "rang": 2,
+    "grund": "FLEX Bit-Set T20 25-teilig, hoher Nachkauf."
+   },
+   {
+    "id": 6602,
+    "rang": 3,
+    "grund": "FLEX 41-teiliges Bit-Set DB 41, Grundausstattung."
+   },
+   {
+    "id": 8256,
+    "rang": 4,
+    "grund": "DUSS Spitzmeissel SDS-max, Verschleissteil."
+   },
+   {
+    "id": 7956,
+    "rang": 5,
+    "grund": "Rennsteig Spitzmeissel SDS-plus, Verschleissteil."
+   },
+   {
+    "id": 6615,
+    "rang": 6,
+    "grund": "FLEX Kantenfräser-Set 5-teilig für Radien und Fasen."
+   }
+  ]
+ },
+ {
+  "sparte": "Übergreifend",
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "top": [
+   {
+    "id": 7951,
+    "rang": 1,
+    "grund": "FLEX Schleifmittel Starter-Set Ø150, Systemeinstieg."
+   },
+   {
+    "id": 7952,
+    "rang": 2,
+    "grund": "FLEX Schleifmittel Starter-Set Ø125, Systemeinstieg."
+   },
+   {
+    "id": 7313,
+    "rang": 3,
+    "grund": "FLEX Universal Schleifpapier Ø150, hoher Nachkauf."
+   },
+   {
+    "id": 8204,
+    "rang": 4,
+    "grund": "FLEX Schleifpapier OSE 2-80 Universal."
+   },
+   {
+    "id": 7326,
+    "rang": 5,
+    "grund": "FLEX Nylon-Topfbürste Ø130, Verschleissteil."
+   },
+   {
+    "id": 7447,
+    "rang": 6,
+    "grund": "FLEX Universal Schleifpapier Ø125 K60-K120."
+   }
+  ]
+ },
+ {
+  "sparte": "Übergreifend",
+  "hauptkategorie": "07 Reinigen, Schützen & Reparieren",
+  "top": [
+   {
+    "id": 3063,
+    "rang": 1,
+    "grund": "Malerband 50 mm, meistgekauftes Abdeckband."
+   },
+   {
+    "id": 3067,
+    "rang": 2,
+    "grund": "TESA UV-beständiges Klebeband 50 mm für Aussenarbeiten."
+   },
+   {
+    "id": 3079,
+    "rang": 3,
+    "grund": "Betonband gelb mit Struktur, Baustellenstandard."
+   },
+   {
+    "id": 2043,
+    "rang": 4,
+    "grund": "WD-40 Multi-Spray, Werkstattgrundbedarf."
+   },
+   {
+    "id": 3064,
+    "rang": 5,
+    "grund": "Malerband 30 mm für feine Abklebungen."
+   }
+  ]
+ },
+ {
+  "sparte": "Übergreifend",
+  "hauptkategorie": "08 Staub & Absaugung",
+  "top": [
+   {
+    "id": 7338,
+    "rang": 1,
+    "grund": "FLEX Vlies-Filtersäcke VC 6, laufender Nachkauf."
+   },
+   {
+    "id": 7356,
+    "rang": 2,
+    "grund": "FLEX Vlies-Filtersäcke VC 21-26, laufender Nachkauf."
+   },
+   {
+    "id": 6018,
+    "rang": 3,
+    "grund": "FLEX Vlies-Filtersäcke VCE 33/44, laufender Nachkauf."
+   },
+   {
+    "id": 7159,
+    "rang": 4,
+    "grund": "FLEX HEPA-13-Filter für den Bau-Luftreiniger."
+   },
+   {
+    "id": 5209,
+    "rang": 5,
+    "grund": "FLEX VCE 44 L AC-Set, meistgefragter Baustellensauger."
+   },
+   {
+    "id": 8335,
+    "rang": 6,
+    "grund": "FLEX PES-Flachfaltenfilter, Verschleissteil."
+   }
+  ]
+ },
+ {
+  "sparte": "Übergreifend",
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "top": [
+   {
+    "id": 8223,
+    "rang": 1,
+    "grund": "FLEX Akku AP 18/8.0 XT, stärkster Akku im System."
+   },
+   {
+    "id": 8224,
+    "rang": 2,
+    "grund": "FLEX Akku AP 18/4.0 XT, Standardakku."
+   },
+   {
+    "id": 6493,
+    "rang": 3,
+    "grund": "FLEX Akku Pack P-Set 88 R, Systemeinstieg."
+   },
+   {
+    "id": 6494,
+    "rang": 4,
+    "grund": "FLEX Akku Pack P-Set 55 R, Systemeinstieg."
+   },
+   {
+    "id": 7530,
+    "rang": 5,
+    "grund": "FLEX L 1606 VR Winkelschleifer 230 V, Standardmaschine."
+   },
+   {
+    "id": 6948,
+    "rang": 6,
+    "grund": "FLEX Doppel-Ladegerät CA 2x 12/18 V."
+   }
+  ]
+ },
+ {
+  "sparte": "Übergreifend",
+  "hauptkategorie": "10 Arbeitsschutz (PSA)",
+  "top": [
+   {
+    "id": 3302,
+    "rang": 1,
+    "grund": "MOLDEX Feinstaubmaske M-3205, meistverkaufter Atemschutz."
+   },
+   {
+    "id": 3301,
+    "rang": 2,
+    "grund": "3M Partikelmaske 10er-Pack, laufender Nachkauf."
+   },
+   {
+    "id": 5635,
+    "rang": 3,
+    "grund": "SHOWA 380 Schutzhandschuhe, Verbrauchsmaterial."
+   },
+   {
+    "id": 6837,
+    "rang": 4,
+    "grund": "Nitril-Einweghandschuhe Box à 100, hoher Umschlag."
+   },
+   {
+    "id": 3267,
+    "rang": 5,
+    "grund": "3M EAR Classic II Gehörschutzstöpsel, Verbrauchsmaterial."
+   },
+   {
+    "id": 6681,
+    "rang": 6,
+    "grund": "OPTREL SWISS AIR ABE1P Kombifilter, Systemverbrauch."
+   }
+  ]
+ },
+ {
+  "sparte": "Übergreifend",
+  "hauptkategorie": "11 Baustellen- & Werkstattbedarf",
+  "top": [
+   {
+    "id": 6527,
+    "rang": 1,
+    "grund": "Putztuch-XXL-Rolle, Grundbedarf jeder Baustelle."
+   },
+   {
+    "id": 8378,
+    "rang": 2,
+    "grund": "HALDER SIMPLEX-Plusbox Starterkit, Systemeinstieg."
+   },
+   {
+    "id": 8360,
+    "rang": 3,
+    "grund": "SIMPLEX Schonhammer Ø30-80 mm, Vollsortiment."
+   },
+   {
+    "id": 6851,
+    "rang": 4,
+    "grund": "Putzlappen Trikotstoff 5 kg, laufender Nachkauf."
+   },
+   {
+    "id": 906,
+    "rang": 5,
+    "grund": "Kehrichtsäcke Quick-Bag, Verbrauchsmaterial."
+   },
+   {
+    "id": 6069,
+    "rang": 6,
+    "grund": "FLEXDOT 600 Akku-Arbeitsleuchte, meistgefragte Leuchte."
+   }
+  ]
+ }
+]

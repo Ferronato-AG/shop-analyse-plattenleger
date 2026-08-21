@@ -1,0 +1,2033 @@
+[
+ {
+  "id": 131,
+  "unterkategorie": "Körperschutz",
+  "grund": "Schürzen, Rückengurt und Schutzärmel zusammengeführt; 1203 lag als Duplikat in Plattenleger."
+ },
+ {
+  "id": 345,
+  "unterkategorie": "Kleinschleifkörper & Gravur",
+  "grund": "Kleinwerkzeuge für Feinarbeit zusammengefasst."
+ },
+ {
+  "id": 396,
+  "unterkategorie": "Kompressoren & Druckluft",
+  "grund": "Druckluftwerkzeuge und -zubehör beim Kompressor gebündelt (inkl. Zuzug aus Plattenleger und 11)."
+ },
+ {
+  "id": 654,
+  "unterkategorie": "Hautschutz & Erste Hilfe",
+  "grund": "Handschutz, Handwaschpaste und Pflaster zusammengefasst."
+ },
+ {
+  "id": 671,
+  "unterkategorie": "Imprägnierung & Schutz",
+  "grund": "Vier Imprägnier-Varianten auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 681,
+  "unterkategorie": "Unterhaltsreiniger",
+  "grund": "Pflege- und Unterhaltsprodukte aus fünf Kategorien zusammengeführt."
+ },
+ {
+  "id": 711,
+  "unterkategorie": "AKEMI Spezialreiniger & Schutz",
+  "grund": "Graffiti-Entferner und Schutzimprägnierung zusammengeführt."
+ },
+ {
+  "id": 904,
+  "unterkategorie": "Hautschutz & Erste Hilfe",
+  "grund": "Handschutz, Handwaschpaste und Pflaster zusammengefasst."
+ },
+ {
+  "id": 906,
+  "unterkategorie": "Reinigungspapier & Entsorgung",
+  "top_score": 4,
+  "grund": "Putztücher und Kehrichtsäcke zusammengefasst. Kehrichtsäcke sind Verbrauchsmaterial."
+ },
+ {
+  "id": 948,
+  "unterkategorie": "Fugen & Dichtstoffe",
+  "grund": "Fünf Einzelkategorien rund um Fugen zusammengeführt."
+ },
+ {
+  "id": 959,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Kompressoren & Druckluft",
+  "grund": "Druckluftwerkzeuge und -zubehör beim Kompressor gebündelt (inkl. Zuzug aus Plattenleger und 11)."
+ },
+ {
+  "id": 977,
+  "unterkategorie": "Reinigungsmittel & Tücher",
+  "grund": "Reinigungsmaterial und Tücher zusammengefasst."
+ },
+ {
+  "id": 1080,
+  "unterkategorie": "Anreissen & Markieren",
+  "grund": "Einheitliche Unterkategorie für Anreiss- und Markiermittel."
+ },
+ {
+  "id": 1203,
+  "sparte": "Übergreifend",
+  "unterkategorie": "Körperschutz",
+  "grund": "Schürzen, Rückengurt und Schutzärmel zusammengeführt; 1203 lag als Duplikat in Plattenleger."
+ },
+ {
+  "id": 1327,
+  "unterkategorie": "Fugen & Dichtstoffe",
+  "grund": "Fünf Einzelkategorien rund um Fugen zusammengeführt."
+ },
+ {
+  "id": 1375,
+  "unterkategorie": "Trennscheiben Grossformat",
+  "grund": "Scheiben ab Ø300 mm für Brückensäge und Tischsäge einheitlich benannt."
+ },
+ {
+  "id": 1389,
+  "top_score": 3,
+  "grund": "Universalmesser mit Klingennachkauf."
+ },
+ {
+  "id": 1425,
+  "unterkategorie": "Bürsten",
+  "top_score": 3,
+  "grund": "Drei Namensvarianten für Handbürsten vereinheitlicht. Handbürste ist Verbrauchsmaterial, Angleich an 2036."
+ },
+ {
+  "id": 1446,
+  "unterkategorie": "Kompressoren & Druckluft",
+  "grund": "Druckluftwerkzeuge und -zubehör beim Kompressor gebündelt (inkl. Zuzug aus Plattenleger und 11)."
+ },
+ {
+  "id": 1478,
+  "unterkategorie": "Grundreinigung",
+  "top_score": 4,
+  "grund": "Intensiv- und Grundreiniger einheitlich zusammengefasst. Intensivreiniger ist Verbrauchsmaterial."
+ },
+ {
+  "id": 1498,
+  "unterkategorie": "Kompressoren & Druckluft",
+  "grund": "Druckluftwerkzeuge und -zubehör beim Kompressor gebündelt (inkl. Zuzug aus Plattenleger und 11)."
+ },
+ {
+  "id": 1871,
+  "unterkategorie": "Schutzbrillen & Gesichtsschutz",
+  "grund": "Brillen, Ersatzgläser und Schleifhelm zusammengeführt."
+ },
+ {
+  "id": 1872,
+  "unterkategorie": "Schutzbrillen & Gesichtsschutz",
+  "grund": "Brillen, Ersatzgläser und Schleifhelm zusammengeführt."
+ },
+ {
+  "id": 1873,
+  "unterkategorie": "Schutzbrillen & Gesichtsschutz",
+  "grund": "Brillen, Ersatzgläser und Schleifhelm zusammengeführt."
+ },
+ {
+  "id": 2011,
+  "unterkategorie": "Kompressoren & Druckluft",
+  "grund": "Druckluftwerkzeuge und -zubehör beim Kompressor gebündelt (inkl. Zuzug aus Plattenleger und 11)."
+ },
+ {
+  "id": 2016,
+  "top_score": 3,
+  "grund": "Universalmesser mit Klingennachkauf."
+ },
+ {
+  "id": 2021,
+  "unterkategorie": "Wasserwaagen & Winkel",
+  "grund": "Drei Einzelkategorien zusammengeführt."
+ },
+ {
+  "id": 2025,
+  "unterkategorie": "Handwerkzeug",
+  "top_score": 3,
+  "grund": "Zangen, Schlüssel, Zwingen und Spachtel einheitlich unter Handwerkzeug. Handwerkzeug, kein Ersatzteil."
+ },
+ {
+  "id": 2036,
+  "unterkategorie": "Bürsten",
+  "grund": "Drei Namensvarianten für Handbürsten vereinheitlicht."
+ },
+ {
+  "id": 2043,
+  "hauptkategorie": "07 Reinigen, Schützen & Reparieren",
+  "unterkategorie": "Schmier- & Pflegemittel",
+  "top_score": 4,
+  "grund": "WD-40 aus 11 zu den Schmiermitteln verschoben. WD-40 ist Verbrauchsmaterial mit hohem Umschlag."
+ },
+ {
+  "id": 2064,
+  "unterkategorie": "Reparatur & Heissluft",
+  "grund": "Schellack und Heissluftföhn als Reparaturmittel zusammengefasst."
+ },
+ {
+  "id": 2192,
+  "hauptkategorie": "12 Sanitär- & Montagesysteme",
+  "unterkategorie": "Kochfeld-Montage",
+  "top_score": 3,
+  "grund": "FERROFIX ist ein Montagesystem für Kochfelder, nicht Verlegen/Heben. Montagesystem, kein Ersatzteil."
+ },
+ {
+  "id": 2253,
+  "top_score": 4,
+  "grund": "StoneLux-Verbrauchsmaterial."
+ },
+ {
+  "id": 2260,
+  "top_score": 4,
+  "grund": "StoneLux-Verbrauchsmaterial."
+ },
+ {
+  "id": 2337,
+  "unterkategorie": "Unterhaltsreiniger",
+  "grund": "Pflege- und Unterhaltsprodukte aus fünf Kategorien zusammengeführt."
+ },
+ {
+  "id": 2339,
+  "unterkategorie": "Unterhaltsreiniger",
+  "grund": "Pflege- und Unterhaltsprodukte aus fünf Kategorien zusammengeführt."
+ },
+ {
+  "id": 2349,
+  "unterkategorie": "Imprägnierung & Schutz",
+  "top_score": 4,
+  "grund": "Vier Imprägnier-Varianten auf eine Unterkategorie vereinheitlicht. Fugenimprägnierung ist Verbrauchsmaterial."
+ },
+ {
+  "id": 2384,
+  "unterkategorie": "Gehrungsverklebung (Colour Bond & Jollynator)",
+  "grund": "Doppelte Unterkategorie zusammengeführt, Systemname gemäss Taxonomie."
+ },
+ {
+  "id": 2385,
+  "unterkategorie": "Gehrungsverklebung (Colour Bond & Jollynator)",
+  "grund": "Doppelte Unterkategorie zusammengeführt, Systemname gemäss Taxonomie."
+ },
+ {
+  "id": 2390,
+  "unterkategorie": "Handschleifmittel & Pads",
+  "top_score": 4,
+  "grund": "Handgeführte Schleif- und Abrichtmittel vereinheitlicht (7800 aus 02). Handrutscher ist Verbrauchsmaterial."
+ },
+ {
+  "id": 2407,
+  "unterkategorie": "Körperschutz",
+  "top_score": 3,
+  "grund": "Schürzen, Rückengurt und Schutzärmel zusammengeführt; 1203 lag als Duplikat in Plattenleger. PSA-Grundausstattung, kein Ersatzteil."
+ },
+ {
+  "id": 2413,
+  "unterkategorie": "Körperschutz",
+  "top_score": 3,
+  "grund": "Schürzen, Rückengurt und Schutzärmel zusammengeführt; 1203 lag als Duplikat in Plattenleger. PSA-Grundausstattung, kein Ersatzteil."
+ },
+ {
+  "id": 2414,
+  "unterkategorie": "Körperschutz",
+  "top_score": 3,
+  "grund": "Schürzen, Rückengurt und Schutzärmel zusammengeführt; 1203 lag als Duplikat in Plattenleger. PSA-Grundausstattung, kein Ersatzteil."
+ },
+ {
+  "id": 2421,
+  "unterkategorie": "Körperschutz",
+  "top_score": 3,
+  "grund": "Schürzen, Rückengurt und Schutzärmel zusammengeführt; 1203 lag als Duplikat in Plattenleger. Angleich an das identische Produkt 1203."
+ },
+ {
+  "id": 2511,
+  "top_score": 4,
+  "grund": "Angleich an die übrigen Grundreiniger."
+ },
+ {
+  "id": 2551,
+  "top_score": 4,
+  "grund": "FERROLAM ist Verbrauchsmaterial im Gehrungs-Workflow."
+ },
+ {
+  "id": 2635,
+  "unterkategorie": "Kleinschleifkörper & Gravur",
+  "grund": "Kleinwerkzeuge für Feinarbeit zusammengefasst."
+ },
+ {
+  "id": 2652,
+  "unterkategorie": "Diamanttrennscheiben universal",
+  "grund": "Universalscheiben für Stein und Beton von den Keramikscheiben getrennt."
+ },
+ {
+  "id": 3063,
+  "top_score": 4,
+  "grund": "Abdeckband ist Verbrauchsmaterial mit hohem Umschlag."
+ },
+ {
+  "id": 3064,
+  "top_score": 4,
+  "grund": "Abdeckband ist Verbrauchsmaterial mit hohem Umschlag."
+ },
+ {
+  "id": 3066,
+  "top_score": 4,
+  "grund": "Klebeband ist Verbrauchsmaterial mit hohem Umschlag."
+ },
+ {
+  "id": 3067,
+  "top_score": 4,
+  "grund": "Klebeband ist Verbrauchsmaterial mit hohem Umschlag."
+ },
+ {
+  "id": 3069,
+  "unterkategorie": "Kartuschenpistolen & Zubehör",
+  "grund": "Pistole und Düse in einer Unterkategorie."
+ },
+ {
+  "id": 3070,
+  "unterkategorie": "Kartuschenpistolen & Zubehör",
+  "grund": "Pistole und Düse in einer Unterkategorie."
+ },
+ {
+  "id": 3079,
+  "top_score": 4,
+  "grund": "Betonband ist Verbrauchsmaterial mit hohem Umschlag."
+ },
+ {
+  "id": 3125,
+  "sparte": "Übergreifend",
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "grund": "Winkelschleifer lagen in 02, 04 und 09 unter sechs Namen; jetzt eine Unterkategorie in 09."
+ },
+ {
+  "id": 3133,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Poliermaschinen (230V)",
+  "grund": "Supraflex SE 14-2 150 ist eine Poliermaschine, nicht ein Winkelschleifer."
+ },
+ {
+  "id": 3136,
+  "unterkategorie": "Kernbohren",
+  "grund": "Kernbohrständer, Adapter und Bohrmaschine in einer Unterkategorie."
+ },
+ {
+  "id": 3239,
+  "unterkategorie": "Anreissen & Markieren",
+  "grund": "Einheitliche Unterkategorie für Anreiss- und Markiermittel."
+ },
+ {
+  "id": 3257,
+  "top_score": 3,
+  "grund": "Kapselgehörschutz ist PSA-Grundausstattung, kein Ersatzteil."
+ },
+ {
+  "id": 3266,
+  "top_score": 4,
+  "grund": "Gehörschutzstöpsel sind Verbrauchsmaterial."
+ },
+ {
+  "id": 3279,
+  "top_score": 4,
+  "grund": "GRABO ist ein Verlegesystem gemäss Taxonomie hoch zu gewichten."
+ },
+ {
+  "id": 3303,
+  "top_score": 4,
+  "grund": "Filter sind Verbrauchsmaterial mit regelmässigem Nachkauf."
+ },
+ {
+  "id": 3304,
+  "top_score": 4,
+  "grund": "Filter sind Verbrauchsmaterial mit regelmässigem Nachkauf."
+ },
+ {
+  "id": 3389,
+  "hauptkategorie": "10 Arbeitsschutz (PSA)",
+  "unterkategorie": "Hautschutz & Erste Hilfe",
+  "grund": "Handschutz, Handwaschpaste und Pflaster zusammengefasst."
+ },
+ {
+  "id": 3393,
+  "unterkategorie": "Schutzbrillen & Gesichtsschutz",
+  "grund": "Brillen, Ersatzgläser und Schleifhelm zusammengeführt."
+ },
+ {
+  "id": 3616,
+  "unterkategorie": "Armierungsstäbe",
+  "top_score": 4,
+  "grund": "FERROLAM 6x3 gehört zu den Armierungsstäben, nicht zur Verklebung. FERROLAM ist Verbrauchsmaterial im Gehrungs-Workflow."
+ },
+ {
+  "id": 3869,
+  "unterkategorie": "Schutzbrillen & Gesichtsschutz",
+  "top_score": 3,
+  "grund": "Brillen, Ersatzgläser und Schleifhelm zusammengeführt. Schutzbrille, Angleich an die übrigen Brillen."
+ },
+ {
+  "id": 3886,
+  "unterkategorie": "Grundreinigung",
+  "grund": "Intensiv- und Grundreiniger einheitlich zusammengefasst."
+ },
+ {
+  "id": 3903,
+  "unterkategorie": "Polieren & Politur",
+  "top_score": 4,
+  "grund": "Poliermittel und Bodenpads in einer Unterkategorie. Politur ist Verbrauchsmaterial."
+ },
+ {
+  "id": 3986,
+  "top_score": 4,
+  "grund": "Schutzhandschuhe sind Verbrauchsmaterial, Angleich an 5635."
+ },
+ {
+  "id": 3987,
+  "top_score": 4,
+  "grund": "Schutzhandschuhe sind Verbrauchsmaterial, Angleich an 5635."
+ },
+ {
+  "id": 4019,
+  "unterkategorie": "Imprägnierung & Schutz",
+  "grund": "Vier Imprägnier-Varianten auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 4026,
+  "sparte": "Steinmetz & Bildhauer",
+  "unterkategorie": "Diamanttrennscheiben Bildhauer",
+  "grund": "Bildhauer-Trennscheiben gehören in die Sparte Steinmetz & Bildhauer."
+ },
+ {
+  "id": 4040,
+  "unterkategorie": "Diamant-Fräswerkzeuge",
+  "top_score": 4,
+  "grund": "Frässtifte und Fugenfräser als Verbrauchswerkzeuge zusammengefasst. Fugenfräser ist Verbrauchswerkzeug mit regelmässigem Nachkauf."
+ },
+ {
+  "id": 4046,
+  "unterkategorie": "Atemschutz",
+  "grund": "Masken und Filter einheitlich unter Atemschutz."
+ },
+ {
+  "id": 4065,
+  "unterkategorie": "Imprägnierung & Schutz",
+  "grund": "Vier Imprägnier-Varianten auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 4066,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 4069,
+  "sparte": "Steinmetz & Bildhauer",
+  "unterkategorie": "Polierpads",
+  "grund": "SPIRALBRICK ist ein Polierpad für Granit und Hartgestein, Sparte Steinmetz."
+ },
+ {
+  "id": 4094,
+  "unterkategorie": "Handschleifmittel & Pads",
+  "top_score": 4,
+  "grund": "Handgeführte Schleif- und Abrichtmittel vereinheitlicht (7800 aus 02). Handfeilen sind Verbrauchsmaterial."
+ },
+ {
+  "id": 4096,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 4098,
+  "unterkategorie": "Handwerkzeug",
+  "grund": "Zangen, Schlüssel, Zwingen und Spachtel einheitlich unter Handwerkzeug."
+ },
+ {
+  "id": 4132,
+  "sparte": "Übergreifend",
+  "unterkategorie": "Kompressoren & Druckluft",
+  "grund": "Druckluftwerkzeuge und -zubehör beim Kompressor gebündelt (inkl. Zuzug aus Plattenleger und 11)."
+ },
+ {
+  "id": 4133,
+  "sparte": "Übergreifend",
+  "unterkategorie": "Kompressoren & Druckluft",
+  "grund": "Druckluftwerkzeuge und -zubehör beim Kompressor gebündelt (inkl. Zuzug aus Plattenleger und 11)."
+ },
+ {
+  "id": 4207,
+  "unterkategorie": "Kleinschleifkörper & Gravur",
+  "grund": "Kleinwerkzeuge für Feinarbeit zusammengefasst."
+ },
+ {
+  "id": 4215,
+  "unterkategorie": "Fugen & Dichtstoffe",
+  "grund": "Fünf Einzelkategorien rund um Fugen zusammengeführt."
+ },
+ {
+  "id": 4216,
+  "top_score": 4,
+  "grund": "Schutzhandschuhe sind Verbrauchsmaterial, Angleich an 5635."
+ },
+ {
+  "id": 4217,
+  "top_score": 4,
+  "grund": "Schutzhandschuhe sind Verbrauchsmaterial, Angleich an 5635."
+ },
+ {
+  "id": 4224,
+  "unterkategorie": "Fugen & Dichtstoffe",
+  "top_score": 4,
+  "grund": "Fünf Einzelkategorien rund um Fugen zusammengeführt. Glättmittel ist Verbrauchsmaterial."
+ },
+ {
+  "id": 4242,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 4243,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 4247,
+  "unterkategorie": "Klebstoffe",
+  "grund": "2K-, MS-Polymer- und AKENOVA-Kleber einheitlich benannt."
+ },
+ {
+  "id": 4300,
+  "unterkategorie": "Klebstoffe",
+  "grund": "2K-, MS-Polymer- und AKENOVA-Kleber einheitlich benannt."
+ },
+ {
+  "id": 4385,
+  "unterkategorie": "Polieren & Politur",
+  "grund": "Poliermittel und Bodenpads in einer Unterkategorie."
+ },
+ {
+  "id": 4388,
+  "unterkategorie": "Polieren & Politur",
+  "grund": "Poliermittel und Bodenpads in einer Unterkategorie."
+ },
+ {
+  "id": 4424,
+  "unterkategorie": "Handschleifmittel & Pads",
+  "grund": "Handgeführte Schleif- und Abrichtmittel vereinheitlicht (7800 aus 02)."
+ },
+ {
+  "id": 4429,
+  "unterkategorie": "Trennscheiben Grossformat",
+  "grund": "Scheiben ab Ø300 mm für Brückensäge und Tischsäge einheitlich benannt."
+ },
+ {
+  "id": 4448,
+  "unterkategorie": "Gehrungsverklebung (Colour Bond & Jollynator)",
+  "grund": "Doppelte Unterkategorie zusammengeführt, Systemname gemäss Taxonomie."
+ },
+ {
+  "id": 4478,
+  "unterkategorie": "Kompressoren & Druckluft",
+  "grund": "Druckluftwerkzeuge und -zubehör beim Kompressor gebündelt (inkl. Zuzug aus Plattenleger und 11)."
+ },
+ {
+  "id": 4483,
+  "unterkategorie": "Trennscheiben Grossformat",
+  "grund": "Scheiben ab Ø300 mm für Brückensäge und Tischsäge einheitlich benannt."
+ },
+ {
+  "id": 4515,
+  "top_score": 4,
+  "grund": "StoneLux-Sortiment, Systemeinstieg."
+ },
+ {
+  "id": 4523,
+  "unterkategorie": "Schleifscheiben & Schärfen",
+  "top_score": 3,
+  "grund": "Werkzeugschärfen und Feldmühle-Scheiben zusammengeführt. Diamantschleifscheibe zum Schärfen ist Verbrauchsmaterial."
+ },
+ {
+  "id": 4542,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "unterkategorie": "Bit- & Schrauberzubehör",
+  "grund": "Bits und Adapter gehören zum Bohren/Schrauben, nicht in den Werkstattbedarf."
+ },
+ {
+  "id": 4545,
+  "unterkategorie": "Reinigungsmittel & Tücher",
+  "grund": "Reinigungsmaterial und Tücher zusammengefasst."
+ },
+ {
+  "id": 4570,
+  "top_score": 3,
+  "grund": "Handbürste ist Verbrauchsmaterial, Angleich an 2036."
+ },
+ {
+  "id": 4608,
+  "unterkategorie": "Schleifscheiben & Schärfen",
+  "top_score": 3,
+  "grund": "Werkzeugschärfen und Feldmühle-Scheiben zusammengeführt. Schleifscheibe ist Verbrauchsmaterial."
+ },
+ {
+  "id": 4698,
+  "top_score": 4,
+  "grund": "StoneLux-Verbrauchsmaterial."
+ },
+ {
+  "id": 4699,
+  "hauptkategorie": "07 Reinigen, Schützen & Reparieren",
+  "top_score": 4,
+  "grund": "Ceramic Smart Repair, TRED-Scheibe und Sanitary-Paste gehören zum StoneLux-System. Verbrauchsmaterial im StoneLux-System, nicht Nischenteil."
+ },
+ {
+  "id": 4705,
+  "unterkategorie": "Gehrungsverklebung (Colour Bond & Jollynator)",
+  "grund": "Doppelte Unterkategorie zusammengeführt, Systemname gemäss Taxonomie."
+ },
+ {
+  "id": 4710,
+  "unterkategorie": "Gehrungsverklebung (Colour Bond & Jollynator)",
+  "grund": "Doppelte Unterkategorie zusammengeführt, Systemname gemäss Taxonomie."
+ },
+ {
+  "id": 4799,
+  "unterkategorie": "Schleifscheiben & Schärfen",
+  "top_score": 3,
+  "grund": "Werkzeugschärfen und Feldmühle-Scheiben zusammengeführt. Diamantschleifscheibe zum Schärfen ist Verbrauchsmaterial."
+ },
+ {
+  "id": 4800,
+  "unterkategorie": "Schleifscheiben & Schärfen",
+  "top_score": 3,
+  "grund": "Werkzeugschärfen und Feldmühle-Scheiben zusammengeführt. Diamantschleifscheibe zum Schärfen ist Verbrauchsmaterial."
+ },
+ {
+  "id": 4808,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 4813,
+  "unterkategorie": "CNC-Fräswerkzeuge",
+  "grund": "Drei Namensvarianten für CNC-Fräser vereinheitlicht."
+ },
+ {
+  "id": 4820,
+  "unterkategorie": "CNC-Fräswerkzeuge",
+  "grund": "Drei Namensvarianten für CNC-Fräser vereinheitlicht."
+ },
+ {
+  "id": 4821,
+  "unterkategorie": "CNC-Fräswerkzeuge",
+  "grund": "Drei Namensvarianten für CNC-Fräser vereinheitlicht."
+ },
+ {
+  "id": 4822,
+  "unterkategorie": "CNC-Fräswerkzeuge",
+  "grund": "Drei Namensvarianten für CNC-Fräser vereinheitlicht."
+ },
+ {
+  "id": 4901,
+  "unterkategorie": "Trennscheiben Grossformat",
+  "grund": "Scheiben ab Ø300 mm für Brückensäge und Tischsäge einheitlich benannt."
+ },
+ {
+  "id": 4928,
+  "unterkategorie": "Diamant-Schleiftöpfe & -kegel",
+  "grund": "Topf- und Kegelformen zusammengefasst."
+ },
+ {
+  "id": 4986,
+  "unterkategorie": "Aufnahmeteller & Adapter",
+  "grund": "Aufnahmen aus vier Einzelkategorien zusammengeführt."
+ },
+ {
+  "id": 4987,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 5138,
+  "unterkategorie": "Wasserwaagen & Winkel",
+  "grund": "Drei Einzelkategorien zusammengeführt."
+ },
+ {
+  "id": 5249,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Kompressoren & Druckluft",
+  "grund": "Druckluftwerkzeuge und -zubehör beim Kompressor gebündelt (inkl. Zuzug aus Plattenleger und 11)."
+ },
+ {
+  "id": 5312,
+  "unterkategorie": "Fugen & Dichtstoffe",
+  "grund": "Fünf Einzelkategorien rund um Fugen zusammengeführt."
+ },
+ {
+  "id": 5444,
+  "unterkategorie": "Trennscheiben Grossformat",
+  "grund": "Scheiben ab Ø300 mm für Brückensäge und Tischsäge einheitlich benannt."
+ },
+ {
+  "id": 5449,
+  "top_score": 5,
+  "grund": "Farbpasten sind Colour-Bond-Verbrauchsmaterial, Bestseller-Anker."
+ },
+ {
+  "id": 5560,
+  "unterkategorie": "Hämmer & Fäustel",
+  "top_score": 3,
+  "grund": "Zwei Namensvarianten vereinheitlicht. Handwerkzeug, kein Ersatzteil."
+ },
+ {
+  "id": 5714,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 5736,
+  "unterkategorie": "Akku-Sauger",
+  "grund": "Akku-Sauger aus drei Kategorien und aus Plattenleger zusammengeführt."
+ },
+ {
+  "id": 5765,
+  "unterkategorie": "Nasstrennschneider",
+  "grund": "Eigenständige Maschinengruppe für den Plattenleger."
+ },
+ {
+  "id": 5782,
+  "unterkategorie": "Saugerzubehör",
+  "grund": "Absaughauben und Saugerzubehör aus fünf Kategorien zusammengeführt (inkl. Plattenleger)."
+ },
+ {
+  "id": 5783,
+  "unterkategorie": "Saugerzubehör",
+  "grund": "Absaughauben und Saugerzubehör aus fünf Kategorien zusammengeführt (inkl. Plattenleger)."
+ },
+ {
+  "id": 5819,
+  "unterkategorie": "CNC-Fräswerkzeuge",
+  "grund": "Drei Namensvarianten für CNC-Fräser vereinheitlicht."
+ },
+ {
+  "id": 5821,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "grund": "Duplikate aus FLEX Akku-Werkzeuge und 09 zusammengeführt."
+ },
+ {
+  "id": 5931,
+  "unterkategorie": "Aufnahmeteller & Adapter",
+  "grund": "Aufnahmen aus vier Einzelkategorien zusammengeführt."
+ },
+ {
+  "id": 5937,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 5950,
+  "unterkategorie": "Klebstoffe",
+  "grund": "2K-, MS-Polymer- und AKENOVA-Kleber einheitlich benannt."
+ },
+ {
+  "id": 5951,
+  "unterkategorie": "Klebstoffe",
+  "grund": "2K-, MS-Polymer- und AKENOVA-Kleber einheitlich benannt."
+ },
+ {
+  "id": 5965,
+  "hauptkategorie": "02 Schneiden & Trennen",
+  "unterkategorie": "Sägen",
+  "grund": "Alle Sägemaschinen in eine Unterkategorie, Herstellerbezeichnungen entfernt."
+ },
+ {
+  "id": 5980,
+  "unterkategorie": "Transport- & Koffersysteme",
+  "grund": "Fünf Namensvarianten für Stack Pack und Koffer vereinheitlicht."
+ },
+ {
+  "id": 5993,
+  "unterkategorie": "Diamant-Schleifscheiben",
+  "grund": "Vier Namensvarianten für Diamantschleifscheiben vereinheitlicht."
+ },
+ {
+  "id": 5994,
+  "unterkategorie": "Diamant-Schleifscheiben",
+  "grund": "Vier Namensvarianten für Diamantschleifscheiben vereinheitlicht."
+ },
+ {
+  "id": 5997,
+  "unterkategorie": "Diamant-Schleiftöpfe & -kegel",
+  "grund": "Topf- und Kegelformen zusammengefasst."
+ },
+ {
+  "id": 5998,
+  "unterkategorie": "Diamant-Schleiftöpfe & -kegel",
+  "grund": "Topf- und Kegelformen zusammengefasst."
+ },
+ {
+  "id": 5999,
+  "unterkategorie": "Diamant-Schleiftöpfe & -kegel",
+  "grund": "Topf- und Kegelformen zusammengefasst."
+ },
+ {
+  "id": 6000,
+  "unterkategorie": "Diamant-Schleiftöpfe & -kegel",
+  "grund": "Topf- und Kegelformen zusammengefasst."
+ },
+ {
+  "id": 6001,
+  "unterkategorie": "Diamant-Schleiftöpfe & -kegel",
+  "grund": "Topf- und Kegelformen zusammengefasst."
+ },
+ {
+  "id": 6002,
+  "unterkategorie": "Diamant-Schleiftöpfe & -kegel",
+  "grund": "Topf- und Kegelformen zusammengefasst."
+ },
+ {
+  "id": 6018,
+  "unterkategorie": "Filtersäcke & Filter",
+  "grund": "Vier Namensvarianten für Saugerfilter vereinheitlicht."
+ },
+ {
+  "id": 6058,
+  "sparte": "Übergreifend",
+  "unterkategorie": "Knieschutz",
+  "grund": "Knieschoner aus Plattenleger zum Knieschutz; PSA gehört gemäss Taxonomie nach Übergreifend."
+ },
+ {
+  "id": 6059,
+  "sparte": "Übergreifend",
+  "unterkategorie": "Knieschutz",
+  "grund": "Knieschoner aus Plattenleger zum Knieschutz; PSA gehört gemäss Taxonomie nach Übergreifend."
+ },
+ {
+  "id": 6069,
+  "unterkategorie": "Baustellenbeleuchtung & Strom",
+  "grund": "Vier Namensvarianten zusammengeführt, Akku-Flutlicht aus 09 geholt."
+ },
+ {
+  "id": 6094,
+  "hauptkategorie": "07 Reinigen, Schützen & Reparieren",
+  "grund": "Ceramic Smart Repair, TRED-Scheibe und Sanitary-Paste gehören zum StoneLux-System."
+ },
+ {
+  "id": 6106,
+  "sparte": "Übergreifend",
+  "grund": "Akku-Sauger aus drei Kategorien und aus Plattenleger zusammengeführt."
+ },
+ {
+  "id": 6108,
+  "unterkategorie": "Laser & Nivellieren",
+  "grund": "Kreuz- und Linienlaser in einer Unterkategorie zusammengefasst."
+ },
+ {
+  "id": 6109,
+  "unterkategorie": "Transport- & Koffersysteme",
+  "grund": "Fünf Namensvarianten für Stack Pack und Koffer vereinheitlicht."
+ },
+ {
+  "id": 6135,
+  "unterkategorie": "Handwerkzeug",
+  "grund": "Zangen, Schlüssel, Zwingen und Spachtel einheitlich unter Handwerkzeug."
+ },
+ {
+  "id": 6137,
+  "unterkategorie": "Messwerkzeuge",
+  "grund": "Schieblehren und Rollmeter zusammengefasst."
+ },
+ {
+  "id": 6143,
+  "top_score": 2,
+  "grund": "Handwerkzeug, kein Nischenteil."
+ },
+ {
+  "id": 6144,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "unterkategorie": "Bit- & Schrauberzubehör",
+  "top_score": 3,
+  "grund": "Bits und Adapter gehören zum Bohren/Schrauben, nicht in den Werkstattbedarf. Zubehör, kein Ersatzteil."
+ },
+ {
+  "id": 6145,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "unterkategorie": "Bit- & Schrauberzubehör",
+  "top_score": 3,
+  "grund": "Bits und Adapter gehören zum Bohren/Schrauben, nicht in den Werkstattbedarf. Zubehör, kein Ersatzteil."
+ },
+ {
+  "id": 6157,
+  "unterkategorie": "Filtersäcke & Filter",
+  "grund": "Vier Namensvarianten für Saugerfilter vereinheitlicht."
+ },
+ {
+  "id": 6158,
+  "unterkategorie": "Vakuum-Verlegesystem",
+  "top_score": 4,
+  "grund": "Saugheber gehört zum Vakuum-Verlegesystem, Namensvariante entfernt. Dichtung ist Verbrauchsmaterial im GRABO-System."
+ },
+ {
+  "id": 6162,
+  "sparte": "Übergreifend",
+  "unterkategorie": "Saugerzubehör",
+  "grund": "Absaughauben und Saugerzubehör aus fünf Kategorien zusammengeführt (inkl. Plattenleger)."
+ },
+ {
+  "id": 6167,
+  "unterkategorie": "Baustellensauger",
+  "grund": "Industrie-, Sicherheits- und Nasssauger auf eine Unterkategorie vereinheitlicht (inkl. Zuzug aus Plattenleger)."
+ },
+ {
+  "id": 6197,
+  "unterkategorie": "Imprägnierung & Schutz",
+  "grund": "Vier Imprägnier-Varianten auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 6200,
+  "unterkategorie": "Baustellensauger",
+  "grund": "Industrie-, Sicherheits- und Nasssauger auf eine Unterkategorie vereinheitlicht (inkl. Zuzug aus Plattenleger)."
+ },
+ {
+  "id": 6233,
+  "unterkategorie": "Schleifscheiben & Schärfen",
+  "grund": "Werkzeugschärfen und Feldmühle-Scheiben zusammengeführt."
+ },
+ {
+  "id": 6236,
+  "sparte": "Übergreifend",
+  "unterkategorie": "Saugerzubehör",
+  "grund": "Absaughauben und Saugerzubehör aus fünf Kategorien zusammengeführt (inkl. Plattenleger)."
+ },
+ {
+  "id": 6239,
+  "unterkategorie": "Baustellensauger",
+  "grund": "Industrie-, Sicherheits- und Nasssauger auf eine Unterkategorie vereinheitlicht (inkl. Zuzug aus Plattenleger)."
+ },
+ {
+  "id": 6242,
+  "unterkategorie": "Handschleifmittel & Pads",
+  "grund": "Handgeführte Schleif- und Abrichtmittel vereinheitlicht (7800 aus 02)."
+ },
+ {
+  "id": 6253,
+  "unterkategorie": "Winkelschleifer",
+  "grund": "Winkelschleifer lagen in 02, 04 und 09 unter sechs Namen; jetzt eine Unterkategorie in 09."
+ },
+ {
+  "id": 6257,
+  "unterkategorie": "Baustellenbeleuchtung & Strom",
+  "grund": "Vier Namensvarianten zusammengeführt, Akku-Flutlicht aus 09 geholt."
+ },
+ {
+  "id": 6277,
+  "unterkategorie": "Baustellenbeleuchtung & Strom",
+  "grund": "Vier Namensvarianten zusammengeführt, Akku-Flutlicht aus 09 geholt."
+ },
+ {
+  "id": 6280,
+  "unterkategorie": "Multitool-Zubehör",
+  "grund": "Herstellername aus der Unterkategorie entfernt, einheitlich mit 04."
+ },
+ {
+  "id": 6281,
+  "unterkategorie": "Multitool-Zubehör",
+  "grund": "Herstellername aus der Unterkategorie entfernt, einheitlich mit 04."
+ },
+ {
+  "id": 6282,
+  "unterkategorie": "Multitool-Zubehör",
+  "grund": "Herstellername aus der Unterkategorie entfernt, einheitlich mit 04."
+ },
+ {
+  "id": 6283,
+  "unterkategorie": "Multitool-Zubehör",
+  "grund": "Herstellername entfernt, einheitlich mit 02."
+ },
+ {
+  "id": 6284,
+  "unterkategorie": "Multitool-Zubehör",
+  "grund": "Herstellername aus der Unterkategorie entfernt, einheitlich mit 04."
+ },
+ {
+  "id": 6285,
+  "unterkategorie": "Multitool-Zubehör",
+  "grund": "Herstellername entfernt, einheitlich mit 02."
+ },
+ {
+  "id": 6286,
+  "unterkategorie": "Multitool-Zubehör",
+  "grund": "Herstellername entfernt, einheitlich mit 02."
+ },
+ {
+  "id": 6296,
+  "unterkategorie": "Winkelschleifer",
+  "grund": "Winkelschleifer lagen in 02, 04 und 09 unter sechs Namen; jetzt eine Unterkategorie in 09."
+ },
+ {
+  "id": 6306,
+  "unterkategorie": "Bohr- & Meisselhämmer",
+  "grund": "Sieben Einzelkategorien für Bohr- und Meisselhämmer zusammengeführt (7307 aus Plattenleger)."
+ },
+ {
+  "id": 6322,
+  "unterkategorie": "Diamanttrennscheiben universal",
+  "grund": "Universalscheiben für Stein und Beton von den Keramikscheiben getrennt."
+ },
+ {
+  "id": 6331,
+  "unterkategorie": "Transport- & Koffersysteme",
+  "grund": "Fünf Namensvarianten für Stack Pack und Koffer vereinheitlicht."
+ },
+ {
+  "id": 6333,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "unterkategorie": "Akku-Bohrschrauber",
+  "grund": "12V-, 18V- und Schlagbohr-Varianten sowie Duplikate aus 09 zusammengeführt."
+ },
+ {
+  "id": 6342,
+  "unterkategorie": "Diamant-Schleifscheiben",
+  "grund": "Vier Namensvarianten für Diamantschleifscheiben vereinheitlicht."
+ },
+ {
+  "id": 6359,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 6360,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 6364,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 6365,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 6366,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 6367,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 6413,
+  "unterkategorie": "Diamant-Schleifscheiben",
+  "grund": "Vier Namensvarianten für Diamantschleifscheiben vereinheitlicht."
+ },
+ {
+  "id": 6416,
+  "top_score": 2,
+  "grund": "Angleich an die übrigen Akku-Gartengeräte."
+ },
+ {
+  "id": 6417,
+  "top_score": 2,
+  "grund": "Angleich an die übrigen Akku-Gartengeräte."
+ },
+ {
+  "id": 6419,
+  "top_score": 2,
+  "grund": "Angleich an die übrigen Akku-Gartengeräte."
+ },
+ {
+  "id": 6421,
+  "unterkategorie": "Aufnahmeteller & Adapter",
+  "grund": "Aufnahmen aus vier Einzelkategorien zusammengeführt."
+ },
+ {
+  "id": 6476,
+  "unterkategorie": "Trennscheiben Grossformat",
+  "grund": "Scheiben ab Ø300 mm für Brückensäge und Tischsäge einheitlich benannt."
+ },
+ {
+  "id": 6485,
+  "unterkategorie": "Schneidetische & Sägen",
+  "grund": "Stationäre Schneidmaschinen zusammengefasst."
+ },
+ {
+  "id": 6488,
+  "unterkategorie": "Akkus & Ladegeräte",
+  "grund": "Vier Namensvarianten für Akkus und Ladegeräte vereinheitlicht."
+ },
+ {
+  "id": 6493,
+  "unterkategorie": "Akkus & Ladegeräte",
+  "grund": "Vier Namensvarianten für Akkus und Ladegeräte vereinheitlicht."
+ },
+ {
+  "id": 6494,
+  "unterkategorie": "Akkus & Ladegeräte",
+  "grund": "Vier Namensvarianten für Akkus und Ladegeräte vereinheitlicht."
+ },
+ {
+  "id": 6527,
+  "unterkategorie": "Reinigungspapier & Entsorgung",
+  "grund": "Putztücher und Kehrichtsäcke zusammengefasst."
+ },
+ {
+  "id": 6539,
+  "unterkategorie": "Akku-Schlagschrauber",
+  "grund": "Duplikate aus FLEX Akku-Werkzeuge und 09 zusammengeführt."
+ },
+ {
+  "id": 6540,
+  "unterkategorie": "Bohr- & Meisselhämmer",
+  "grund": "Sieben Einzelkategorien für Bohr- und Meisselhämmer zusammengeführt (7307 aus Plattenleger)."
+ },
+ {
+  "id": 6602,
+  "unterkategorie": "Bit- & Schrauberzubehör",
+  "grund": "Bits und Adapter gehören zum Bohren/Schrauben, nicht in den Werkstattbedarf."
+ },
+ {
+  "id": 6607,
+  "sparte": "Übergreifend",
+  "unterkategorie": "Baustellensauger",
+  "grund": "Industrie-, Sicherheits- und Nasssauger auf eine Unterkategorie vereinheitlicht (inkl. Zuzug aus Plattenleger)."
+ },
+ {
+  "id": 6609,
+  "unterkategorie": "Schneidetische & Sägen",
+  "grund": "Stationäre Schneidmaschinen zusammengefasst."
+ },
+ {
+  "id": 6615,
+  "unterkategorie": "Oberfräsen & Fräser",
+  "grund": "Maschine und Fräser-Sets zusammengeführt."
+ },
+ {
+  "id": 6616,
+  "unterkategorie": "Oberfräsen & Fräser",
+  "grund": "Maschine und Fräser-Sets zusammengeführt."
+ },
+ {
+  "id": 6656,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Winkelschleifer",
+  "grund": "Winkelschleifer lagen in 02, 04 und 09 unter sechs Namen; jetzt eine Unterkategorie in 09."
+ },
+ {
+  "id": 6677,
+  "unterkategorie": "Imprägnierung & Schutz",
+  "grund": "Vier Imprägnier-Varianten auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 6694,
+  "unterkategorie": "Akkus & Ladegeräte",
+  "grund": "Vier Namensvarianten für Akkus und Ladegeräte vereinheitlicht."
+ },
+ {
+  "id": 6732,
+  "unterkategorie": "Baustellenbeleuchtung & Strom",
+  "grund": "Vier Namensvarianten zusammengeführt, Akku-Flutlicht aus 09 geholt."
+ },
+ {
+  "id": 6780,
+  "unterkategorie": "Akku-Bohrschrauber",
+  "grund": "12V-, 18V- und Schlagbohr-Varianten sowie Duplikate aus 09 zusammengeführt."
+ },
+ {
+  "id": 6781,
+  "unterkategorie": "Baustellenbeleuchtung & Strom",
+  "grund": "Vier Namensvarianten zusammengeführt, Akku-Flutlicht aus 09 geholt."
+ },
+ {
+  "id": 6782,
+  "unterkategorie": "Akku-Bohrschrauber",
+  "grund": "12V-, 18V- und Schlagbohr-Varianten sowie Duplikate aus 09 zusammengeführt."
+ },
+ {
+  "id": 6783,
+  "unterkategorie": "Baustellenbeleuchtung & Strom",
+  "grund": "Vier Namensvarianten zusammengeführt, Akku-Flutlicht aus 09 geholt."
+ },
+ {
+  "id": 6784,
+  "unterkategorie": "Sägen",
+  "grund": "Alle Sägemaschinen in eine Unterkategorie, Herstellerbezeichnungen entfernt."
+ },
+ {
+  "id": 6785,
+  "unterkategorie": "Sägen",
+  "grund": "Alle Sägemaschinen in eine Unterkategorie, Herstellerbezeichnungen entfernt."
+ },
+ {
+  "id": 6791,
+  "top_score": 3,
+  "grund": "Filzteller ist Verbrauchsmaterial, Angleich an 6790."
+ },
+ {
+  "id": 6837,
+  "unterkategorie": "Schutzhandschuhe",
+  "grund": "Einweghandschuhe zu den Schutzhandschuhen."
+ },
+ {
+  "id": 6851,
+  "unterkategorie": "Reinigungspapier & Entsorgung",
+  "grund": "Putztücher und Kehrichtsäcke zusammengefasst."
+ },
+ {
+  "id": 6852,
+  "unterkategorie": "Reinigungspapier & Entsorgung",
+  "grund": "Putztücher und Kehrichtsäcke zusammengefasst."
+ },
+ {
+  "id": 6857,
+  "unterkategorie": "Bürsten & Fächerschleifer",
+  "top_score": 3,
+  "grund": "Rotierende Bürsten und Fächerschleifer zusammengefasst. Fächerschleifer ist Verbrauchsmaterial, nicht Ersatzteil."
+ },
+ {
+  "id": 6862,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 6863,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "unterkategorie": "Bohr- & Meisselhämmer",
+  "grund": "Sieben Einzelkategorien für Bohr- und Meisselhämmer zusammengeführt (7307 aus Plattenleger)."
+ },
+ {
+  "id": 6864,
+  "unterkategorie": "Akkus & Ladegeräte",
+  "top_score": 4,
+  "grund": "Vier Namensvarianten für Akkus und Ladegeräte vereinheitlicht. Akkus sind Systemverbrauch mit regelmässigem Nachkauf."
+ },
+ {
+  "id": 6866,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Kompressoren & Druckluft",
+  "grund": "Druckluftwerkzeuge und -zubehör beim Kompressor gebündelt (inkl. Zuzug aus Plattenleger und 11)."
+ },
+ {
+  "id": 6869,
+  "unterkategorie": "Werkstattmaschinen",
+  "grund": "Doppelschleifer als stationäre Werkstattmaschinen zusammengefasst."
+ },
+ {
+  "id": 6875,
+  "sparte": "Übergreifend",
+  "hauptkategorie": "11 Baustellen- & Werkstattbedarf",
+  "unterkategorie": "Rührwerke & Rührkörbe",
+  "grund": "Akku- und 230V-Rührwerke aus Plattenleger 09 zur bestehenden Gruppe."
+ },
+ {
+  "id": 6876,
+  "sparte": "Übergreifend",
+  "hauptkategorie": "11 Baustellen- & Werkstattbedarf",
+  "unterkategorie": "Rührwerke & Rührkörbe",
+  "grund": "Akku- und 230V-Rührwerke aus Plattenleger 09 zur bestehenden Gruppe."
+ },
+ {
+  "id": 6917,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "grund": "12V-, 18V- und Schlagbohr-Varianten sowie Duplikate aus 09 zusammengeführt."
+ },
+ {
+  "id": 6926,
+  "unterkategorie": "Laser-Messgeräte",
+  "grund": "Zwei Namensvarianten vereinheitlicht."
+ },
+ {
+  "id": 6927,
+  "unterkategorie": "Bohr- & Meisselhämmer",
+  "grund": "Sieben Einzelkategorien für Bohr- und Meisselhämmer zusammengeführt (7307 aus Plattenleger)."
+ },
+ {
+  "id": 6946,
+  "unterkategorie": "Reparatur & Heissluft",
+  "grund": "Schellack und Heissluftföhn als Reparaturmittel zusammengefasst."
+ },
+ {
+  "id": 6948,
+  "unterkategorie": "Akkus & Ladegeräte",
+  "grund": "Vier Namensvarianten für Akkus und Ladegeräte vereinheitlicht."
+ },
+ {
+  "id": 6950,
+  "unterkategorie": "Bohr- & Meisselhämmer",
+  "grund": "Sieben Einzelkategorien für Bohr- und Meisselhämmer zusammengeführt (7307 aus Plattenleger)."
+ },
+ {
+  "id": 6968,
+  "unterkategorie": "Winkelschleifer",
+  "grund": "Winkelschleifer lagen in 02, 04 und 09 unter sechs Namen; jetzt eine Unterkategorie in 09."
+ },
+ {
+  "id": 6977,
+  "unterkategorie": "Transport- & Koffersysteme",
+  "grund": "Fünf Namensvarianten für Stack Pack und Koffer vereinheitlicht."
+ },
+ {
+  "id": 7023,
+  "unterkategorie": "Diamant-Schleiftöpfe & -kegel",
+  "grund": "Topf- und Kegelformen zusammengefasst."
+ },
+ {
+  "id": 7031,
+  "unterkategorie": "Sanierung & Abbruch",
+  "grund": "Teppichstripper und Cut-n-Break als Sanierungsmaschinen zusammengefasst."
+ },
+ {
+  "id": 7034,
+  "unterkategorie": "Diamant-Schleifscheiben",
+  "grund": "Vier Namensvarianten für Diamantschleifscheiben vereinheitlicht."
+ },
+ {
+  "id": 7035,
+  "unterkategorie": "Diamant-Schleifscheiben",
+  "grund": "Vier Namensvarianten für Diamantschleifscheiben vereinheitlicht."
+ },
+ {
+  "id": 7047,
+  "unterkategorie": "Kernbohren",
+  "grund": "Kernbohrständer, Adapter und Bohrmaschine in einer Unterkategorie."
+ },
+ {
+  "id": 7048,
+  "unterkategorie": "Kernbohren",
+  "grund": "Kernbohrständer, Adapter und Bohrmaschine in einer Unterkategorie."
+ },
+ {
+  "id": 7089,
+  "unterkategorie": "Handwerkzeug",
+  "grund": "Zangen, Schlüssel, Zwingen und Spachtel einheitlich unter Handwerkzeug."
+ },
+ {
+  "id": 7141,
+  "unterkategorie": "Vakuum-Verlegesystem",
+  "grund": "Saugheber gehört zum Vakuum-Verlegesystem, Namensvariante entfernt."
+ },
+ {
+  "id": 7162,
+  "unterkategorie": "Sägen",
+  "grund": "Alle Sägemaschinen in eine Unterkategorie, Herstellerbezeichnungen entfernt."
+ },
+ {
+  "id": 7163,
+  "unterkategorie": "Bau-Luftreiniger",
+  "grund": "Gerät und Türschleuse zusammengefasst."
+ },
+ {
+  "id": 7174,
+  "unterkategorie": "Fugen & Dichtstoffe",
+  "top_score": 4,
+  "grund": "Fünf Einzelkategorien rund um Fugen zusammengeführt. Klebedichtstoff ist Verbrauchsmaterial."
+ },
+ {
+  "id": 7190,
+  "unterkategorie": "AKEMI Spezialreiniger & Schutz",
+  "grund": "Graffiti-Entferner und Schutzimprägnierung zusammengeführt."
+ },
+ {
+  "id": 7191,
+  "unterkategorie": "AKEMI Spezialreiniger & Schutz",
+  "grund": "Graffiti-Entferner und Schutzimprägnierung zusammengeführt."
+ },
+ {
+  "id": 7208,
+  "unterkategorie": "Transport- & Koffersysteme",
+  "grund": "Fünf Namensvarianten für Stack Pack und Koffer vereinheitlicht."
+ },
+ {
+  "id": 7209,
+  "unterkategorie": "Transport- & Koffersysteme",
+  "grund": "Fünf Namensvarianten für Stack Pack und Koffer vereinheitlicht."
+ },
+ {
+  "id": 7224,
+  "unterkategorie": "Schutzbrillen & Gesichtsschutz",
+  "grund": "Brillen, Ersatzgläser und Schleifhelm zusammengeführt."
+ },
+ {
+  "id": 7229,
+  "unterkategorie": "Diamanttrennscheiben universal",
+  "grund": "Universalscheiben für Stein und Beton von den Keramikscheiben getrennt."
+ },
+ {
+  "id": 7230,
+  "unterkategorie": "Diamanttrennscheiben universal",
+  "grund": "Universalscheiben für Stein und Beton von den Keramikscheiben getrennt."
+ },
+ {
+  "id": 7245,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Winkelschleifer",
+  "grund": "Winkelschleifer lagen in 02, 04 und 09 unter sechs Namen; jetzt eine Unterkategorie in 09."
+ },
+ {
+  "id": 7257,
+  "unterkategorie": "StoneLux-Reparatur",
+  "grund": "Ceramic Smart Repair, TRED-Scheibe und Sanitary-Paste gehören zum StoneLux-System."
+ },
+ {
+  "id": 7263,
+  "unterkategorie": "Baustellensauger",
+  "grund": "Industrie-, Sicherheits- und Nasssauger auf eine Unterkategorie vereinheitlicht (inkl. Zuzug aus Plattenleger)."
+ },
+ {
+  "id": 7264,
+  "unterkategorie": "Akkus & Ladegeräte",
+  "top_score": 4,
+  "grund": "Vier Namensvarianten für Akkus und Ladegeräte vereinheitlicht. Akku-Set, Systemeinstieg."
+ },
+ {
+  "id": 7297,
+  "hauptkategorie": "11 Baustellen- & Werkstattbedarf",
+  "unterkategorie": "Baustellenbeleuchtung & Strom",
+  "grund": "Vier Namensvarianten zusammengeführt, Akku-Flutlicht aus 09 geholt."
+ },
+ {
+  "id": 7298,
+  "unterkategorie": "Akku-Bohrschrauber",
+  "grund": "12V-, 18V- und Schlagbohr-Varianten sowie Duplikate aus 09 zusammengeführt."
+ },
+ {
+  "id": 7300,
+  "unterkategorie": "Oberfräsen & Fräser",
+  "grund": "Maschine und Fräser-Sets zusammengeführt."
+ },
+ {
+  "id": 7302,
+  "unterkategorie": "Sägen",
+  "grund": "Alle Sägemaschinen in eine Unterkategorie, Herstellerbezeichnungen entfernt."
+ },
+ {
+  "id": 7304,
+  "unterkategorie": "Sägen",
+  "grund": "Alle Sägemaschinen in eine Unterkategorie, Herstellerbezeichnungen entfernt."
+ },
+ {
+  "id": 7306,
+  "unterkategorie": "Saugerzubehör",
+  "grund": "Absaughauben und Saugerzubehör aus fünf Kategorien zusammengeführt (inkl. Plattenleger)."
+ },
+ {
+  "id": 7307,
+  "sparte": "Übergreifend",
+  "unterkategorie": "Bohr- & Meisselhämmer",
+  "grund": "Sieben Einzelkategorien für Bohr- und Meisselhämmer zusammengeführt (7307 aus Plattenleger)."
+ },
+ {
+  "id": 7308,
+  "unterkategorie": "Bohr- & Meisselhämmer",
+  "grund": "Sieben Einzelkategorien für Bohr- und Meisselhämmer zusammengeführt (7307 aus Plattenleger)."
+ },
+ {
+  "id": 7310,
+  "unterkategorie": "Sägen",
+  "grund": "Alle Sägemaschinen in eine Unterkategorie, Herstellerbezeichnungen entfernt."
+ },
+ {
+  "id": 7311,
+  "unterkategorie": "Sanierung & Abbruch",
+  "grund": "Teppichstripper und Cut-n-Break als Sanierungsmaschinen zusammengefasst."
+ },
+ {
+  "id": 7312,
+  "unterkategorie": "Laser-Messgeräte",
+  "grund": "Zwei Namensvarianten vereinheitlicht."
+ },
+ {
+  "id": 7313,
+  "unterkategorie": "Schleifpapier & Pads",
+  "grund": "Sechs Namensvarianten für Schleifpapier vereinheitlicht."
+ },
+ {
+  "id": 7315,
+  "unterkategorie": "Laser & Nivellieren",
+  "grund": "Kreuz- und Linienlaser in einer Unterkategorie zusammengefasst."
+ },
+ {
+  "id": 7316,
+  "unterkategorie": "Akku-Bohrschrauber",
+  "grund": "12V-, 18V- und Schlagbohr-Varianten sowie Duplikate aus 09 zusammengeführt."
+ },
+ {
+  "id": 7320,
+  "unterkategorie": "Schleifmaschinen",
+  "grund": "Fünf Einzelkategorien für Schleifmaschinen zusammengeführt."
+ },
+ {
+  "id": 7322,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Winkelschleifer",
+  "grund": "Winkelschleifer lagen in 02, 04 und 09 unter sechs Namen; jetzt eine Unterkategorie in 09."
+ },
+ {
+  "id": 7326,
+  "unterkategorie": "Bürsten & Fächerschleifer",
+  "top_score": 4,
+  "grund": "Rotierende Bürsten und Fächerschleifer zusammengefasst. Topfbürsten sind Verbrauchsmaterial."
+ },
+ {
+  "id": 7327,
+  "unterkategorie": "Maschinenzubehör",
+  "grund": "Handgriff und Untergestell als Maschinenzubehör zusammengefasst."
+ },
+ {
+  "id": 7329,
+  "unterkategorie": "Sägen",
+  "grund": "Alle Sägemaschinen in eine Unterkategorie, Herstellerbezeichnungen entfernt."
+ },
+ {
+  "id": 7330,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Maschinenzubehör",
+  "grund": "Handgriff und Untergestell als Maschinenzubehör zusammengefasst."
+ },
+ {
+  "id": 7333,
+  "unterkategorie": "Schleifmaschinen",
+  "grund": "Fünf Einzelkategorien für Schleifmaschinen zusammengeführt."
+ },
+ {
+  "id": 7334,
+  "unterkategorie": "Transport- & Koffersysteme",
+  "grund": "Fünf Namensvarianten für Stack Pack und Koffer vereinheitlicht."
+ },
+ {
+  "id": 7338,
+  "unterkategorie": "Filtersäcke & Filter",
+  "grund": "Vier Namensvarianten für Saugerfilter vereinheitlicht."
+ },
+ {
+  "id": 7339,
+  "unterkategorie": "Schleifmaschinen",
+  "grund": "Fünf Einzelkategorien für Schleifmaschinen zusammengeführt."
+ },
+ {
+  "id": 7341,
+  "unterkategorie": "Bohrer & Meissel",
+  "grund": "Verbrauchswerkzeuge bei der Anwendung gebündelt."
+ },
+ {
+  "id": 7349,
+  "unterkategorie": "Sägen",
+  "grund": "Alle Sägemaschinen in eine Unterkategorie, Herstellerbezeichnungen entfernt."
+ },
+ {
+  "id": 7352,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Werkstattmaschinen",
+  "grund": "Doppelschleifer als stationäre Werkstattmaschinen zusammengefasst."
+ },
+ {
+  "id": 7356,
+  "unterkategorie": "Filtersäcke & Filter",
+  "grund": "Vier Namensvarianten für Saugerfilter vereinheitlicht."
+ },
+ {
+  "id": 7374,
+  "unterkategorie": "Anreissen & Markieren",
+  "top_score": 4,
+  "grund": "Acht Einzelkategorien für Stifte und Marker zusammengeführt. Anreissstifte sind Verbrauchsmaterial."
+ },
+ {
+  "id": 7376,
+  "unterkategorie": "Anreissen & Markieren",
+  "top_score": 4,
+  "grund": "Acht Einzelkategorien für Stifte und Marker zusammengeführt. Ersatzminen sind Verbrauchsmaterial mit regelmässigem Nachkauf."
+ },
+ {
+  "id": 7377,
+  "unterkategorie": "Anreissen & Markieren",
+  "top_score": 4,
+  "grund": "Acht Einzelkategorien für Stifte und Marker zusammengeführt. Universalschreiber ist Verbrauchsmaterial."
+ },
+ {
+  "id": 7379,
+  "sparte": "Übergreifend",
+  "hauptkategorie": "11 Baustellen- & Werkstattbedarf",
+  "top_score": 3,
+  "grund": "Schonhammer aus Plattenleger 05 zur bestehenden Gruppe. Angleich an die übrigen Schonhämmer."
+ },
+ {
+  "id": 7383,
+  "unterkategorie": "Verlegehämmer",
+  "grund": "Fliesenleger-, Platten- und Gummihammer einheitlich benannt."
+ },
+ {
+  "id": 7389,
+  "unterkategorie": "Anreissen & Markieren",
+  "top_score": 4,
+  "grund": "Acht Einzelkategorien für Stifte und Marker zusammengeführt. Wachsstift ist Verbrauchsmaterial."
+ },
+ {
+  "id": 7394,
+  "unterkategorie": "Anreissen & Markieren",
+  "top_score": 4,
+  "grund": "Acht Einzelkategorien für Stifte und Marker zusammengeführt. Marker sind Verbrauchsmaterial."
+ },
+ {
+  "id": 7395,
+  "unterkategorie": "Anreissen & Markieren",
+  "top_score": 4,
+  "grund": "Acht Einzelkategorien für Stifte und Marker zusammengeführt. Marker sind Verbrauchsmaterial."
+ },
+ {
+  "id": 7396,
+  "unterkategorie": "Schlagschnur",
+  "top_score": 3,
+  "grund": "Gerät und Pulver in einer Unterkategorie. Werkzeug, kein Ersatzteil."
+ },
+ {
+  "id": 7397,
+  "unterkategorie": "Schlagschnur",
+  "grund": "Gerät und Pulver in einer Unterkategorie."
+ },
+ {
+  "id": 7399,
+  "unterkategorie": "Handfliesenschneider & Zangen",
+  "top_score": 3,
+  "grund": "Handwerkzeuge zum Schneiden in einer Unterkategorie. Handwerkzeug, kein Ersatzteil."
+ },
+ {
+  "id": 7403,
+  "unterkategorie": "Anreissen & Markieren",
+  "grund": "Acht Einzelkategorien für Stifte und Marker zusammengeführt."
+ },
+ {
+  "id": 7404,
+  "unterkategorie": "Anreissen & Markieren",
+  "grund": "Acht Einzelkategorien für Stifte und Marker zusammengeführt."
+ },
+ {
+  "id": 7407,
+  "unterkategorie": "Akku-Bohrschrauber",
+  "grund": "12V-, 18V- und Schlagbohr-Varianten sowie Duplikate aus 09 zusammengeführt."
+ },
+ {
+  "id": 7409,
+  "hauptkategorie": "09 Maschinen & Energie (Akku, 230 V, Druckluft, Benzin)",
+  "unterkategorie": "Winkelschleifer",
+  "grund": "Winkelschleifer lagen in 02, 04 und 09 unter sechs Namen; jetzt eine Unterkategorie in 09."
+ },
+ {
+  "id": 7418,
+  "unterkategorie": "Schleifmaschinen",
+  "grund": "Fünf Einzelkategorien für Schleifmaschinen zusammengeführt."
+ },
+ {
+  "id": 7419,
+  "unterkategorie": "Bürsten & Fächerschleifer",
+  "top_score": 4,
+  "grund": "Rotierende Bürsten und Fächerschleifer zusammengefasst. Topfbürsten sind Verbrauchsmaterial."
+ },
+ {
+  "id": 7420,
+  "unterkategorie": "Bürsten & Fächerschleifer",
+  "top_score": 4,
+  "grund": "Rotierende Bürsten und Fächerschleifer zusammengefasst. Topfbürsten sind Verbrauchsmaterial."
+ },
+ {
+  "id": 7437,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "unterkategorie": "Bit- & Schrauberzubehör",
+  "top_score": 3,
+  "grund": "Bits und Adapter gehören zum Bohren/Schrauben, nicht in den Werkstattbedarf. Zubehör, kein Ersatzteil."
+ },
+ {
+  "id": 7438,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "unterkategorie": "Bit- & Schrauberzubehör",
+  "top_score": 3,
+  "grund": "Bits und Adapter gehören zum Bohren/Schrauben, nicht in den Werkstattbedarf. Zubehör, kein Ersatzteil."
+ },
+ {
+  "id": 7447,
+  "unterkategorie": "Schleifpapier & Pads",
+  "top_score": 4,
+  "grund": "Sechs Namensvarianten für Schleifpapier vereinheitlicht. Schleifpapier ist Verbrauchsmaterial, Angleich an die übrigen."
+ },
+ {
+  "id": 7466,
+  "unterkategorie": "Gehrungsschnitt (45°)",
+  "grund": "Glider 45 PRO ist ein Schnittwerkzeug, nicht Verklebung."
+ },
+ {
+  "id": 7467,
+  "unterkategorie": "Handfliesenschneider & Zangen",
+  "grund": "Handwerkzeuge zum Schneiden in einer Unterkategorie."
+ },
+ {
+  "id": 7469,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 7471,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 7472,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 7473,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 7495,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "unterkategorie": "Bit- & Schrauberzubehör",
+  "top_score": 4,
+  "grund": "Bits und Adapter gehören zum Bohren/Schrauben, nicht in den Werkstattbedarf. Bit-Set 25-teilig ist Verbrauchsmaterial."
+ },
+ {
+  "id": 7530,
+  "unterkategorie": "Winkelschleifer",
+  "grund": "Winkelschleifer lagen in 02, 04 und 09 unter sechs Namen; jetzt eine Unterkategorie in 09."
+ },
+ {
+  "id": 7566,
+  "unterkategorie": "Trennscheiben Grossformat",
+  "grund": "Scheiben ab Ø300 mm für Brückensäge und Tischsäge einheitlich benannt."
+ },
+ {
+  "id": 7569,
+  "unterkategorie": "Baustellensauger",
+  "grund": "Industrie-, Sicherheits- und Nasssauger auf eine Unterkategorie vereinheitlicht (inkl. Zuzug aus Plattenleger)."
+ },
+ {
+  "id": 7614,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 7618,
+  "unterkategorie": "Aufnahmen & Schutzhauben",
+  "grund": "Maschinenseitiges Zubehör beim Schleifen."
+ },
+ {
+  "id": 7638,
+  "top_score": 3,
+  "grund": "Rührkorb ist Verschleissteil mit Nachkauf."
+ },
+ {
+  "id": 7640,
+  "unterkategorie": "Sägen",
+  "grund": "Alle Sägemaschinen in eine Unterkategorie, Herstellerbezeichnungen entfernt."
+ },
+ {
+  "id": 7641,
+  "unterkategorie": "Sägeblätter & Sägezubehör",
+  "grund": "Verbrauchsmaterial und Zubehör bei der Anwendung."
+ },
+ {
+  "id": 7648,
+  "top_score": 4,
+  "grund": "Akkus sind Systemverbrauch mit regelmässigem Nachkauf."
+ },
+ {
+  "id": 7664,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Aufnahmen & Schutzhauben",
+  "grund": "Maschinenseitiges Zubehör beim Schleifen."
+ },
+ {
+  "id": 7671,
+  "unterkategorie": "Winkelschleifer",
+  "grund": "Winkelschleifer lagen in 02, 04 und 09 unter sechs Namen; jetzt eine Unterkategorie in 09."
+ },
+ {
+  "id": 7673,
+  "unterkategorie": "Sägeblätter & Sägezubehör",
+  "top_score": 4,
+  "grund": "Verbrauchsmaterial und Zubehör bei der Anwendung. Sägeblatt ist Verbrauchsmaterial."
+ },
+ {
+  "id": 7688,
+  "unterkategorie": "Winkelschleifer",
+  "grund": "Winkelschleifer lagen in 02, 04 und 09 unter sechs Namen; jetzt eine Unterkategorie in 09."
+ },
+ {
+  "id": 7703,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 7726,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 7729,
+  "unterkategorie": "Diamant-Schleifscheiben",
+  "grund": "Vier Namensvarianten für Diamantschleifscheiben vereinheitlicht."
+ },
+ {
+  "id": 7799,
+  "unterkategorie": "Aufnahmeteller & Adapter",
+  "grund": "Aufnahmen aus vier Einzelkategorien zusammengeführt."
+ },
+ {
+  "id": 7800,
+  "hauptkategorie": "04 Schleifen, Kanten & Polieren",
+  "unterkategorie": "Handschleifmittel & Pads",
+  "top_score": 4,
+  "grund": "Handgeführte Schleif- und Abrichtmittel vereinheitlicht (7800 aus 02). Abrichtstein ist Verbrauchsmaterial für Trennscheiben."
+ },
+ {
+  "id": 7830,
+  "top_score": 4,
+  "grund": "StoneLux-Verbrauchsmaterial."
+ },
+ {
+  "id": 7831,
+  "top_score": 4,
+  "grund": "StoneLux-Verbrauchsmaterial."
+ },
+ {
+  "id": 7842,
+  "sparte": "Plattenleger",
+  "unterkategorie": "Proxxon/Distar-Schneidsystem",
+  "grund": "Proxxon-Langhalsbohrmaschinen gehören zum Proxxon/Distar-System (7842 aus Übergreifend geholt)."
+ },
+ {
+  "id": 7845,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 7850,
+  "unterkategorie": "Handtuchhalter (verdeckt)",
+  "grund": "Einheitliche Benennung."
+ },
+ {
+  "id": 7851,
+  "unterkategorie": "Handtuchhalter (verdeckt)",
+  "grund": "Einheitliche Benennung."
+ },
+ {
+  "id": 7864,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 7865,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 7866,
+  "unterkategorie": "Schneidetische & Sägen",
+  "grund": "Stationäre Schneidmaschinen zusammengefasst."
+ },
+ {
+  "id": 7882,
+  "unterkategorie": "Schleifmaschinen",
+  "grund": "Fünf Einzelkategorien für Schleifmaschinen zusammengeführt."
+ },
+ {
+  "id": 7908,
+  "unterkategorie": "Akku-Sauger",
+  "grund": "Akku-Sauger aus drei Kategorien und aus Plattenleger zusammengeführt."
+ },
+ {
+  "id": 7916,
+  "unterkategorie": "Bohr- & Meisselhämmer",
+  "grund": "Sieben Einzelkategorien für Bohr- und Meisselhämmer zusammengeführt (7307 aus Plattenleger)."
+ },
+ {
+  "id": 7926,
+  "unterkategorie": "Unterhaltsreiniger",
+  "grund": "Pflege- und Unterhaltsprodukte aus fünf Kategorien zusammengeführt."
+ },
+ {
+  "id": 7933,
+  "sparte": "Übergreifend",
+  "hauptkategorie": "11 Baustellen- & Werkstattbedarf",
+  "unterkategorie": "Rührwerke & Rührkörbe",
+  "grund": "Akku- und 230V-Rührwerke aus Plattenleger 09 zur bestehenden Gruppe."
+ },
+ {
+  "id": 7938,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "unterkategorie": "Akku-Bohrschrauber",
+  "grund": "12V-, 18V- und Schlagbohr-Varianten sowie Duplikate aus 09 zusammengeführt."
+ },
+ {
+  "id": 7946,
+  "unterkategorie": "Trennscheiben Feinsteinzeug",
+  "grund": "Sechs verschiedene Namen für dieselbe Sache auf eine Unterkategorie vereinheitlicht."
+ },
+ {
+  "id": 7949,
+  "unterkategorie": "WC-Betätigung (verdeckt)",
+  "top_score": 3,
+  "grund": "Einheitliche Benennung. Systemprodukt, kein Ersatzteil."
+ },
+ {
+  "id": 7951,
+  "unterkategorie": "Schleifpapier & Pads",
+  "grund": "Sechs Namensvarianten für Schleifpapier vereinheitlicht."
+ },
+ {
+  "id": 7952,
+  "unterkategorie": "Schleifpapier & Pads",
+  "grund": "Sechs Namensvarianten für Schleifpapier vereinheitlicht."
+ },
+ {
+  "id": 7953,
+  "unterkategorie": "Sägeblätter & Sägezubehör",
+  "top_score": 4,
+  "grund": "Verbrauchsmaterial und Zubehör bei der Anwendung. Sägeblätter sind Verbrauchsmaterial."
+ },
+ {
+  "id": 7954,
+  "unterkategorie": "WC-Betätigung (verdeckt)",
+  "top_score": 3,
+  "grund": "Einheitliche Benennung. Systemprodukt, kein Ersatzteil."
+ },
+ {
+  "id": 7956,
+  "unterkategorie": "Bohrer & Meissel",
+  "grund": "Verbrauchswerkzeuge bei der Anwendung gebündelt."
+ },
+ {
+  "id": 7981,
+  "top_score": 4,
+  "grund": "Abdeckvlies ist Verbrauchsmaterial mit hohem Umschlag."
+ },
+ {
+  "id": 7982,
+  "top_score": 4,
+  "grund": "Abdeckvlies ist Verbrauchsmaterial mit hohem Umschlag."
+ },
+ {
+  "id": 7983,
+  "top_score": 4,
+  "grund": "Abdeckvlies ist Verbrauchsmaterial mit hohem Umschlag."
+ },
+ {
+  "id": 8043,
+  "unterkategorie": "Diamant-Fräswerkzeuge",
+  "grund": "Frässtifte und Fugenfräser als Verbrauchswerkzeuge zusammengefasst."
+ },
+ {
+  "id": 8072,
+  "top_score": 3,
+  "grund": "Handwerkzeug, kein Ersatzteil."
+ },
+ {
+  "id": 8204,
+  "unterkategorie": "Schleifpapier & Pads",
+  "grund": "Sechs Namensvarianten für Schleifpapier vereinheitlicht."
+ },
+ {
+  "id": 8213,
+  "unterkategorie": "Schleifpapier & Pads",
+  "grund": "Sechs Namensvarianten für Schleifpapier vereinheitlicht."
+ },
+ {
+  "id": 8222,
+  "unterkategorie": "Saugerzubehör",
+  "grund": "Absaughauben und Saugerzubehör aus fünf Kategorien zusammengeführt (inkl. Plattenleger)."
+ },
+ {
+  "id": 8247,
+  "unterkategorie": "Sägeblätter & Sägezubehör",
+  "grund": "Verbrauchsmaterial und Zubehör bei der Anwendung."
+ },
+ {
+  "id": 8252,
+  "unterkategorie": "Bohr- & Meisselhämmer",
+  "grund": "Sieben Einzelkategorien für Bohr- und Meisselhämmer zusammengeführt (7307 aus Plattenleger)."
+ },
+ {
+  "id": 8253,
+  "sparte": "Übergreifend",
+  "grund": "Industrie-, Sicherheits- und Nasssauger auf eine Unterkategorie vereinheitlicht (inkl. Zuzug aus Plattenleger)."
+ },
+ {
+  "id": 8256,
+  "unterkategorie": "Bohrer & Meissel",
+  "grund": "Verbrauchswerkzeuge bei der Anwendung gebündelt."
+ },
+ {
+  "id": 8257,
+  "unterkategorie": "Bohrer & Meissel",
+  "grund": "Verbrauchswerkzeuge bei der Anwendung gebündelt."
+ },
+ {
+  "id": 8258,
+  "unterkategorie": "Saugerzubehör",
+  "grund": "Absaughauben und Saugerzubehör aus fünf Kategorien zusammengeführt (inkl. Plattenleger)."
+ },
+ {
+  "id": 8288,
+  "top_score": 3,
+  "grund": "Angleich an die übrigen Schonhämmer."
+ },
+ {
+  "id": 8294,
+  "unterkategorie": "Bohrer & Meissel",
+  "grund": "Verbrauchswerkzeuge bei der Anwendung gebündelt."
+ },
+ {
+  "id": 8301,
+  "top_score": 2,
+  "grund": "Handwerkzeug, kein Nischenteil."
+ },
+ {
+  "id": 8309,
+  "hauptkategorie": "03 Bohren & Fräsen",
+  "unterkategorie": "Bohr- & Meisselhämmer",
+  "grund": "Sieben Einzelkategorien für Bohr- und Meisselhämmer zusammengeführt (7307 aus Plattenleger)."
+ },
+ {
+  "id": 8359,
+  "top_score": 2,
+  "grund": "Handwerkzeug, kein Nischenteil."
+ },
+ {
+  "id": 8372,
+  "top_score": 2,
+  "grund": "Handwerkzeug, kein Nischenteil."
+ },
+ {
+  "id": 8373,
+  "top_score": 3,
+  "grund": "Angleich an die übrigen Schonhämmer."
+ },
+ {
+  "id": 8375,
+  "unterkategorie": "Wasserwaagen & Winkel",
+  "top_score": 3,
+  "grund": "Drei Einzelkategorien zusammengeführt. Handwerkzeug, kein Ersatzteil."
+ },
+ {
+  "id": 8376,
+  "top_score": 3,
+  "grund": "Angleich an die übrigen Schonhämmer."
+ },
+ {
+  "id": 8401,
+  "top_score": 3,
+  "grund": "Handwerkzeug, kein Ersatzteil."
+ },
+ {
+  "id": 8413,
+  "unterkategorie": "Bit- & Schrauberzubehör",
+  "grund": "Bits und Adapter gehören zum Bohren/Schrauben, nicht in den Werkstattbedarf."
+ },
+ {
+  "id": 8414,
+  "unterkategorie": "Bit- & Schrauberzubehör",
+  "grund": "Bits und Adapter gehören zum Bohren/Schrauben, nicht in den Werkstattbedarf."
+ },
+ {
+  "id": 8415,
+  "unterkategorie": "Transport- & Koffersysteme",
+  "top_score": 2,
+  "grund": "Fünf Namensvarianten für Stack Pack und Koffer vereinheitlicht. Koffer, kein Nischenteil."
+ }
+]
