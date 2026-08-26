@@ -8,7 +8,7 @@ Zwei Achsen: **Sparte** (wer kauft) und **Arbeitsschritt** (wonach er sucht).
 - GaLa-Bau & Tiefbau (inkl. Pflaster, Verlegesysteme, PROBST, Husqvarna Baustelle)
 - Autogewerbe (Karosserie, Lackierung, Aufbereitung)
 - Gipser & Betonkosmetik
-- Übergreifend (PSA, Universalmaschinen, Baustellenbedarf, die jede Sparte braucht)
+- Werkstatt & Baustelle (PSA, Universalmaschinen, Baustellenbedarf, die jede Sparte braucht; Shop-Name für die bisherige Sparte «Übergreifend», Entscheid Chris Beyeler 2026-08-26. Primäres Zuhause dieser Produkte; kaufrelevante Artikel werden per Mehrfachzuordnung zusätzlich in die passenden Sparten gehängt, gepflegt wird nur die Primärkategorie.)
 
 ## Arbeitsschritte (Hauptkategorien, genau eine pro Produkt)
 | Nr | Hauptkategorie |

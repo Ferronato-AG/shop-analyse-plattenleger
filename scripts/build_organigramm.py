@@ -8,6 +8,10 @@ REPO = pathlib.Path(__file__).resolve().parent.parent
 OUT = REPO / 'deliverable' / 'Ferronato_Kategorien_Organigramm.html'
 
 data = json.load(open(REPO / 'data' / 'sfinal.json'))
+# Shop-Name der Sparte «Übergreifend» (Entscheid 2026-08-26); Datenbestand bleibt unverändert
+for _p in data:
+    if _p['sparte'] == 'Übergreifend':
+        _p['sparte'] = 'Werkstatt & Baustelle'
 raw = json.load(open(REPO / 'data' / 'all_products_raw.json'))['products']
 rawmap = {p['id']: p for p in raw}
 
@@ -40,14 +44,14 @@ for hk in payload.values():
         lst.sort(key=lambda x: (x['top'] == 0, x['top'] or 99, x['name'].lower()))
 
 ORDER = ['Plattenleger', 'Steinmetz & Bildhauer', 'GaLa-Bau & Tiefbau',
-         'Gipser & Betonkosmetik', 'Autogewerbe', 'Übergreifend']
+         'Gipser & Betonkosmetik', 'Autogewerbe', 'Werkstatt & Baustelle']
 HUES = {  # Akzentfarbe pro Sparte (h, s%), gedeckt, hell- und dunkeltauglich
     'Plattenleger': (215, 60),
     'Steinmetz & Bildhauer': (28, 45),
     'GaLa-Bau & Tiefbau': (140, 40),
     'Gipser & Betonkosmetik': (270, 35),
     'Autogewerbe': (355, 55),
-    'Übergreifend': (200, 10),
+    'Werkstatt & Baustelle': (200, 10),
 }
 
 total = len(data)
