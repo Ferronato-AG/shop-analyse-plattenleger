@@ -163,6 +163,10 @@ h1,h2,h3,h4{font-family:"Barlow Semi Condensed",system-ui,sans-serif;
 .ugsec>summary .cnt{margin-left:auto;color:var(--mut);font-size:12.5px;
   font-variant-numeric:tabular-nums}
 .ugbody{padding:2px 12px 12px}
+.copybtn{border:0;background:none;color:var(--mut);font-size:14px;line-height:1;
+  padding:2px 5px;border-radius:6px;cursor:pointer;flex:0 0 auto}
+.copybtn:hover{background:var(--panel2);color:var(--ink)}
+.copybtn.ok{color:var(--done)}
 .brandlbl{font-size:12px;text-transform:uppercase;letter-spacing:.07em;
   font-weight:600;color:var(--mut);margin:12px 2px 6px;
   border-bottom:1px solid var(--line);padding-bottom:3px}
@@ -244,6 +248,7 @@ button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{
 <main class="main">
   <div class="tophead">
     <h2 id="viewtitle"></h2>
+    <button class="copybtn" id="copy-title" data-copy="" title="Kategoriename kopieren" aria-label="Kategoriename kopieren">⧉</button>
     <span class="spacer"></span>
     <button class="btn" id="btn-export">Stand exportieren</button>
   </div>
@@ -344,11 +349,16 @@ function card(p){
     + '<input class="note" data-note="'+p.id+'" placeholder="Korrektur / Notiz" value="'+esc(r.n||'')+'">'
     + '</div></div>';
 }
+function copyBtn(name){
+  return '<button class="copybtn" data-copy="'+esc(name)+'" '
+    + 'title="«'+esc(name)+'» in die Zwischenablage kopieren" '
+    + 'aria-label="Kategoriename kopieren">⧉</button>';
+}
 function cardsByBrand(list){
   const by = {};
   list.forEach(p => { (by[p.m] = by[p.m] || []).push(p); });
   return Object.entries(by).sort(grpSort).map(([m, ps]) =>
-    '<div class="brandlbl">'+esc(m)+' · '+ps.length+'</div><div class="grid">'
+    '<div class="brandlbl">'+esc(m)+copyBtn(m)+' · '+ps.length+'</div><div class="grid">'
     + ps.map(card).join('') + '</div>').join('');
 }
 function ugOrder(tk, keys){
@@ -366,11 +376,12 @@ function tkSection(tk, list, open){
   const by = {};
   list.forEach(p => { (by[p.ug] = by[p.ug] || []).push(p); });
   const ugs = ugOrder(tk, Object.keys(by)).map(ug =>
-    '<details class="ugsec"><summary><h4>'+esc(ug)+'</h4>'
+    '<details class="ugsec"><summary><h4>'+esc(ug)+'</h4>'+copyBtn(ug)
     + '<span class="cnt">'+by[ug].length+'</span></summary>'
     + '<div class="ugbody">'+cardsByBrand(by[ug])+'</div></details>').join('');
   return '<details class="tksec"'+(open?' open':'')+'><summary><span class="arr">▸</span>'
-    + '<h3>'+esc(tk)+'</h3><span class="cnt">'+list.length+' Produkte</span></summary>'
+    + '<h3>'+esc(tk)+'</h3>'+copyBtn(tk)
+    + '<span class="cnt">'+list.length+' Produkte</span></summary>'
     + '<div class="tkbody">'+ugs+'</div></details>';
 }
 
@@ -407,6 +418,9 @@ function render(){
       P.filter(p => String(rec(p.id).p || 0) === view.key && inTk(p, tk) && passt(p)), true)).join('');
   }
   document.getElementById('viewtitle').textContent = title;
+  const ct = document.getElementById('copy-title');
+  ct.dataset.copy = view.key || title;
+  ct.title = '«' + (view.key || title) + '» in die Zwischenablage kopieren';
   el.innerHTML = html || '<div class="empty">Keine Produkte für diese Auswahl.</div>';
   renderNav();
 }
@@ -461,7 +475,26 @@ function fillFilters(){
 }
 
 // ---------- Events (delegiert)
+function copyText(txt){
+  try {
+    navigator.clipboard.writeText(txt);
+  } catch (err) {
+    const ta = document.createElement('textarea');
+    ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); } catch (e2) {}
+    ta.remove();
+  }
+}
 document.addEventListener('click', e => {
+  const cb = e.target.closest('.copybtn');
+  if (cb){
+    e.preventDefault(); e.stopPropagation();
+    copyText(cb.dataset.copy);
+    cb.classList.add('ok'); cb.textContent = '✓';
+    setTimeout(() => { cb.classList.remove('ok'); cb.textContent = '⧉'; }, 900);
+    return;
+  }
   const t = e.target.closest('[data-gruppe],[data-marke],[data-system],[data-pruefen],[data-priostat],[data-prio]');
   if (t){
     if (t.dataset.gruppe){ view = {typ:'gruppe', key:t.dataset.gruppe}; render(); }
