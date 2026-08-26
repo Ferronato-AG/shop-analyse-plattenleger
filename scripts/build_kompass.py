@@ -14,15 +14,20 @@ REPO = pathlib.Path(__file__).resolve().parent.parent
 OUT = REPO / 'deliverable' / 'Ferronato_Sortiments_Kompass.html'
 
 BERUFSGRUPPEN = [
-    'Plattenleger', 'Steinmetz & Bildhauer', 'Gartenbau, Pflästerung & Tiefbau',
-    'Gipser & Betonkosmetik', 'Carrosserie & Fahrzeugaufbereitung',
+    'Plattenleger', 'Steinmetz & Bildhauer', 'Natursteinwerk',
+    'Gartenbau, Pflästerung & Tiefbau', 'Gipser & Betonkosmetik',
+    'Carrosserie & Fahrzeugaufbereitung', 'Holzbearbeitung & Zimmerei',
     'Werkstatt & Baustelle',
 ]
+# Gruppen ohne Primärprodukte: befüllt über Mehrfachzuordnung (zusatz_gruppen)
+SEKUNDAER_GRUPPEN = {'Natursteinwerk', 'Holzbearbeitung & Zimmerei'}
 HUES = {
     'Plattenleger': (215, 60), 'Steinmetz & Bildhauer': (28, 45),
+    'Natursteinwerk': (18, 30),
     'Gartenbau, Pflästerung & Tiefbau': (140, 40),
     'Gipser & Betonkosmetik': (270, 35),
     'Carrosserie & Fahrzeugaufbereitung': (355, 55),
+    'Holzbearbeitung & Zimmerei': (80, 35),
     'Werkstatt & Baustelle': (200, 10),
 }
 TAETIGKEITEN = [
@@ -61,7 +66,8 @@ def payload():
         prods.append({
             'id': x['id'], 'n': x['name'], 'a': x['artnr'], 'pr': x['preis'],
             'u': x['url'], 'b': x['beschreibung'],
-            'g': x['berufsgruppe'], 't': x['taetigkeit'],
+            'g': x['berufsgruppe'], 'zg': x.get('zusatz_gruppen', []),
+            't': x['taetigkeit'],
             'zt': x['zusatz_taetigkeiten'], 'ug': x['untergruppe'],
             'typ': x['produkttyp'], 'm': x['marke'], 'mg': x['marken_gruppe'],
             'mat': x['materialien'], 'an': x['antrieb'], 'auf': x['aufnahme'],
@@ -292,6 +298,8 @@ let flt = { q: '', mat: '', marke: '', an: '', prio: '' };
 
 // ---------- Hilfen
 const inTk = (p, tk) => p.t === tk || (p.zt || []).includes(tk);
+const inGruppe = (p, g) => p.g === g || (p.zg || []).includes(g);
+const SEK = __SEKGRUPPEN__;
 function passt(p){
   if (flt.mat && !p.mat.includes(flt.mat)) return false;
   if (flt.marke && p.m !== flt.marke && p.mg !== flt.marke) return false;
@@ -375,8 +383,12 @@ function render(){
     const hue = HUES[view.key];
     document.documentElement.style.setProperty('--h', hue[0]);
     document.documentElement.style.setProperty('--s', hue[1]+'%');
-    html = TK.map(tk => tkSection(tk,
-      P.filter(p => p.g === view.key && inTk(p, tk) && passt(p)), false)).join('');
+    const sek = SEK.includes(view.key);
+    html = (sek ? '<p style="color:var(--mut);font-size:13px;margin:0 0 12px">'
+      + 'Diese Berufsgruppe wird über Mehrfachzuordnung befüllt: Die Produkte '
+      + 'behalten ihre Primärgruppe und erscheinen hier zusätzlich.</p>' : '')
+      + TK.map(tk => tkSection(tk,
+      P.filter(p => inGruppe(p, view.key) && inTk(p, tk) && passt(p)), sek)).join('');
   } else if (view.typ === 'marke'){
     title = 'Marke: ' + view.key;
     html = TK.map(tk => tkSection(tk,
@@ -402,7 +414,7 @@ function render(){
 function renderNav(){
   const done = id => rec(id).d ? 1 : 0;
   document.getElementById('nav-gruppen').innerHTML = GRUPPEN.map(g => {
-    const ps = P.filter(p => p.g === g);
+    const ps = P.filter(p => inGruppe(p, g));
     const d = ps.reduce((s, p) => s + done(p.id), 0);
     const hue = HUES[g];
     return '<button class="navbtn'+(view.typ==='gruppe'&&view.key===g?' on':'')
@@ -524,6 +536,7 @@ def main():
             .replace('__DATA__', data)
             .replace('__NPROD__', str(len(prods)))
             .replace('__GRUPPEN__', json.dumps(BERUFSGRUPPEN, ensure_ascii=False))
+            .replace('__SEKGRUPPEN__', json.dumps(sorted(SEKUNDAER_GRUPPEN), ensure_ascii=False))
             .replace('__HUES__', json.dumps(HUES, ensure_ascii=False))
             .replace('__TK__', json.dumps(TAETIGKEITEN, ensure_ascii=False))
             .replace('__UGORD__', json.dumps(UG_ORDNUNG, ensure_ascii=False)))

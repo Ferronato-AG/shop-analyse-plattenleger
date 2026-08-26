@@ -26,6 +26,31 @@ SPARTE_NEU = {
     'Werkstatt & Baustelle': 'Werkstatt & Baustelle',
 }
 
+# ---------------------------------------------------------- Zusatz-Berufsgruppen
+# «Natursteinwerk» und «Holzbearbeitung & Zimmerei» sind Zielgruppen ohne
+# eigene Primärprodukte im Datenbestand: Produkte behalten ihre Primärgruppe
+# und erscheinen zusätzlich hier (Mehrfachzuordnung, Entscheid 2026-08-26).
+NW_TYPEN = {'Trennscheiben Brücken- & Tischsäge', 'Trennscheiben Brücken-/Tischfräsen',
+            'Trennscheiben Grossformat', 'Schleifringe & Schleifsegmente',
+            'Sichtschleifmaschinen', 'Sichtschleifscheiben'}
+RX_NATURSTEINWERK = re.compile(
+    r'\bCNC\b|Tischfräse|Steinfräse|Brückensäge|Brückenfräs|Fingerfräs|Finger Bit|'
+    r'Profilfräs|Umfangfräs|Falzfräser|Cassani|Seilsäge|Kantenschleifmaschine', re.I)
+RX_HOLZ = re.compile(
+    r'Latthammer|Zimmerman|Stichsäge|Kapp- ?und ?Gehrung|Säbelsäge|Oberfräse|'
+    r'Holzbürst|Holzbohrer|Forstner|Schlagschnur|(?<![A-Za-z])E-Cut(?!.*Metall)|'
+    r'Kantenfräser.*Oberfräs', re.I)
+
+
+def zusatz_gruppen_von(p):
+    out = []
+    if p['unterkategorie'] in NW_TYPEN or RX_NATURSTEINWERK.search(p['name']):
+        out.append('Natursteinwerk')
+    if RX_HOLZ.search(p['name']):
+        out.append('Holzbearbeitung & Zimmerei')
+    return out
+
+
 # ---------------------------------------------------------------- Marken
 EIGENMARKEN = ['FERRIX', 'FERLOX', 'FERROSIL', 'FERBAC', 'FERROBLACK',
                'FERROLIT', 'FERROFLEX', 'FERRAMICS', 'FERRIT', 'FERROSTAR']
@@ -383,6 +408,7 @@ def klassifiziere(p, r):
         'beschreibung': p.get('zusammenfassung', ''),
         'usp': p.get('usp', ''),
         'berufsgruppe': SPARTE_NEU[p['sparte']],
+        'zusatz_gruppen': zusatz_gruppen_von(p),
         'taetigkeit': taetigkeit,
         'zusatz_taetigkeiten': zusatz_taetigkeiten,
         'untergruppe': untergruppe,

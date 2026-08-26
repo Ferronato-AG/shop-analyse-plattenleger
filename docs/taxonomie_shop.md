@@ -12,11 +12,20 @@ Zusatz-Tätigkeiten). Pipeline: `scripts/classify_kompass.py` →
 ## Berufsgruppen (Schweizer Sprachgebrauch, allumfassend)
 - Plattenleger
 - Steinmetz & Bildhauer (inkl. Grabschmuck, Steinbearbeitung, Töpfern/Keramik)
+- Natursteinwerk (stationäre Steinbearbeitung: CNC-Werkzeuge, Brücken-/
+  Tischsägen und -fräsen, Schleifringe & Schleifsegmente für
+  Kantenschleifmaschinen; ergänzt 2026-08-26)
 - Gartenbau, Pflästerung & Tiefbau (vorher «GaLa-Bau & Tiefbau»)
 - Gipser & Betonkosmetik
 - Carrosserie & Fahrzeugaufbereitung (vorher «Autogewerbe»)
+- Holzbearbeitung & Zimmerei (Latthämmer, Stich-/Säbel-/Kapp- und
+  Gehrungssägen, Oberfräsen, Zimmermannsbedarf; ergänzt 2026-08-26.
+  CH-Sprachgebrauch: «Zimmerei»/«Zimmermann EFZ», Branchenbegriff «Holzbau»)
 - Werkstatt & Baustelle (PSA, Universalmaschinen, Baustellenbedarf; Shop-Name
   für die frühere Sparte «Übergreifend», Entscheid Chris Beyeler 2026-08-26)
+
+Natursteinwerk und Holzbearbeitung & Zimmerei sind Sekundärgruppen: Sie werden
+über Mehrfachzuordnung befüllt, die Produkte behalten ihre Primärgruppe.
 
 ## Tätigkeiten (Hauptkategorien)
 | Tätigkeit | Bemerkung |
