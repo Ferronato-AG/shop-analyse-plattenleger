@@ -1,42 +1,75 @@
-# Ziel-Taxonomie Gesamtshop Ferronato (Sicht Zielgruppe)
+# Ziel-Taxonomie Gesamtshop Ferronato (Sortiments-Kompass v2)
 
-Zwei Achsen: **Sparte** (wer kauft) und **Arbeitsschritt** (wonach er sucht).
+Überarbeitet 2026-08-26 nach der Korrekturanweisung von Chris Beyeler:
+mehrdimensionale Produkttaxonomie statt reinem Ordnerbaum. Ein Produkt hat
+genau eine Primär-Berufsgruppe und eine Primär-Tätigkeit, erscheint aber
+zusätzlich überall dort, wo es fachlich hingehört (Marke, System, Material,
+Zusatz-Tätigkeiten). Pipeline: `scripts/classify_kompass.py` →
+`data/kompass.json` → `scripts/build_kompass.py` →
+`deliverable/Ferronato_Sortiments_Kompass.html`. QC: `scripts/qc_kompass.py`
+(15 Punkte gemäss Anweisung).
 
-## Sparten (genau eine pro Produkt, die primäre)
+## Berufsgruppen (Schweizer Sprachgebrauch, allumfassend)
 - Plattenleger
 - Steinmetz & Bildhauer (inkl. Grabschmuck, Steinbearbeitung, Töpfern/Keramik)
-- GaLa-Bau & Tiefbau (inkl. Pflaster, Verlegesysteme, PROBST, Husqvarna Baustelle)
-- Autogewerbe (Karosserie, Lackierung, Aufbereitung)
+- Gartenbau, Pflästerung & Tiefbau (vorher «GaLa-Bau & Tiefbau»)
 - Gipser & Betonkosmetik
-- Werkstatt & Baustelle (PSA, Universalmaschinen, Baustellenbedarf, die jede Sparte braucht; Shop-Name für die bisherige Sparte «Übergreifend», Entscheid Chris Beyeler 2026-08-26. Primäres Zuhause dieser Produkte; kaufrelevante Artikel werden per Mehrfachzuordnung zusätzlich in die passenden Sparten gehängt, gepflegt wird nur die Primärkategorie.)
+- Carrosserie & Fahrzeugaufbereitung (vorher «Autogewerbe»)
+- Werkstatt & Baustelle (PSA, Universalmaschinen, Baustellenbedarf; Shop-Name
+  für die frühere Sparte «Übergreifend», Entscheid Chris Beyeler 2026-08-26)
 
-## Arbeitsschritte (Hauptkategorien, genau eine pro Produkt)
-| Nr | Hauptkategorie |
+## Tätigkeiten (Hauptkategorien)
+| Tätigkeit | Bemerkung |
 |---|---|
-| 01 | Messen & Anzeichnen |
-| 02 | Schneiden & Trennen |
-| 03 | Bohren & Fräsen |
-| 04 | Schleifen, Kanten & Polieren |
-| 05 | Verlegen, Heben & Transportieren |
-| 06 | Kleben, Fugen & Gehrung |
-| 07 | Reinigen, Schützen & Reparieren |
-| 08 | Staub & Absaugung |
-| 09 | Maschinen & Energie (Akku, 230 V, Druckluft, Benzin) |
-| 10 | Arbeitsschutz (PSA) |
-| 11 | Baustellen- & Werkstattbedarf |
-| 12 | Sanitär- & Montagesysteme |
-| 13 | Lackieren & Beschichten |
-| 14 | Modellieren & Formen (Ton, Keramik, StoneLux-Art) |
+| Messen & Anzeichnen | |
+| Trennen & Schleifen | ersetzt «Schneiden & Trennen» und «Schleifen, Kanten & Polieren». Untergruppen: Trennen · Schleifen · Trennen & Schleifen · Polieren · Aufnahmeteller & Adapter. Zuordnung nach tatsächlicher Anwendung, nicht nach Produktname. «Schneiden» wird als Begriff nicht mehr verwendet. |
+| Bohren & Fräsen | |
+| Verlegen, Heben & Transportieren | Untergruppen: Vakuumsysteme · Greif- & Zangensysteme · Planum & Abziehsysteme · Verlegewerkzeuge & Pflaster · Transport & Hebezeuge. Vakuum und mechanisches Greifen strikt getrennt. |
+| Kleben, Fugen & Gehrung | |
+| Reinigen, Schützen & Reparieren | |
+| Staub & Absaugung | |
+| Maschinen & Geräte | ersetzt «Maschinen & Energie» («Energie» entfernt). Untergruppen nach Antriebsart: Akku-Maschinen · Elektrische Maschinen (230 V) · Druckluft-Maschinen · Benzin-Maschinen · Akkus & Ladegeräte · Maschinenzubehör & Ersatzteile. |
+| Arbeitsschutz (PSA) | |
+| Baustellen- & Werkstattbedarf | Hämmer getrennt: Bau- & Baustellenhämmer vs. Steinmetz- & Bildhauerhämmer (Fäustel, Knüpfel, Schrifthämmer, PL-/Pressluft-Hämmer). |
+| Sanitär- & Montagesysteme | |
+| Lackieren & Beschichten | |
+| Modellieren & Formen | |
+
+## Dimensionen pro Produkt (Mehrfachzuordnung erwünscht)
+- **Marke:** eindeutig ein Hersteller (FLEX, PROBST, AKEMI, DISTAR, PROXXON,
+  KNIPEX, Norton, FEIN …) oder «Ferronato-Eigenmarken» (FERRIX, FERLOX,
+  FERROSIL, FERBAC, FERROBLACK, FERROLIT, FERROFLEX, FERRAMICS, FERRIT).
+  FLEX und PROBST werden nie vermischt; Produktlinien ohne Markennennung sind
+  hinterlegt (Butterfly → DISTAR). Darstellung: innerhalb jeder Untergruppe
+  nach Marke gruppiert.
+- **Materialien (mehrere möglich):** Keramik, Feinsteinzeug, UCS/Ultracompact
+  (inkl. Dekton, Neolith — separat von Feinsteinzeug), Granit, Marmor,
+  Kalkstein, Sandstein, Schiefer, Quarzit, Porphyr, Terrazzo, Naturstein
+  (allgemein), Kunststein & Komposit, Beton, Frischbeton, Altbeton, Backstein,
+  Ziegel & Klinker, Kalksandstein, Mauerwerk, Glas, Gips, Asphalt, Metall,
+  Holz, Ton & Keramikmasse.
+- **Antrieb:** Akku · Elektrisch 230 V · Druckluft · Benzin.
+- **Aufnahme:** M14, M16, X-LOCK, SDS, Klett, Bohrung 22,23/25,4 mm,
+  Einsteckende (Pressluft), Sechskant.
+- **System:** PROXXON/DISTAR-Trennsystem, Colour Bond & Jollynator (Gehrung),
+  StoneLux-Reparatursystem, Ferrix-Trockenbohrkronen, Vakuum-System,
+  AKEPOX-Klebesystem. Systemzubehör (Aufnahmeteller, Adapter) erscheint bei
+  allen relevanten Anwendungen.
+
+## Priorisierung (manuell, Entscheid Ferronato)
+Die automatischen Top-1-bis-Top-6-Ränge sind entfernt. Jedes Produkt trägt ein
+manuell editierbares Feld: Prio 1 · Prio 2 · Prio 3 · Irrelevant · (leer =
+noch nicht bewertet). Keine automatische Vergabe nach Preis, Menge oder
+geschätzter Relevanz. Gespeichert im Browser (localStorage), exportierbar als
+JSON über «Stand exportieren».
 
 ## Regeln
-- Zubehör und Verbrauchsmaterial wandert zur Anwendung, nicht in einen Zubehör-Topf.
-- Systeme als Unterkategorien sichtbar machen: «Gehrungsverklebung (Colour Bond & Jollynator)», «Proxxon/Distar-Schneidsystem», «Trockenbohrkronen», «StoneLux-Reparatur», «Vakuum-Verlegesystem».
-- Unterkategorie frei, 1-4 Wörter, pro (Sparte, Hauptkategorie) einheitlich benannt, 2-8 Stück.
-
-## Relevanz-Scoring (1-5) — KORRIGIERT nach Kundenfeedback
-Bestverkaufte Produkte laut Kunde (Anker, Score 5): PROXXON/DISTAR Starter Set (060-211), DISTAR Butterfly DTS 45 mm (032-730), AKEMI Colour Bond Skelettpistole (020-812) und ALLE Colour-Bond-Produkte, Jollynator 90°, Ferrix Diamant-Trockenbohrkronen (030-665 ff.).
-Daraus abgeleitete Gewichtung:
-1. Verbrauchsmaterial und Systemzubehör, das regelmässig nachgekauft wird (Trennscheiben, Bohrkronen, Kleber, Pads) > Maschinen (werden selten und oft anderswo gekauft).
-2. Produkte des Gehrungs-/Feinsteinzeug-Workflows hoch gewichten.
-3. Starter-Sets und Systeme hoch (Einstieg ins Verbrauchssystem).
-4. Ersatzteile/Nischenteile bleiben 1-2.
+- Keine Zuordnung raten: Produkte mit unklarer Datenlage tragen die Kennzeichnung
+  «Zuordnung prüfen» (mit Begründung) und sammeln sich in einer eigenen Ansicht.
+- Kein Produkt, Preis, Shoplink oder Beschreibungstext geht verloren
+  (QC-Punkt 15: 1624/1624).
+- Zubehör und Verbrauchsmaterial wandert zur Anwendung, nicht in einen
+  Zubehör-Topf; bei mehreren Anwendungen Mehrfachanzeige.
+- Werkstatt & Baustelle bleibt das primäre Zuhause übergreifender Produkte;
+  kaufrelevante Artikel werden per Mehrfachzuordnung zusätzlich in die
+  passenden Berufsgruppen gehängt, gepflegt wird nur die Primärkategorie.
