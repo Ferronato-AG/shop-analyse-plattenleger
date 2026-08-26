@@ -1,0 +1,150 @@
+<title>Ferronato Kategorien-Organigramm</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root {
+  --bg: hsl(210 15% 96%);
+  --panel: hsl(0 0% 100%);
+  --ink: hsl(215 25% 15%);
+  --muted: hsl(215 12% 45%);
+  --line: hsl(215 15% 78%);
+  --trunk: hsl(215 25% 25%);
+  --trunk-ink: hsl(0 0% 100%);
+  --node-bg: hsl(var(--h) var(--s) 94%);
+  --node-border: hsl(var(--h) var(--s) 72%);
+  --node-ink: hsl(var(--h) var(--s) 26%);
+  --count-bg: hsl(var(--h) var(--s) 32%);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: hsl(215 20% 10%);
+    --panel: hsl(215 18% 14%);
+    --ink: hsl(210 15% 90%);
+    --muted: hsl(215 10% 62%);
+    --line: hsl(215 12% 30%);
+    --trunk: hsl(215 20% 88%);
+    --trunk-ink: hsl(215 25% 12%);
+    --node-bg: hsl(var(--h) calc(var(--s) * .5) 17%);
+    --node-border: hsl(var(--h) calc(var(--s) * .6) 34%);
+    --node-ink: hsl(var(--h) calc(var(--s) * .8) 78%);
+    --count-bg: hsl(var(--h) calc(var(--s) * .7) 50%);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: hsl(215 20% 10%);
+  --panel: hsl(215 18% 14%);
+  --ink: hsl(210 15% 90%);
+  --muted: hsl(215 10% 62%);
+  --line: hsl(215 12% 30%);
+  --trunk: hsl(215 20% 88%);
+  --trunk-ink: hsl(215 25% 12%);
+  --node-bg: hsl(var(--h) calc(var(--s) * .5) 17%);
+  --node-border: hsl(var(--h) calc(var(--s) * .6) 34%);
+  --node-ink: hsl(var(--h) calc(var(--s) * .8) 78%);
+  --count-bg: hsl(var(--h) calc(var(--s) * .7) 50%);
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  margin: 0; padding: 2.5rem 0 4rem;
+}
+.head { text-align: center; padding: 0 1.25rem; }
+.root {
+  display: inline-flex; flex-direction: column; gap: .2rem;
+  background: var(--trunk); color: var(--trunk-ink);
+  border-radius: .6rem; padding: 1rem 1.6rem;
+  position: relative;
+}
+.root::after {
+  content: ""; position: absolute; left: 50%; top: 100%;
+  height: 1.5rem; border-left: 2px solid var(--line);
+}
+.root h1 {
+  font-family: Archivo, system-ui, sans-serif; font-weight: 800;
+  font-size: 1.45rem; margin: 0; letter-spacing: -.01em; text-wrap: balance;
+}
+.root p { margin: 0; font-size: .85rem; opacity: .8; }
+.root p b { font-family: "IBM Plex Mono", monospace; font-weight: 500; }
+.chart-scroll { overflow-x: auto; margin-top: 1.5rem; }
+.chart {
+  display: flex; align-items: flex-start; justify-content: center;
+  min-width: max-content; margin: 0 auto; padding: 0 1.25rem;
+}
+.col {
+  position: relative; width: 15.5rem; flex: none;
+  padding: 1.5rem .45rem 0;
+  display: flex; flex-direction: column;
+}
+.col::before, .col::after {
+  content: ""; position: absolute; top: 0; width: 50%; height: 1.5rem;
+  border-top: 2px solid var(--line);
+}
+.col::before { right: 50%; border-right: 2px solid var(--line); }
+.col::after { left: 50%; }
+.col:first-child::before { border-top: none; }
+.col:last-child::after { border-top: none; }
+.sparte {
+  background: var(--node-bg); border: 1px solid var(--node-border);
+  border-top: 3px solid var(--count-bg);
+  border-radius: .5rem; padding: .6rem .8rem; text-align: center;
+}
+.sparte h2 {
+  font-family: Archivo, system-ui, sans-serif; font-weight: 700;
+  font-size: 1rem; margin: 0; color: var(--node-ink); text-wrap: balance;
+}
+.sparte-count {
+  font-family: "IBM Plex Mono", monospace; font-size: .74rem; color: var(--muted);
+}
+.hk {
+  position: relative; margin-top: 1.1rem;
+  background: var(--panel); border: 1px solid var(--line);
+  border-left: 3px solid var(--node-border);
+  border-radius: .45rem; padding: .55rem .7rem .6rem;
+}
+.hk::before {
+  content: ""; position: absolute; left: 50%; top: -1.2rem; height: 1.2rem;
+  border-left: 2px solid var(--node-border);
+}
+.hk-head { display: flex; align-items: baseline; gap: .45rem; }
+.hk-nr {
+  font-family: "IBM Plex Mono", monospace; font-size: .68rem;
+  color: var(--node-ink); opacity: .75;
+}
+.hk-name { font-weight: 600; font-size: .85rem; flex: 1; }
+.hk-count {
+  font-family: "IBM Plex Mono", monospace; font-size: .68rem;
+  color: hsl(0 0% 100%); background: var(--count-bg);
+  border-radius: 99px; padding: .05rem .45rem; align-self: center;
+}
+.subs {
+  list-style: none; margin: .45rem 0 0; padding: .45rem 0 0;
+  border-top: 1px dashed var(--line);
+  display: flex; flex-direction: column; gap: .18rem;
+}
+.subs li {
+  font-size: .74rem; color: var(--muted);
+  display: flex; justify-content: space-between; gap: .5rem;
+}
+.subs li i {
+  font-style: normal; font-family: "IBM Plex Mono", monospace;
+  font-size: .68rem; color: var(--node-ink);
+}
+.legend {
+  margin: 2.5rem auto 0; padding: 1.25rem 1.25rem 0; border-top: 1px solid var(--line);
+  font-size: .8rem; color: var(--muted); max-width: 65ch; text-align: center;
+}
+</style>
+<div class="head">
+  <div class="root">
+    <h1>Ferronato Gesamtsortiment</h1>
+    <p><b>1624</b> Produkte · 6 Sparten · 14 Arbeitsschritte</p>
+  </div>
+</div>
+<div class="chart-scroll">
+  <div class="chart">
+    <div class="col" style="--h:215;--s:60%"><div class="sparte"><h2>Plattenleger</h2><span class="sparte-count">197 Produkte</span></div><div class="hk"><div class="hk-head"><span class="hk-nr">01</span><span class="hk-name">Messen &amp; Anzeichnen</span><span class="hk-count">4</span></div><ul class="subs"><li>Laser &amp; Nivellieren<i>2</i></li><li>Anreissen &amp; Markieren<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">02</span><span class="hk-name">Schneiden &amp; Trennen</span><span class="hk-count">52</span></div><ul class="subs"><li>Trennscheiben Feinsteinzeug<i>26</i></li><li>Trennscheiben Grossformat<i>7</i></li><li>Proxxon/Distar-Schneidsystem<i>6</i></li><li>Multitool-Zubehör<i>4</i></li><li>Diamanttrennscheiben universal<i>4</i></li><li>Schneidetische &amp; Sägen<i>3</i></li><li>Handfliesenschneider &amp; Zangen<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">03</span><span class="hk-name">Bohren &amp; Fräsen</span><span class="hk-count">16</span></div><ul class="subs"><li>CNC-Fräswerkzeuge<i>7</i></li><li>Kernbohren<i>3</i></li><li>Proxxon/Distar-Schneidsystem<i>3</i></li><li>Diamant-Fräswerkzeuge<i>2</i></li><li>Bohrhilfsmittel<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">04</span><span class="hk-name">Schleifen, Kanten &amp; Polieren</span><span class="hk-count">41</span></div><ul class="subs"><li>Diamant-Schleiftöpfe &amp; -kegel<i>8</i></li><li>Proxxon/Distar-Schneidsystem<i>8</i></li><li>Diamant-Schleifscheiben<i>7</i></li><li>Handschleifmittel &amp; Pads<i>5</i></li><li>Aufnahmeteller &amp; Adapter<i>4</i></li><li>Multitool-Zubehör<i>3</i></li><li>Kleinschleifkörper &amp; Gravur<i>3</i></li><li>Polieren &amp; Politur<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">05</span><span class="hk-name">Verlegen, Heben &amp; Transportieren</span><span class="hk-count">10</span></div><ul class="subs"><li>Vakuum-Verlegesystem<i>5</i></li><li>Verlegehämmer<i>3</i></li><li>Fliesenrüttler<i>1</i></li><li>Plattengreifer<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">06</span><span class="hk-name">Kleben, Fugen &amp; Gehrung</span><span class="hk-count">27</span></div><ul class="subs"><li>Gehrungsverklebung (Colour Bond &amp; Jollynator)<i>9</i></li><li>Fugen &amp; Dichtstoffe<i>6</i></li><li>Klebstoffe<i>4</i></li><li>Gehrungsschnitt (45°)<i>4</i></li><li>Armierungsstäbe<i>2</i></li><li>Kartuschenpistolen &amp; Zubehör<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">07</span><span class="hk-name">Reinigen, Schützen &amp; Reparieren</span><span class="hk-count">38</span></div><ul class="subs"><li>StoneLux-Reparatur<i>17</i></li><li>Grundreinigung<i>6</i></li><li>Imprägnierung &amp; Schutz<i>6</i></li><li>Unterhaltsreiniger<i>6</i></li><li>Abdeckvlies<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">09</span><span class="hk-name">Maschinen &amp; Energie (Akku, 230 V, Druckluft, Benzin)</span><span class="hk-count">4</span></div><ul class="subs"><li>Poliermaschinen (230V)<i>2</i></li><li>Nasstrennschneider<i>1</i></li><li>Akku-Multitool<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">12</span><span class="hk-name">Sanitär- &amp; Montagesysteme</span><span class="hk-count">5</span></div><ul class="subs"><li>WC-Betätigung (verdeckt)<i>2</i></li><li>Handtuchhalter (verdeckt)<i>2</i></li><li>Kochfeld-Montage<i>1</i></li></ul></div></div><div class="col" style="--h:28;--s:45%"><div class="sparte"><h2>Steinmetz &amp; Bildhauer</h2><span class="sparte-count">779 Produkte</span></div><div class="hk"><div class="hk-head"><span class="hk-nr">01</span><span class="hk-name">Messen &amp; Anzeichnen</span><span class="hk-count">11</span></div><ul class="subs"><li>Anzeichenstifte &amp; Schablonen<i>6</i></li><li>Anreisswerkzeuge &amp; Winkel<i>3</i></li><li>Punktier- &amp; Übertragungsgeräte<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">02</span><span class="hk-name">Schneiden &amp; Trennen</span><span class="hk-count">34</span></div><ul class="subs"><li>Diamant-Trennscheiben Winkelschleifer<i>15</i></li><li>Kleintrennscheiben Bildhauer<i>9</i></li><li>Trennscheiben Brücken- &amp; Tischsäge<i>5</i></li><li>Nasssägen &amp; Führungsschienen<i>4</i></li><li>Diamanttrennscheiben Bildhauer<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">03</span><span class="hk-name">Bohren &amp; Fräsen</span><span class="hk-count">84</span></div><ul class="subs"><li>Diamant-Fräs-, Schleif- &amp; Gravurstifte<i>40</i></li><li>CNC-Fingerfräser &amp; Fräskronen<i>15</i></li><li>Profil- &amp; Umfangfräser<i>14</i></li><li>Diamant-Bohrkronen &amp; Vollbohrer<i>8</i></li><li>Stein- &amp; Hartmetallbohrer<i>4</i></li><li>Aufnahmen &amp; Adapter<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">04</span><span class="hk-name">Schleifen, Kanten &amp; Polieren</span><span class="hk-count">207</span></div><ul class="subs"><li>Schleifringe &amp; Schleifsegmente<i>47</i></li><li>Schleifpads &amp; Polierscheiben<i>33</i></li><li>Schleifkörper &amp; Schleifscheiben<i>31</i></li><li>Diamant-Schleifteller &amp; -töpfe<i>26</i></li><li>Aufnahmeteller &amp; Stützteller<i>23</i></li><li>Schleifbänder &amp; Schleifhülsen<i>22</i></li><li>Schleifpapier &amp; Handschleifmittel<i>15</i></li><li>Schleifbürsten &amp; Antikschliff<i>9</i></li><li>Polierpads<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">05</span><span class="hk-name">Verlegen, Heben &amp; Transportieren</span><span class="hk-count">4</span></div><ul class="subs"><li>Steinzangen &amp; Vakuumheber<i>2</i></li><li>Transportroller &amp; Wagen<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">06</span><span class="hk-name">Kleben, Fugen &amp; Gehrung</span><span class="hk-count">63</span></div><ul class="subs"><li>AKEPOX Konstruktionskleber<i>16</i></li><li>Gehrungsverklebung (Colour Bond &amp; Platinum)<i>13</i></li><li>Marmorkitt &amp; Polyesterkleber<i>10</i></li><li>Steinkitte FERROLIT<i>6</i></li><li>Farbpasten &amp; Härter<i>6</i></li><li>Kartuschenpistolen &amp; Mischdüsen<i>6</i></li><li>Fugen- &amp; Klebezubehör<i>3</i></li><li>Montage- &amp; Silikonkleber<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">07</span><span class="hk-name">Reinigen, Schützen &amp; Reparieren</span><span class="hk-count">86</span></div><ul class="subs"><li>StoneLux-Reparatur<i>33</i></li><li>Reinigungs- &amp; Auftragswerkzeuge<i>18</i></li><li>Reiniger &amp; Spezialreiniger<i>11</i></li><li>Pflege, Politur &amp; Kristallisation<i>10</i></li><li>Imprägnierung &amp; Farbtonvertiefer<i>7</i></li><li>Reparaturkleber &amp; Sekundenkleber<i>5</i></li><li>Grabschmuck-Pflege<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">08</span><span class="hk-name">Staub &amp; Absaugung</span><span class="hk-count">3</span></div><ul class="subs"><li>Entstauber &amp; Filtergeräte<i>2</i></li><li>Absaughauben &amp; Zubehör<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">09</span><span class="hk-name">Maschinen &amp; Energie (Akku, 230 V, Druckluft, Benzin)</span><span class="hk-count">88</span></div><ul class="subs"><li>Pressluft-Hämmer &amp; -Schleifer<i>36</i></li><li>Winkel- &amp; Geradschleifer (230 V)<i>12</i></li><li>Kompressoren, Pumpen &amp; Maschinenzubehör<i>10</i></li><li>Stock- &amp; Bürstmaschinen<i>9</i></li><li>Akku-Maschinen (18 V)<i>6</i></li><li>Boden- &amp; Planetenschleifmaschinen<i>6</i></li><li>Nassschleif- &amp; Poliermaschinen<i>5</i></li><li>Sägen &amp; Fräsmaschinen<i>4</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">10</span><span class="hk-name">Arbeitsschutz (PSA)</span><span class="hk-count">3</span></div><ul class="subs"><li>Bildhauer-Schutzkleidung<i>2</i></li><li>Schutzhandschuhe<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">11</span><span class="hk-name">Baustellen- &amp; Werkstattbedarf</span><span class="hk-count">8</span></div><ul class="subs"><li>Sprühgeräte &amp; Zerstäuber<i>2</i></li><li>Werkstatteinrichtung<i>2</i></li><li>Werkzeugtaschen &amp; Kissen<i>2</i></li><li>Lager- &amp; Transportsysteme<i>1</i></li><li>Handwerkzeuge Allgemein<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">12</span><span class="hk-name">Sanitär- &amp; Montagesysteme</span><span class="hk-count">1</span></div><ul class="subs"><li>Sockel-Dübelsysteme<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">13</span><span class="hk-name">Lackieren &amp; Beschichten</span><span class="hk-count">8</span></div><ul class="subs"><li>Schriftfarben<i>5</i></li><li>Beschriftungs-Zubehör<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">14</span><span class="hk-name">Modellieren &amp; Formen (Ton, Keramik, StoneLux-Art)</span><span class="hk-count">179</span></div><ul class="subs"><li>Handeisen (Spitz-, Schlag- &amp; Zahneisen)<i>39</i></li><li>Raspeln &amp; Feilen<i>38</i></li><li>Presslufteisen (Spitz-, Schlag- &amp; Zahneisen)<i>28</i></li><li>Pressluft-Schrifteisen<i>25</i></li><li>Fäustel, Knüpfel &amp; Hämmer<i>17</i></li><li>Stockwerkzeuge<i>16</i></li><li>Schrifteisen Hand<i>8</i></li><li>Modellier- &amp; Gipsspachtel<i>8</i></li></ul></div></div><div class="col" style="--h:140;--s:40%"><div class="sparte"><h2>GaLa-Bau &amp; Tiefbau</h2><span class="sparte-count">262 Produkte</span></div><div class="hk"><div class="hk-head"><span class="hk-nr">01</span><span class="hk-name">Messen &amp; Anzeichnen</span><span class="hk-count">10</span></div><ul class="subs"><li>Anzeichnen &amp; Markieren<i>4</i></li><li>Schnurhalter &amp; Richtschnüre<i>3</i></li><li>Ausrichtwinkel<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">02</span><span class="hk-name">Schneiden &amp; Trennen</span><span class="hk-count">29</span></div><ul class="subs"><li>Diamanttrennscheiben<i>9</i></li><li>Trennschleifer &amp; Steinsägen<i>8</i></li><li>Trennscheiben Brücken-/Tischfräsen<i>5</i></li><li>Steinspalter<i>5</i></li><li>Schneidhilfen<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">03</span><span class="hk-name">Bohren &amp; Fräsen</span><span class="hk-count">5</span></div><ul class="subs"><li>Kernbohrsysteme<i>4</i></li><li>Trockenbohrkronen<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">04</span><span class="hk-name">Schleifen, Kanten &amp; Polieren</span><span class="hk-count">20</span></div><ul class="subs"><li>Hartmetall-Handwerkzeuge<i>15</i></li><li>Sichtschleifscheiben<i>2</i></li><li>Sichtschleifmaschinen<i>2</i></li><li>Diamant-Schleifteller<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">05</span><span class="hk-name">Verlegen, Heben &amp; Transportieren</span><span class="hk-count">152</span></div><ul class="subs"><li>Vakuum-Verlegesysteme<i>36</i></li><li>Versetz- &amp; Hebezangen<i>36</i></li><li>Planum &amp; Abziehsysteme<i>26</i></li><li>Plattenheber &amp; Steinzieher<i>19</i></li><li>Pflasterwerkzeuge<i>15</i></li><li>Rohr- &amp; Schachtgreifer<i>8</i></li><li>Transportgeräte<i>6</i></li><li>Hebezeuge &amp; Anschlagmittel<i>6</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">06</span><span class="hk-name">Kleben, Fugen &amp; Gehrung</span><span class="hk-count">1</span></div><ul class="subs"><li>Pflasterverfugung<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">07</span><span class="hk-name">Reinigen, Schützen &amp; Reparieren</span><span class="hk-count">11</span></div><ul class="subs"><li>Steinreiniger<i>5</i></li><li>Imprägnierungen<i>4</i></li><li>Rückseitenversiegelung<i>1</i></li><li>Hochdruckreiniger<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">08</span><span class="hk-name">Staub &amp; Absaugung</span><span class="hk-count">6</span></div><ul class="subs"><li>Absaugzubehör<i>3</i></li><li>Bau- &amp; Nasssauger<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">09</span><span class="hk-name">Maschinen &amp; Energie (Akku, 230 V, Druckluft, Benzin)</span><span class="hk-count">14</span></div><ul class="subs"><li>Akkus &amp; Ladegeräte<i>7</i></li><li>Akku-Gartengeräte<i>4</i></li><li>Stromversorgung &amp; Antriebe<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">11</span><span class="hk-name">Baustellen- &amp; Werkstattbedarf</span><span class="hk-count">13</span></div><ul class="subs"><li>Hämmer &amp; Schlagwerkzeuge<i>6</i></li><li>Äxte &amp; Brechwerkzeuge<i>4</i></li><li>Bindezangen (Armierung)<i>2</i></li><li>Big-Bags &amp; Entsorgung<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">13</span><span class="hk-name">Lackieren &amp; Beschichten</span><span class="hk-count">1</span></div><ul class="subs"><li>Rutschhemmende Beschichtung<i>1</i></li></ul></div></div><div class="col" style="--h:270;--s:35%"><div class="sparte"><h2>Gipser &amp; Betonkosmetik</h2><span class="sparte-count">49 Produkte</span></div><div class="hk"><div class="hk-head"><span class="hk-nr">02</span><span class="hk-name">Schneiden &amp; Trennen</span><span class="hk-count">2</span></div><ul class="subs"><li>Diamanttrennscheiben<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">03</span><span class="hk-name">Bohren &amp; Fräsen</span><span class="hk-count">12</span></div><ul class="subs"><li>Bohrhämmer &amp; Meissel<i>5</i></li><li>Mauernut- &amp; V-Fräsen<i>4</i></li><li>Bohrschrauber<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">04</span><span class="hk-name">Schleifen, Kanten &amp; Polieren</span><span class="hk-count">16</span></div><ul class="subs"><li>Betonschleifer<i>5</i></li><li>Wand- &amp; Deckenschleifer (Giraffe)<i>4</i></li><li>Diamant-Schleifteller<i>3</i></li><li>Giraffen-Schleifmittel<i>3</i></li><li>Schwingschleifer<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">06</span><span class="hk-name">Kleben, Fugen &amp; Gehrung</span><span class="hk-count">5</span></div><ul class="subs"><li>Kartuschenpressen &amp; Klebepistolen<i>3</i></li><li>Spachtel &amp; Anwerkzeug<i>1</i></li><li>Kleb- &amp; Dichtstoffe<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">07</span><span class="hk-name">Reinigen, Schützen &amp; Reparieren</span><span class="hk-count">5</span></div><ul class="subs"><li>Schutz- &amp; Klebebänder<i>4</i></li><li>Abdeckfolien<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">08</span><span class="hk-name">Staub &amp; Absaugung</span><span class="hk-count">1</span></div><ul class="subs"><li>Absaughauben<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">09</span><span class="hk-name">Maschinen &amp; Energie (Akku, 230 V, Druckluft, Benzin)</span><span class="hk-count">6</span></div><ul class="subs"><li>Winkelschleifer &amp; Polierer<i>3</i></li><li>Rührwerke<i>2</i></li><li>Betongeräte<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">11</span><span class="hk-name">Baustellen- &amp; Werkstattbedarf</span><span class="hk-count">1</span></div><ul class="subs"><li>Gipserwerkzeuge<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">13</span><span class="hk-name">Lackieren &amp; Beschichten</span><span class="hk-count">1</span></div><ul class="subs"><li>Betonpigmente<i>1</i></li></ul></div></div><div class="col" style="--h:355;--s:55%"><div class="sparte"><h2>Autogewerbe</h2><span class="sparte-count">47 Produkte</span></div><div class="hk"><div class="hk-head"><span class="hk-nr">02</span><span class="hk-name">Schneiden &amp; Trennen</span><span class="hk-count">3</span></div><ul class="subs"><li>Blechscheren<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">04</span><span class="hk-name">Schleifen, Kanten &amp; Polieren</span><span class="hk-count">12</span></div><ul class="subs"><li>Poliermaschinen<i>6</i></li><li>Politur &amp; Polierpads<i>5</i></li><li>Polierzubehör<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">07</span><span class="hk-name">Reinigen, Schützen &amp; Reparieren</span><span class="hk-count">19</span></div><ul class="subs"><li>Reiniger &amp; Entfetter<i>5</i></li><li>Spachtelmassen<i>5</i></li><li>Rostlöser &amp; Pflegesprays<i>3</i></li><li>Kleb- &amp; Dichtstoffe<i>3</i></li><li>Fahrzeugtrocknung &amp; Detailing<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">09</span><span class="hk-name">Maschinen &amp; Energie (Akku, 230 V, Druckluft, Benzin)</span><span class="hk-count">1</span></div><ul class="subs"><li>Batterieladegeräte<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">11</span><span class="hk-name">Baustellen- &amp; Werkstattbedarf</span><span class="hk-count">1</span></div><ul class="subs"><li>Werkzeugsets KFZ<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">13</span><span class="hk-name">Lackieren &amp; Beschichten</span><span class="hk-count">11</span></div><ul class="subs"><li>Grundierungen &amp; Füller<i>4</i></li><li>Abklebebänder<i>3</i></li><li>Sprühlacke &amp; Unterbodenschutz<i>2</i></li><li>Lackierzubehör<i>1</i></li><li>Lackpflege &amp; Versiegelung<i>1</i></li></ul></div></div><div class="col" style="--h:200;--s:10%"><div class="sparte"><h2>Übergreifend</h2><span class="sparte-count">290 Produkte</span></div><div class="hk"><div class="hk-head"><span class="hk-nr">01</span><span class="hk-name">Messen &amp; Anzeichnen</span><span class="hk-count">18</span></div><ul class="subs"><li>Anreissen &amp; Markieren<i>8</i></li><li>Wasserwaagen &amp; Winkel<i>3</i></li><li>Messwerkzeuge<i>3</i></li><li>Laser-Messgeräte<i>2</i></li><li>Schlagschnur<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">02</span><span class="hk-name">Schneiden &amp; Trennen</span><span class="hk-count">19</span></div><ul class="subs"><li>Sägen<i>10</i></li><li>Sägeblätter &amp; Sägezubehör<i>4</i></li><li>Cuttermesser<i>2</i></li><li>Sanierung &amp; Abbruch<i>2</i></li><li>Trenn- &amp; Schleifscheiben Metall<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">03</span><span class="hk-name">Bohren &amp; Fräsen</span><span class="hk-count">41</span></div><ul class="subs"><li>Bohr- &amp; Meisselhämmer<i>10</i></li><li>Bit- &amp; Schrauberzubehör<i>9</i></li><li>Akku-Bohrschrauber<i>8</i></li><li>Akku-Schlagschrauber<i>6</i></li><li>Bohrer &amp; Meissel<i>5</i></li><li>Oberfräsen &amp; Fräser<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">04</span><span class="hk-name">Schleifen, Kanten &amp; Polieren</span><span class="hk-count">24</span></div><ul class="subs"><li>Schleifpapier &amp; Pads<i>6</i></li><li>Schleifscheiben &amp; Schärfen<i>5</i></li><li>Schleifmaschinen<i>5</i></li><li>Bürsten &amp; Fächerschleifer<i>4</i></li><li>Aufnahmen &amp; Schutzhauben<i>2</i></li><li>Polier-Zubehör<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">05</span><span class="hk-name">Verlegen, Heben &amp; Transportieren</span><span class="hk-count">1</span></div><ul class="subs"><li>Ausgleichskeile<i>1</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">07</span><span class="hk-name">Reinigen, Schützen &amp; Reparieren</span><span class="hk-count">18</span></div><ul class="subs"><li>Abdeckbänder<i>5</i></li><li>Bürsten<i>3</i></li><li>Schmier- &amp; Pflegemittel<i>3</i></li><li>AKEMI Spezialreiniger &amp; Schutz<i>3</i></li><li>Reparatur &amp; Heissluft<i>2</i></li><li>Reinigungsmittel &amp; Tücher<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">08</span><span class="hk-name">Staub &amp; Absaugung</span><span class="hk-count">37</span></div><ul class="subs"><li>Baustellensauger<i>10</i></li><li>Saugerzubehör<i>8</i></li><li>Filter Bau-Luftreiniger<i>7</i></li><li>Filtersäcke &amp; Filter<i>6</i></li><li>Akku-Sauger<i>4</i></li><li>Bau-Luftreiniger<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">09</span><span class="hk-name">Maschinen &amp; Energie (Akku, 230 V, Druckluft, Benzin)</span><span class="hk-count">40</span></div><ul class="subs"><li>Winkelschleifer<i>11</i></li><li>Akkus &amp; Ladegeräte<i>11</i></li><li>Kompressoren &amp; Druckluft<i>10</i></li><li>Gartengeräte (Akku)<i>4</i></li><li>Maschinenzubehör<i>2</i></li><li>Werkstattmaschinen<i>2</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">10</span><span class="hk-name">Arbeitsschutz (PSA)</span><span class="hk-count">44</span></div><ul class="subs"><li>Swiss Air Gebläseatemschutz<i>10</i></li><li>Schutzbrillen &amp; Gesichtsschutz<i>6</i></li><li>Körperschutz<i>6</i></li><li>Schutzhandschuhe<i>6</i></li><li>Gehörschutz<i>5</i></li><li>Atemschutz<i>5</i></li><li>Knieschutz<i>3</i></li><li>Hautschutz &amp; Erste Hilfe<i>3</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">11</span><span class="hk-name">Baustellen- &amp; Werkstattbedarf</span><span class="hk-count">47</span></div><ul class="subs"><li>Handwerkzeug<i>9</i></li><li>Transport- &amp; Koffersysteme<i>8</i></li><li>Baustellenbeleuchtung &amp; Strom<i>7</i></li><li>Rührwerke &amp; Rührkörbe<i>7</i></li><li>Schonhämmer<i>7</i></li><li>Hämmer &amp; Fäustel<i>5</i></li><li>Reinigungspapier &amp; Entsorgung<i>4</i></li></ul></div><div class="hk"><div class="hk-head"><span class="hk-nr">13</span><span class="hk-name">Lackieren &amp; Beschichten</span><span class="hk-count">1</span></div><ul class="subs"><li>Pinsel &amp; Auftragswerkzeug<i>1</i></li></ul></div></div>
+  </div>
+</div>
+<p class="legend">Organigramm nach Ziel-Taxonomie: jede Sparte (wer kauft) führt ihre nummerierten
+Arbeitsschritte (wonach gesucht wird), darin die Unterkategorien mit Produktzahl.
+Quelle: data/sfinal.json, Stand 26.08.2026.</p>
