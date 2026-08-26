@@ -16,18 +16,18 @@ OUT = REPO / 'deliverable' / 'Ferronato_Sortiments_Kompass.html'
 BERUFSGRUPPEN = [
     'Plattenleger', 'Steinmetz & Bildhauer', 'Natursteinwerk',
     'Gartenbau, Pflästerung & Tiefbau', 'Gipser & Betonkosmetik',
-    'Carrosserie & Fahrzeugaufbereitung', 'Holzbearbeitung & Zimmerei',
+    'Carrosserie & Fahrzeugaufbereitung', 'Holzbau & Zimmerei',
     'Werkstatt & Baustelle',
 ]
 # Gruppen ohne Primärprodukte: befüllt über Mehrfachzuordnung (zusatz_gruppen)
-SEKUNDAER_GRUPPEN = {'Natursteinwerk', 'Holzbearbeitung & Zimmerei'}
+SEKUNDAER_GRUPPEN = {'Natursteinwerk', 'Holzbau & Zimmerei'}
 HUES = {
     'Plattenleger': (215, 60), 'Steinmetz & Bildhauer': (28, 45),
     'Natursteinwerk': (18, 30),
     'Gartenbau, Pflästerung & Tiefbau': (140, 40),
     'Gipser & Betonkosmetik': (270, 35),
     'Carrosserie & Fahrzeugaufbereitung': (355, 55),
-    'Holzbearbeitung & Zimmerei': (80, 35),
+    'Holzbau & Zimmerei': (80, 35),
     'Werkstatt & Baustelle': (200, 10),
 }
 TAETIGKEITEN = [

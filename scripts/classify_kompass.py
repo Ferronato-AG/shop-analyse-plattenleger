@@ -36,18 +36,55 @@ NW_TYPEN = {'Trennscheiben Brücken- & Tischsäge', 'Trennscheiben Brücken-/Tis
 RX_NATURSTEINWERK = re.compile(
     r'\bCNC\b|Tischfräse|Steinfräse|Brückensäge|Brückenfräs|Fingerfräs|Finger Bit|'
     r'Profilfräs|Umfangfräs|Falzfräser|Cassani|Seilsäge|Kantenschleifmaschine', re.I)
+# Ein Natursteinwerk deckt die ganze Verarbeitungskette im Werk ab: Sägen,
+# Fräsen, Schleifen/Polieren, Bohren, Kleben, Oberflächenschutz/Reparatur,
+# Maschinen, Absaugung, Messen, Plattenhandling. Nicht dazu gehören das
+# bildhauerische Handwerkzeug (Handeisen, Raspeln, Knüpfel), Ton/Modelliermasse
+# sowie Grabschmuck/Beschriftung von Hand.
+NW_WERK_TAETIGKEITEN = {
+    'Trennen & Schleifen', 'Bohren & Fräsen', 'Kleben, Fugen & Gehrung',
+    'Reinigen, Schützen & Reparieren', 'Maschinen & Geräte',
+    'Staub & Absaugung', 'Messen & Anzeichnen',
+    'Verlegen, Heben & Transportieren',
+}
+# Maschinelle Oberflächenbearbeitung (stocken, scharrieren mit Pressluft)
+# gehört ebenfalls ins Werk, auch wenn sie unter «Modellieren & Formen» läuft.
+NW_OBERFLAECHEN_TYPEN = {'Presslufteisen (Spitz-, Schlag- & Zahneisen)',
+                         'Pressluft-Schrifteisen', 'Stockwerkzeuge'}
+
 RX_HOLZ = re.compile(
     r'Latthammer|Zimmerman|Stichsäge|Kapp- ?und ?Gehrung|Säbelsäge|Oberfräse|'
     r'Holzbürst|Holzbohrer|Forstner|Schlagschnur|(?<![A-Za-z])E-Cut(?!.*Metall)|'
-    r'Kantenfräser.*Oberfräs', re.I)
+    r'Kantenfräser.*Oberfräs|Kettensäge|Multitool|Zimmermannsbleistift', re.I)
 
 
-def zusatz_gruppen_von(p):
+def ist_holzbau(p):
+    n = p['name']
+    if RX_HOLZ.search(n):
+        return True
+    # Kreissägen und Sägeblätter für Holz (Metall- und Nass-/Steinsägen nicht)
+    if re.search(r'kreissäge', n, re.I) and not re.search(r'metall|nass|\bwet\b', n, re.I):
+        return True
+    # Akku-Montagegeräte (Bohr-/Schlagschrauber), Kernwerkzeug im Holzbau
+    if re.search(r'bohrschrauber|schlagschrauber|akku.?schrauber', n, re.I) \
+            and not re.search(r'trockenbau', n, re.I):
+        return True
+    if re.search(r'\btacker\b', n, re.I):
+        return True
+    if re.search(r'hobel', n, re.I) and not re.search(r'stonelux|\bslx\b|akemi|composite', n, re.I):
+        return True
+    return False
+
+
+def zusatz_gruppen_von(p, taetigkeit):
     out = []
-    if p['unterkategorie'] in NW_TYPEN or RX_NATURSTEINWERK.search(p['name']):
+    ist_steinmetz = p['sparte'] == 'Steinmetz & Bildhauer'
+    if (p['unterkategorie'] in NW_TYPEN or RX_NATURSTEINWERK.search(p['name'])
+            or (ist_steinmetz and taetigkeit in NW_WERK_TAETIGKEITEN)
+            or (ist_steinmetz and p['unterkategorie'] in NW_OBERFLAECHEN_TYPEN)):
         out.append('Natursteinwerk')
-    if RX_HOLZ.search(p['name']):
-        out.append('Holzbearbeitung & Zimmerei')
+    if ist_holzbau(p):
+        out.append('Holzbau & Zimmerei')
     return out
 
 
@@ -408,7 +445,7 @@ def klassifiziere(p, r):
         'beschreibung': p.get('zusammenfassung', ''),
         'usp': p.get('usp', ''),
         'berufsgruppe': SPARTE_NEU[p['sparte']],
-        'zusatz_gruppen': zusatz_gruppen_von(p),
+        'zusatz_gruppen': zusatz_gruppen_von(p, taetigkeit),
         'taetigkeit': taetigkeit,
         'zusatz_taetigkeiten': zusatz_taetigkeiten,
         'untergruppe': untergruppe,
