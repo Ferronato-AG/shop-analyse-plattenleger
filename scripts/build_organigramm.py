@@ -23,6 +23,7 @@ for p in data:
         alt = ' › '.join(eval(r.get('breadcrumb', '[]')))
     except Exception:
         alt = ''
+    rang = str(p.get('top_rang', '')).strip()
     payload[p['sparte'] + '|' + p['hauptkategorie']][p['unterkategorie']].append({
         'id': p['id'],
         'name': p['name'] or r.get('name', ''),
@@ -30,10 +31,13 @@ for p in data:
         'preis': r.get('price_chf', ''),
         'url': r.get('url', ''),
         'alt': alt,
+        'top': int(rang) if rang else 0,
+        'grund': (p.get('top_grund', '') if rang else ''),
     })
 for hk in payload.values():
     for lst in hk.values():
-        lst.sort(key=lambda x: x['name'].lower())
+        # Top-Produkte zuerst (nach Rang), danach alphabetisch
+        lst.sort(key=lambda x: (x['top'] == 0, x['top'] or 99, x['name'].lower()))
 
 ORDER = ['Plattenleger', 'Steinmetz & Bildhauer', 'GaLa-Bau & Tiefbau',
          'Gipser & Betonkosmetik', 'Autogewerbe', 'Übergreifend']
@@ -57,6 +61,8 @@ for sparte in ORDER:
         c = hks[hk]
         nr, name = hk.split(' ', 1)
         key = sparte + '|' + hk
+        n_top = sum(1 for pr in payload[key].values() for x in pr if x['top'])
+        top_html = f'<span class="hk-top">★ {n_top}</span>' if n_top else ''
         subs = ''.join(
             f'<li>{html.escape(u)}<i>{n}</i></li>'
             for u, n in c.most_common())
@@ -64,7 +70,7 @@ for sparte in ORDER:
             f'<button class="hk" type="button" data-key="{html.escape(key, quote=True)}">'
             f'<div class="hk-head"><span class="hk-nr">{nr}</span>'
             f'<span class="hk-name">{html.escape(name)}</span>'
-            f'<span class="hk-count" data-count="{sum(c.values())}">{sum(c.values())}</span></div>'
+            f'{top_html}<span class="hk-count" data-count="{sum(c.values())}">{sum(c.values())}</span></div>'
             f'<div class="hk-bar"><span></span></div>'
             f'<ul class="subs">{subs}</ul></button>')
     cols.append(
@@ -90,6 +96,9 @@ page = f"""<title>Ferronato Kategorien-Organigramm</title>
   --ok: hsl(150 55% 34%);
   --ok-bg: hsl(150 45% 92%);
   --overlay-dim: hsl(215 30% 10% / .55);
+  --top-ink: hsl(40 80% 30%);
+  --top-border: hsl(40 70% 62%);
+  --top-bg: hsl(45 85% 94%);
   --node-bg: hsl(var(--h) var(--s) 94%);
   --node-border: hsl(var(--h) var(--s) 72%);
   --node-ink: hsl(var(--h) var(--s) 26%);
@@ -107,6 +116,9 @@ page = f"""<title>Ferronato Kategorien-Organigramm</title>
     --ok: hsl(150 50% 55%);
     --ok-bg: hsl(150 35% 18%);
     --overlay-dim: hsl(215 30% 4% / .65);
+    --top-ink: hsl(45 75% 65%);
+    --top-border: hsl(42 50% 40%);
+    --top-bg: hsl(42 45% 15%);
     --node-bg: hsl(var(--h) calc(var(--s) * .5) 17%);
     --node-border: hsl(var(--h) calc(var(--s) * .6) 34%);
     --node-ink: hsl(var(--h) calc(var(--s) * .8) 78%);
@@ -124,6 +136,9 @@ page = f"""<title>Ferronato Kategorien-Organigramm</title>
   --ok: hsl(150 50% 55%);
   --ok-bg: hsl(150 35% 18%);
   --overlay-dim: hsl(215 30% 4% / .65);
+  --top-ink: hsl(45 75% 65%);
+  --top-border: hsl(42 50% 40%);
+  --top-bg: hsl(42 45% 15%);
   --node-bg: hsl(var(--h) calc(var(--s) * .5) 17%);
   --node-border: hsl(var(--h) calc(var(--s) * .6) 34%);
   --node-ink: hsl(var(--h) calc(var(--s) * .8) 78%);
@@ -292,6 +307,19 @@ body {{
 }}
 .prod:hover {{ background: var(--panel); }}
 .prod.checked {{ background: var(--ok-bg); }}
+.prod.top {{ border-color: var(--top-border); background: var(--top-bg); }}
+.prod.top.checked {{ background: var(--ok-bg); }}
+.p-top {{
+  display: inline-block; font-family: "IBM Plex Mono", monospace;
+  font-size: .66rem; font-weight: 500; color: var(--top-ink);
+  border: 1px solid var(--top-border); border-radius: .3rem;
+  padding: .04rem .38rem; margin-right: .4rem; vertical-align: 1px;
+  white-space: nowrap;
+}}
+.hk-top {{
+  font-size: .66rem; color: var(--top-ink); font-family: "IBM Plex Mono", monospace;
+  align-self: center; white-space: nowrap;
+}}
 .prod.checked .p-name {{ text-decoration: line-through; color: var(--muted); }}
 .prod input {{ margin-top: .25rem; accent-color: var(--ok); width: 1rem; height: 1rem; flex: none; }}
 .prod label {{ flex: 1; cursor: pointer; min-width: 0; }}
@@ -326,7 +354,9 @@ body {{
 </div>
 <p class="legend">Migrations-Werkzeug: Klick auf einen Arbeitsschritt öffnet die Produktliste.
 Abgehakte Produkte gelten als in die neue Shop-Struktur überführt; der Stand wird lokal im Browser
-gespeichert (localStorage, pro Gerät). Quelle: data/sfinal.json, Stand 26.08.2026.</p>
+gespeichert (localStorage, pro Gerät). Enthalten sind alle Produkte; mit ★ markierte sind die
+Top-Produkte (Rang 1-6 je Sparte und Arbeitsschritt aus dem Bestseller-Scoring), sie stehen in
+ihrer Unterkategorie zuoberst. Quelle: data/sfinal.json, Stand 26.08.2026.</p>
 
 <div class="overlay" id="overlay">
   <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dlg-title">
@@ -426,9 +456,10 @@ gespeichert (localStorage, pro Gerät). Quelle: data/sfinal.json, Stand 26.08.20
         var meta = [];
         if (p.artnr) meta.push('<b>' + esc(p.artnr) + '</b>');
         if (p.preis) meta.push('CHF ' + esc(p.preis));
-        return '<div class="prod' + (state[p.id] ? ' checked' : '') + '" data-id="' + esc(p.id) + '">' +
+        var topBadge = p.top ? '<span class="p-top" title="' + esc(p.grund) + '">★ Top ' + p.top + '</span>' : '';
+        return '<div class="prod' + (state[p.id] ? ' checked' : '') + (p.top ? ' top' : '') + '" data-id="' + esc(p.id) + '">' +
           '<input type="checkbox" id="p' + esc(p.id) + '"' + (state[p.id] ? ' checked' : '') + '>' +
-          '<label for="p' + esc(p.id) + '"><div class="p-name">' + esc(p.name) + '</div>' +
+          '<label for="p' + esc(p.id) + '"><div class="p-name">' + topBadge + esc(p.name) + '</div>' +
           '<div class="p-meta">' + meta.join(' ') + '</div>' +
           (p.alt ? '<div class="p-alt">Alt: ' + esc(p.alt) + '</div>' : '') + '</label>' +
           (p.url ? '<a class="p-link" href="' + esc(p.url) + '" target="_blank" rel="noopener">Shop ↗</a>' : '') +
