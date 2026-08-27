@@ -28,8 +28,11 @@ Zusatz-Tätigkeiten). Pipeline: `scripts/classify_kompass.py` →
 - Werkstatt & Baustelle (PSA, Universalmaschinen, Baustellenbedarf; Shop-Name
   für die frühere Sparte «Übergreifend», Entscheid Chris Beyeler 2026-08-26)
 
-Natursteinwerk und Holzbau & Zimmerei sind Sekundärgruppen: Sie werden
-über Mehrfachzuordnung befüllt, die Produkte behalten ihre Primärgruppe.
+Natursteinwerk und Holzbau & Zimmerei werden überwiegend über
+Mehrfachzuordnung befüllt (Produkte behalten ihre Primärgruppe). Ausnahme:
+CNC-Fräswerkzeuge haben Natursteinwerk als Primärgruppe, sie gehören nicht
+zum Plattenleger (festmontierte Maschinen mit Wasserzuführung für
+Steinarbeiten; Feedback Denis/Ferronato 2026-08-27).
 
 ## Tätigkeiten (Hauptkategorien)
 | Tätigkeit | Bemerkung |

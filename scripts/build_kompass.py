@@ -396,8 +396,9 @@ function render(){
     document.documentElement.style.setProperty('--s', hue[1]+'%');
     const sek = SEK.includes(view.key);
     html = (sek ? '<p style="color:var(--mut);font-size:13px;margin:0 0 12px">'
-      + 'Diese Berufsgruppe wird über Mehrfachzuordnung befüllt: Die Produkte '
-      + 'behalten ihre Primärgruppe und erscheinen hier zusätzlich.</p>' : '')
+      + 'Diese Berufsgruppe wird überwiegend über Mehrfachzuordnung befüllt: '
+      + 'Die meisten Produkte behalten ihre Primärgruppe und erscheinen hier '
+      + 'zusätzlich.</p>' : '')
       + TK.map(tk => tkSection(tk,
       P.filter(p => inGruppe(p, view.key) && inTk(p, tk) && passt(p)), sek)).join('');
   } else if (view.typ === 'marke'){

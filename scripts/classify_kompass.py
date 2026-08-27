@@ -76,6 +76,16 @@ def ist_holzbau(p):
     return False
 
 
+# Primärgruppen-Korrekturen (Feedback Denis/Ferronato 2026-08-27):
+# CNC-Fräswerkzeuge laufen auf festmontierten Maschinen mit Wasserzuführung
+# (Steinarbeiten) und gehören nicht zum Plattenleger → Primärgruppe
+# Natursteinwerk.
+def primaergruppe_korrektur(p, berufsgruppe):
+    if berufsgruppe == 'Plattenleger' and p['unterkategorie'] == 'CNC-Fräswerkzeuge':
+        return 'Natursteinwerk'
+    return berufsgruppe
+
+
 def zusatz_gruppen_von(p, taetigkeit):
     out = []
     ist_steinmetz = p['sparte'] == 'Steinmetz & Bildhauer'
@@ -444,8 +454,8 @@ def klassifiziere(p, r):
         'url': r.get('url', ''),
         'beschreibung': p.get('zusammenfassung', ''),
         'usp': p.get('usp', ''),
-        'berufsgruppe': SPARTE_NEU[p['sparte']],
-        'zusatz_gruppen': zusatz_gruppen_von(p, taetigkeit),
+        'berufsgruppe': (bg := primaergruppe_korrektur(p, SPARTE_NEU[p['sparte']])),
+        'zusatz_gruppen': [g for g in zusatz_gruppen_von(p, taetigkeit) if g != bg],
         'taetigkeit': taetigkeit,
         'zusatz_taetigkeiten': zusatz_taetigkeiten,
         'untergruppe': untergruppe,
