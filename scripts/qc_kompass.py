@@ -112,5 +112,47 @@ check(15, 'Alle 1624 Produkte mit Preis/Link/Beschreibung erhalten',
       len(K) == 1624 and ids_raw == ids_k and n_url == 1624 and n_preis == n_preis_raw,
       f'{len(K)} Produkte, {n_url} Links, {n_preis}/{n_preis_raw} Preise')
 
+# --- Umsetzungsprotokoll Gipser, Maler & Betonkosmetik (2026-09-01) ---
+print('\nUmsetzungsprotokoll Gipser, Maler & Betonkosmetik:')
+GM = [x for x in K if x.get('gipser')]
+gt = lambda x: x['gipser']['t']
+gu = lambda x: x['gipser']['ug']
+
+check('G1', 'Gruppe heisst «Gipser, Maler & Betonkosmetik»',
+      any(x['berufsgruppe'] == 'Gipser, Maler & Betonkosmetik' for x in K)
+      and not any(x['berufsgruppe'] == 'Gipser & Betonkosmetik' for x in K))
+maschinen_in_ts = [x for x in GM if gt(x) == 'Trennen & Schleifen'
+                   and (x['antrieb'] or re.search(r'giraffe|schleifer\b|maschine', x['name'], re.I))
+                   and re.search(r'giraffe|betonschleifer|deckenschleifer|schwingschleifer|'
+                                 r'bodenschleifmaschine|sanierungsschleifer', x['name'], re.I)]
+check('G2', 'Keine Maschinen (inkl. FLEX Giraffe) unter Trennen & Schleifen',
+      not maschinen_in_ts, '; '.join(x['name'][:40] for x in maschinen_in_ts))
+check('G3', 'Keine Untergruppe «Schleifen» unter Maschinen & Geräte',
+      not any(gt(x) == 'Maschinen & Geräte' and gu(x) == 'Schleifen' for x in GM))
+check('G4', '«Bohren & Meisseln» statt «Bohren & Fräsen»',
+      any(gt(x) == 'Bohren & Meisseln' for x in GM)
+      and not any(gt(x) == 'Bohren & Fräsen' for x in GM))
+check('G5', 'Manta XR nicht unter Staub & Absaugung',
+      not any('MANTA' in x['name'].upper() and gt(x) == 'Staub & Absaugung' for x in GM))
+check('G6', 'Keine eigene Untergruppe «Absaughauben»',
+      not any(gu(x) == 'Absaughauben' for x in GM))
+check('G7', 'Telum/SDA/Handrutscher/Aufnahmeteller in Schleif-Untergruppen',
+      any(re.search(r'telum', x['name'], re.I) and gu(x) == 'Schleifmittel' for x in GM)
+      and any(gu(x) == 'Handrutscher' for x in GM)
+      and any(gu(x) == 'Aufnahmeteller' for x in GM))
+check('G8', 'Moldex-Masken unter Staubmasken',
+      all(gu(x) == 'Staubmasken' for x in GM if 'MOLDEX' in x['name'].upper()
+          or 'Moldex' in x['name']))
+norton = [x for x in GM if x['marke'] == 'NORTON']
+check('G9', 'Norton nur als Hersteller bei Trennscheiben',
+      all(gu(x) == 'Trennscheiben' for x in norton), f'{len(norton)} Norton-Produkte')
+check('G10', 'WEISS-Klebstoffe, ColourBond/Spectrum/Platinum, Pigmente zugeordnet',
+      any('WEISS' in x['name'] and gu(x) == 'Kleb- & Dichtstoffe' for x in GM)
+      and any(gu(x) == 'Gehrungen' for x in GM)
+      and any(gu(x) == 'Pigmente' for x in GM))
+check('G11', 'Kuratierte Ansicht im HTML verdrahtet',
+      'Kuratierte Ansicht nach dem Umsetzungsprotokoll' in HTML
+      and 'Bohren & Meisseln' in HTML)
+
 print(f'\n{ok} OK, {fail} FAIL')
 raise SystemExit(1 if fail else 0)

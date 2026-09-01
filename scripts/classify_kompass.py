@@ -20,7 +20,7 @@ SPARTE_NEU = {
     'Plattenleger': 'Plattenleger',
     'Steinmetz & Bildhauer': 'Steinmetz & Bildhauer',
     'GaLa-Bau & Tiefbau': 'Gartenbau, Pflästerung & Tiefbau',
-    'Gipser & Betonkosmetik': 'Gipser & Betonkosmetik',
+    'Gipser & Betonkosmetik': 'Gipser, Maler & Betonkosmetik',
     'Autogewerbe': 'Carrosserie & Fahrzeugaufbereitung',
     'Übergreifend': 'Werkstatt & Baustelle',
     'Werkstatt & Baustelle': 'Werkstatt & Baustelle',
@@ -74,6 +74,129 @@ def ist_holzbau(p):
     if re.search(r'hobel', n, re.I) and not re.search(r'stonelux|\bslx\b|akemi|composite', n, re.I):
         return True
     return False
+
+
+# ------------------------------------------- Gipser, Maler & Betonkosmetik
+# Kuratierte Gruppen-Ansicht nach dem Umsetzungsprotokoll Ferronato
+# (2026-09-01). Die Ansicht zeigt NUR relevante Produkte, mit eigenen
+# Tätigkeits-/Untergruppen-Namen («Bohren & Meisseln» statt «Bohren & Fräsen»,
+# keine Maschinen unter Trennen/Schleifen, Manta XR nicht unter Staub &
+# Absaugung). Interpretationen des diktierten Protokolls: «Ferro-Seal» =
+# FERROSIL-Bänder/-Folien, «Acemi» = AKEMI.
+GIPSER_NAME = 'Gipser, Maler & Betonkosmetik'
+
+RX_GIPSER_MASCHINE = re.compile(
+    r'giraffe|betonschleifer|deckenschleifer|schwingschleifer|'
+    r'bodenschleifmaschine|sanierungsschleifer|winkelschleifer|polierer|'
+    r'rührmaschine|rührer|glättbohle|\bLD ?\d+-\d', re.I)
+
+
+def gipser_view(p, taetigkeit, untergruppe, antrieb, systeme, marke):
+    """Liefert (Tätigkeit, Untergruppe) der Gipser-Ansicht oder None."""
+    n = p['name']
+    typ = p['unterkategorie']
+    primaer = p['sparte'] == 'Gipser & Betonkosmetik'
+
+    def maschinen_ug():
+        if 'Akku' in antrieb:
+            return 'Akku-Maschinen'
+        if 'Benzin' in antrieb:
+            return 'Benzin-Maschinen'
+        return 'Elektrische Maschinen (230 V)'
+
+    # Manta XR: raus aus Staub & Absaugung (Protokoll)
+    if re.search(r'manta xr', n, re.I):
+        if re.search(r'absaughaube', n, re.I):
+            return ('Maschinen & Geräte', 'Maschinenzubehör & Hilfsmittel')
+        return ('Maschinen & Geräte', maschinen_ug())
+    # Maschinen nie unter Trennen/Schleifen (Protokoll), inkl. FLEX Giraffe
+    if primaer and RX_GIPSER_MASCHINE.search(n):
+        return ('Maschinen & Geräte', maschinen_ug())
+    # Trennen & Schleifen (kuratiert)
+    if primaer and untergruppe == 'Trennen':
+        return ('Trennen & Schleifen', 'Trennscheiben')
+    if primaer and untergruppe == 'Trennen & Schleifen':
+        return ('Trennen & Schleifen', 'Trenn- & Schleifscheiben')
+    if re.search(r'handrutscher|rutscherplatte|diamantrutscher', n, re.I):
+        return ('Trennen & Schleifen', 'Handrutscher')
+    if re.search(r'telum|swiflex|\bsda\b', n, re.I) \
+            or re.search(r'FLEX Schleifmittel Starter', n, re.I):
+        return ('Trennen & Schleifen', 'Schleifmittel')
+    if untergruppe == 'Aufnahmeteller & Adapter' \
+            and re.search(r'ø ?(100|115|120|140)', n, re.I):
+        return ('Trennen & Schleifen', 'Aufnahmeteller')
+    if typ == 'Giraffen-Schleifmittel' or re.search(r'giraffen', typ, re.I) \
+            and not RX_GIPSER_MASCHINE.search(n):
+        return ('Trennen & Schleifen', 'Giraffen-Schleifmittel')
+    if re.search(r'ø ?225|225 ?mm', n, re.I) and re.search(r'schleif|dämpfung|vlies', n, re.I):
+        return ('Trennen & Schleifen', 'Giraffen-Schleifmittel')
+    if primaer and re.search(r'schleifteller|schleiftopf', n, re.I):
+        return ('Trennen & Schleifen', 'Schleifwerkzeuge Ø 180/225')
+    # Bohren & Meisseln (umbenannt, Protokoll)
+    if re.search(r'meissel', n, re.I) and 'SDS' in n.upper() or typ == 'Bohrhämmer & Meissel' and re.search(r'meissel', n, re.I):
+        return ('Bohren & Meisseln', 'Meissel')
+    if re.search(r'bohrhammer|kombihammer|kombibohr|schlagbohrmaschine', n, re.I):
+        return ('Bohren & Meisseln', 'Bohrhämmer')
+    if re.search(r'bohrschrauber|schlagschrauber|trockenbauschrauber', n, re.I):
+        return ('Bohren & Meisseln', 'Schlagbohrschrauber')
+    if primaer and p['hauptkategorie'][:2] == '03':
+        return ('Bohren & Meisseln', 'Werkzeuge & Zubehör')
+    # Baustellen- & Werkstattbedarf
+    if re.search(r'gipserbeil|\bbeil\b|latthammer', n, re.I):
+        return ('Baustellen- & Werkstattbedarf', 'Baustellenwerkzeuge')
+    if re.search(r'tischfräse', n, re.I):
+        return ('Baustellen- & Werkstattbedarf', 'Baustellenmaschinen')
+    if primaer and taetigkeit == 'Baustellen- & Werkstattbedarf':
+        return ('Baustellen- & Werkstattbedarf', 'Werkstatt')
+    # Kleben, Fugen & Gehrung
+    if re.search(r'kartuschen ?presse|skelettpistole|klebepistole|presspistole', n, re.I):
+        return ('Kleben, Fugen & Gehrung', 'Kartuschenpressen & Klebepistolen')
+    if re.search(r'weiss.?chemie|cosmo(?!s)|hd-?100|akenova|silikon(?!-schleif)|dichtstoff', n, re.I) \
+            and not re.search(r'psa|halbmaske|schleifleinen|tabelle', n, re.I):
+        return ('Kleben, Fugen & Gehrung', 'Kleb- & Dichtstoffe')
+    if re.search(r'colour ?bond|spectrum|platinum', n, re.I):
+        return ('Kleben, Fugen & Gehrung', 'Gehrungen')
+    if re.search(r'japanspachtel|malerspachtel|künstlerspachtel|milani.?spachtel|'
+                 r'gipsraspel|stukkateurspachtel|anmischplatte|misch-?messbecher', n, re.I):
+        return ('Kleben, Fugen & Gehrung', 'Spachtel & Werkzeuge')
+    if primaer and taetigkeit == 'Kleben, Fugen & Gehrung':
+        return ('Kleben, Fugen & Gehrung', 'Kleb- & Dichtstoffe')
+    # Lackieren & Beschichten
+    if typ == 'Betonpigmente' or re.search(r'pulverfarbe|pigment', n, re.I):
+        return ('Lackieren & Beschichten', 'Pigmente')
+    if re.search(r'farbtonvertiefer', n, re.I):
+        return ('Lackieren & Beschichten', 'Imprägnierungen & Farbtonvertiefer')
+    # Reinigen, Schützen & Reparieren
+    if re.search(r'abdeckfolie|abdeckvlies|abdeckband|floorliner|malerband|speedymask', n, re.I):
+        return ('Reinigen, Schützen & Reparieren', 'Abdeckfolien & -materialien')
+    if re.search(r'klebeband|bautenschutzband|gewebeband', n, re.I):
+        return ('Reinigen, Schützen & Reparieren', 'Schutz- & Klebebänder')
+    if re.search(r'smart repair', n, re.I) or 'StoneLux-Reparatursystem' in systeme:
+        return ('Reinigen, Schützen & Reparieren', 'Reparaturwerkzeuge & -systeme')
+    if primaer and taetigkeit == 'Reinigen, Schützen & Reparieren':
+        return ('Reinigen, Schützen & Reparieren', 'Reinigen & Imprägnieren')
+    # Staub & Absaugung (nur FLEX plus Masken, Protokoll)
+    if marke == 'FLEX':
+        zubehoer = re.search(r'filtersä?ck|filter\b|flachfaltenfilter|reinigungsset|'
+                             r'trolley|fahrwerk|vorabschneider|cyclone|absaughaube|'
+                             r'absaugschlauch|saugschlauch', n, re.I)
+        ist_sauger = re.search(r'sauger', n, re.I) \
+            or (re.search(r'\bVC[EL]? ?\d', n) and not zubehoer)
+        if ist_sauger:
+            return ('Staub & Absaugung', 'Staubsauger')
+        if zubehoer:
+            return ('Staub & Absaugung', 'Absaugzubehör')
+    if re.search(r'moldex|staubmaske|feinstaubmaske|staub-halbmaske', n, re.I):
+        return ('Staub & Absaugung', 'Staubmasken')
+    # Übrige Primär-Gipser-Produkte: Tätigkeit behalten
+    if primaer:
+        t = 'Bohren & Meisseln' if taetigkeit == 'Bohren & Fräsen' else taetigkeit
+        if taetigkeit == 'Maschinen & Geräte':
+            ug = untergruppe if untergruppe != 'Maschinenzubehör & Ersatzteile' \
+                else 'Maschinenzubehör & Hilfsmittel'
+            return (t, ug)
+        return (t, untergruppe)
+    return None
 
 
 # Primärgruppen-Korrekturen (Feedback Denis/Ferronato 2026-08-27):
@@ -456,6 +579,8 @@ def klassifiziere(p, r):
         'usp': p.get('usp', ''),
         'berufsgruppe': (bg := primaergruppe_korrektur(p, SPARTE_NEU[p['sparte']])),
         'zusatz_gruppen': [g for g in zusatz_gruppen_von(p, taetigkeit) if g != bg],
+        'gipser': (lambda gv: {'t': gv[0], 'ug': gv[1]} if gv else None)(
+            gipser_view(p, taetigkeit, untergruppe, antrieb, systeme, marke)),
         'taetigkeit': taetigkeit,
         'zusatz_taetigkeiten': zusatz_taetigkeiten,
         'untergruppe': untergruppe,

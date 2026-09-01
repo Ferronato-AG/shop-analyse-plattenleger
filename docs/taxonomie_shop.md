@@ -19,7 +19,8 @@ Zusatz-Tätigkeiten). Pipeline: `scripts/classify_kompass.py` →
   Nicht dazu: bildhauerisches Handwerkzeug, Ton/Modelliermasse.
   Ergänzt 2026-08-26, erweitert auf Wunsch Ferronato auf >350 Produkte)
 - Gartenbau, Pflästerung & Tiefbau (vorher «GaLa-Bau & Tiefbau»)
-- Gipser & Betonkosmetik
+- Gipser, Maler & Betonkosmetik (umbenannt und kuratiert nach dem
+  Umsetzungsprotokoll Ferronato vom 2026-09-01, siehe Abschnitt unten)
 - Carrosserie & Fahrzeugaufbereitung (vorher «Autogewerbe»)
 - Holzbau & Zimmerei (Latthämmer, Kreis-/Stich-/Säbel-/Kapp- und
   Gehrungssägen, Kettensägen, Oberfräsen, Akku-Bohr- und Schlagschrauber,
@@ -89,3 +90,20 @@ JSON über «Stand exportieren».
 - Werkstatt & Baustelle bleibt das primäre Zuhause übergreifender Produkte;
   kaufrelevante Artikel werden per Mehrfachzuordnung zusätzlich in die
   passenden Berufsgruppen gehängt, gepflegt wird nur die Primärkategorie.
+
+## Kuratierte Ansicht Gipser, Maler & Betonkosmetik (Protokoll 2026-09-01)
+Eigene Regeln in `scripts/classify_kompass.py` (`gipser_view`), QC-Checks
+G1-G11 in `scripts/qc_kompass.py`. Kernpunkte: nur relevante Produkte (241);
+«Bohren & Meisseln» statt «Bohren & Fräsen»; keine Maschinen (inkl. FLEX
+Giraffe) unter Trennen & Schleifen; keine Untergruppe «Schleifen» unter
+Maschinen & Geräte; Manta XR unter Maschinen statt Staub & Absaugung; keine
+eigene Untergruppe «Absaughauben»; Norton nur als Hersteller bei
+Trennscheiben. Interpretationen des diktierten Protokolls: «Acemi» = AKEMI,
+«Ferro-Seal» = FERROSIL-Bänder/-Folien, «Bistar» (früher) = DISTAR.
+
+Im Protokoll genannt, aber nicht im Produktbestand (Scrape 2026-08) gefunden:
+Mafell-Tauchsägen, Weiss-Chemie HD 100-480 (nur HD-100.400/PU-100.110
+vorhanden), Connect-Klebstoffe, feuerfeste Schaumspraydosen, AKEMI Polysoft,
+AKEMI Stone Seal / Stone Seal 200, AKEMI-Steinsiegel, Isopropanol, Aceton,
+Besen/Stahlbürsten, Floorliner. Diese Positionen brauchen entweder neue
+Shop-Produkte oder andere Produktnamen im Bestand.

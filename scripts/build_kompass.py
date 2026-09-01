@@ -15,7 +15,7 @@ OUT = REPO / 'deliverable' / 'Ferronato_Sortiments_Kompass.html'
 
 BERUFSGRUPPEN = [
     'Plattenleger', 'Steinmetz & Bildhauer', 'Natursteinwerk',
-    'Gartenbau, Pflästerung & Tiefbau', 'Gipser & Betonkosmetik',
+    'Gartenbau, Pflästerung & Tiefbau', 'Gipser, Maler & Betonkosmetik',
     'Carrosserie & Fahrzeugaufbereitung', 'Holzbau & Zimmerei',
     'Werkstatt & Baustelle',
 ]
@@ -25,7 +25,7 @@ HUES = {
     'Plattenleger': (215, 60), 'Steinmetz & Bildhauer': (28, 45),
     'Natursteinwerk': (18, 30),
     'Gartenbau, Pflästerung & Tiefbau': (140, 40),
-    'Gipser & Betonkosmetik': (270, 35),
+    'Gipser, Maler & Betonkosmetik': (270, 35),
     'Carrosserie & Fahrzeugaufbereitung': (355, 55),
     'Holzbau & Zimmerei': (80, 35),
     'Werkstatt & Baustelle': (200, 10),
@@ -72,8 +72,37 @@ def payload():
             'typ': x['produkttyp'], 'm': x['marke'], 'mg': x['marken_gruppe'],
             'mat': x['materialien'], 'an': x['antrieb'], 'auf': x['aufnahme'],
             'sys': x['systeme'], 'ht': x['hammer_typ'], 'fl': x['pruefen'],
+            'gm': x.get('gipser'),
         })
     return prods
+
+
+# Kuratierte Ansicht Gipser, Maler & Betonkosmetik (Umsetzungsprotokoll
+# Ferronato 2026-09-01): eigene Tätigkeitsliste und Untergruppen-Ordnung.
+GIPSER_TK = [
+    'Trennen & Schleifen', 'Maschinen & Geräte', 'Bohren & Meisseln',
+    'Baustellen- & Werkstattbedarf', 'Kleben, Fugen & Gehrung',
+    'Lackieren & Beschichten', 'Reinigen, Schützen & Reparieren',
+    'Staub & Absaugung',
+]
+GIPSER_UGORD = {
+    'Trennen & Schleifen': ['Trennscheiben', 'Trenn- & Schleifscheiben',
+                            'Schleifmittel', 'Handrutscher', 'Aufnahmeteller',
+                            'Schleifwerkzeuge Ø 180/225', 'Giraffen-Schleifmittel'],
+    'Maschinen & Geräte': ['Elektrische Maschinen (230 V)', 'Akku-Maschinen',
+                           'Benzin-Maschinen', 'Maschinenzubehör & Hilfsmittel'],
+    'Bohren & Meisseln': ['Bohrhämmer', 'Meissel', 'Schlagbohrschrauber',
+                          'Werkzeuge & Zubehör'],
+    'Baustellen- & Werkstattbedarf': ['Werkstatt', 'Baustellenwerkzeuge',
+                                      'Baustellenmaschinen'],
+    'Kleben, Fugen & Gehrung': ['Kleb- & Dichtstoffe', 'Spachtel & Werkzeuge',
+                                'Kartuschenpressen & Klebepistolen', 'Gehrungen'],
+    'Reinigen, Schützen & Reparieren': ['Abdeckfolien & -materialien',
+                                        'Schutz- & Klebebänder',
+                                        'Reinigen & Imprägnieren',
+                                        'Reparaturwerkzeuge & -systeme'],
+    'Staub & Absaugung': ['Staubsauger', 'Absaugzubehör', 'Staubmasken'],
+}
 
 
 HTML = r'''<title>Ferronato Sortiments-Kompass</title>
@@ -303,7 +332,10 @@ let flt = { q: '', mat: '', marke: '', an: '', prio: '' };
 
 // ---------- Hilfen
 const inTk = (p, tk) => p.t === tk || (p.zt || []).includes(tk);
-const inGruppe = (p, g) => p.g === g || (p.zg || []).includes(g);
+const GIPSER = 'Gipser, Maler & Betonkosmetik';
+const GTK = __GIPSERTK__;
+const GUG = __GIPSERUG__;
+const inGruppe = (p, g) => g === GIPSER ? !!p.gm : (p.g === g || (p.zg || []).includes(g));
 const SEK = __SEKGRUPPEN__;
 function passt(p){
   if (flt.mat && !p.mat.includes(flt.mat)) return false;
@@ -361,8 +393,8 @@ function cardsByBrand(list){
     '<div class="brandlbl">'+esc(m)+copyBtn(m)+' · '+ps.length+'</div><div class="grid">'
     + ps.map(card).join('') + '</div>').join('');
 }
-function ugOrder(tk, keys){
-  const ord = UGORD[tk] || [];
+function ugOrder(tk, keys, ordMap){
+  const ord = (ordMap || UGORD)[tk] || [];
   return keys.sort((a, b) => {
     const ia = ord.indexOf(a), ib = ord.indexOf(b);
     if (ia !== -1 || ib !== -1) return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
@@ -371,11 +403,12 @@ function ugOrder(tk, keys){
     return a.localeCompare(b, 'de');
   });
 }
-function tkSection(tk, list, open){
+function tkSection(tk, list, open, ugOf, ordMap){
   if (!list.length) return '';
+  const getUg = ugOf || (p => p.ug);
   const by = {};
-  list.forEach(p => { (by[p.ug] = by[p.ug] || []).push(p); });
-  const ugs = ugOrder(tk, Object.keys(by)).map(ug =>
+  list.forEach(p => { const u = getUg(p); (by[u] = by[u] || []).push(p); });
+  const ugs = ugOrder(tk, Object.keys(by), ordMap).map(ug =>
     '<details class="ugsec"><summary><h4>'+esc(ug)+'</h4>'+copyBtn(ug)
     + '<span class="cnt">'+by[ug].length+'</span></summary>'
     + '<div class="ugbody">'+cardsByBrand(by[ug])+'</div></details>').join('');
@@ -395,12 +428,22 @@ function render(){
     document.documentElement.style.setProperty('--h', hue[0]);
     document.documentElement.style.setProperty('--s', hue[1]+'%');
     const sek = SEK.includes(view.key);
+    if (view.key === GIPSER){
+      html = '<p style="color:var(--mut);font-size:13px;margin:0 0 12px">'
+        + 'Kuratierte Ansicht nach dem Umsetzungsprotokoll Ferronato '
+        + '(September 2026): nur für Gipser, Maler und Betonkosmetik relevante '
+        + 'Produkte, mit protokollgemässen Untergruppen.</p>'
+        + GTK.map(tk => tkSection(tk,
+          P.filter(p => p.gm && p.gm.t === tk && passt(p)),
+          false, p => p.gm.ug, GUG)).join('');
+    } else {
     html = (sek ? '<p style="color:var(--mut);font-size:13px;margin:0 0 12px">'
       + 'Diese Berufsgruppe wird überwiegend über Mehrfachzuordnung befüllt: '
       + 'Die meisten Produkte behalten ihre Primärgruppe und erscheinen hier '
       + 'zusätzlich.</p>' : '')
       + TK.map(tk => tkSection(tk,
       P.filter(p => inGruppe(p, view.key) && inTk(p, tk) && passt(p)), sek)).join('');
+    }
   } else if (view.typ === 'marke'){
     title = 'Marke: ' + view.key;
     html = TK.map(tk => tkSection(tk,
@@ -571,6 +614,8 @@ def main():
             .replace('__NPROD__', str(len(prods)))
             .replace('__GRUPPEN__', json.dumps(BERUFSGRUPPEN, ensure_ascii=False))
             .replace('__SEKGRUPPEN__', json.dumps(sorted(SEKUNDAER_GRUPPEN), ensure_ascii=False))
+            .replace('__GIPSERTK__', json.dumps(GIPSER_TK, ensure_ascii=False))
+            .replace('__GIPSERUG__', json.dumps(GIPSER_UGORD, ensure_ascii=False))
             .replace('__HUES__', json.dumps(HUES, ensure_ascii=False))
             .replace('__TK__', json.dumps(TAETIGKEITEN, ensure_ascii=False))
             .replace('__UGORD__', json.dumps(UG_ORDNUNG, ensure_ascii=False)))
